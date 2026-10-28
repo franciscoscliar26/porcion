@@ -1,0 +1,1105 @@
+# nombre|categoria|kcal|prot|carb|grasa|fibra|azucares|saturadas|sodio_mg|porciones (nombre:gramos;...)|alias|marca (P=procesado, N=natural)
+# Valores por 100 g (o 100 ml en bebidas), alimento listo para comer. Carnes, cereales y legumbres COCIDOS y SIN SAL agregada salvo que diga otra cosa.
+Bife de chorizo|Carnes|227|26.2|0|13.6|0|0|5.4|52|bife:250;porción chica:150|carne vacuna,bife,churrasco,steak|
+Lomo|Carnes|151|28.9|0|3.9|0|0|1.5|60|medallón:150;porción:200|carne vacuna,filet,solomillo vacuno|
+Nalga|Carnes|142|31.2|0|1.9|0|0|0.7|45|bife:150;porción:200|carne vacuna|
+Bola de lomo|Carnes|157|30.6|0|3.9|0|0|1.3|38|bife:150|carne vacuna|
+Cuadril|Carnes|148|28.7|0|3.7|0|0|1.5|58|bife:180|carne vacuna|
+Colita de cuadril|Carnes|181|26.7|0|8.2|0|0|2.6|53|porción:200|carne vacuna|
+Peceto|Carnes|164|32.1|0|4|0|0|1.4|38|porción:180;rodaja:40|carne vacuna|
+Paleta vacuna|Carnes|192|33.9|0|6.2|0|0|2.1|71|porción:200|carne vacuna,carnaza|
+Roast beef|Carnes|208|28.3|0|9.7|0|0|3.7|37|porción:200|carne vacuna,rosbif|
+Osobuco|Carnes|176|32.3|0|5.2|0|0|1.8|64|rodaja:250|carne vacuna|
+Asado de tira|Carnes|223|22.5|0|14.8|0|0|6.5|70|tira:250;porción:300|asado,costilla vacuna,parrilla|
+Vacío|Carnes|211|25.3|0|12.2|0|0|5|60|porción:250|asado,parrilla|
+Matambre|Carnes|211|25.3|0|12.2|0|0|5|65|porción:200|asado,parrilla|
+Entraña|Carnes|247|29.6|0|14.3|0|0|5.9|92|porción:200|asado,parrilla|
+Tapa de asado|Carnes|341|22.5|0|27.1|0|0|10.9|63|porción:250|asado,parrilla|
+Falda|Carnes|331|25.9|0|24.5|0|0|9.4|64|porción:250|puchero,parrilla|
+Picaña|Carnes|253|26|0|16.6|0|0|6|50|porción:250|picanha,parrilla|
+Carne picada común|Carnes|246|24|0|15.9|0|0|6|83|porción:150|carne molida|
+Carne picada especial|Carnes|232|24.6|0|14|0|0|5.3|79|porción:150|carne molida|
+Carne picada magra|Carnes|164|25.8|0|5.9|0|0|2.6|71|porción:150|carne molida,premium|
+Milanesa de carne frita|Carnes|249|23.8|12.9|11.2|0.8|1.2|1.8|420|unidad mediana:150;unidad grande:220|milanga|P
+Milanesa de carne al horno|Carnes|226|26.7|14.5|6.6|0.9|1.3|1.4|430|unidad mediana:140;unidad grande:200|milanga|P
+Hamburguesa casera|Carnes|232|24.6|0|14|0|0|5.3|79|medallón:110|burger,medallón|
+Hamburguesa comercial (tipo Paty)|Carnes|266|20|1.6|20|0|1.5|10.1|621|unidad:80|paty,burger,swift|P
+Chorizo parrillero|Carnes|339|19.4|0|28.4|0|0|9|749|unidad:100|chori,asado|P
+Salchicha parrillera|Carnes|396|13.8|2.7|36.2|0|0|13|929|porción:100|asado|P
+Morcilla|Carnes|379|14.6|1.3|34.5|0|1.3|13.4|680|unidad:100|asado|P
+Chinchulines|Carnes|300|13|0|27|0|0|12|70|porción:100|achuras|
+Molleja|Carnes|319|21.9|0|25|0|0|8.6|116|porción:100|achuras|
+Riñón vacuno|Carnes|158|27.3|0|4.7|0|0|1.4|94|porción:120|achuras,riñoncitos|
+Hígado vacuno|Carnes|175|26.5|5.2|4.7|0|0|2.5|77|bife:120|achuras|
+Lengua vacuna|Carnes|284|19.3|0|22.3|0|0|8.1|65|porción:120|lengua a la vinagreta|
+Mondongo|Carnes|94|11.7|2|4|0|0|1.4|68|porción:150|callos|
+Bondiola de cerdo|Carnes|269|23.1|0|18.9|0|0|7|67|porción:200|cerdo,chancho|
+Carré de cerdo|Carnes|161|28.6|0|4.4|0|0|1.4|66|bife:170|cerdo,lomo de cerdo,chancho,chuleta|
+Solomillo de cerdo|Carnes|143|26.2|0|3.5|0|0|1.2|57|porción:170|cerdo,filet de cerdo|
+Matambre de cerdo|Carnes|280|25|0|20|0|0|7.3|70|porción:200|cerdo,matambrito|
+Costillas de cerdo|Carnes|320|27|0|23.6|0|0|8.6|93|porción:250|cerdo,pechito,ribs|
+Cordero|Carnes|271|25.5|0|18|0|0|7.5|72|porción:200|cordero patagónico|
+Chivito|Carnes|143|27.1|0|3|0|0|0.9|86|porción:200|cabrito|
+Conejo|Carnes|197|29.1|0|8.1|0|0|2.4|47|porción:200||
+Pechuga de pollo|Pollo y aves|165|31|0|3.6|0|0|1|74|pechuga:170;media pechuga:85|pollo,pechuga a la plancha|
+Pechuga de pollo cruda|Pollo y aves|120|22.5|0|2.6|0|0|0.6|45|pechuga:200|pollo,crudo|
+Muslo de pollo sin piel|Pollo y aves|179|24.8|0|8.2|0|0|2.3|106|unidad:100|pollo,muslo|
+Pata y muslo con piel|Pollo y aves|184|24|0|9|0|0|2.4|98|unidad:180|pollo,cuarto trasero|
+Alitas de pollo|Pollo y aves|254|23.8|0|16.9|0|0|5|98|unidad:40|pollo,alas|
+Pollo al horno con piel|Pollo y aves|239|27.3|0|13.6|0|0|3.8|82|cuarto:250|pollo|
+Pollo al spiedo|Pollo y aves|239|27.3|0|13.6|0|0|3.8|82|cuarto:250;medio pollo:500|pollo,rotiseria,pollo asado|P
+Higaditos de pollo|Pollo y aves|167|24.5|0.9|6.5|0|0|2.1|76|porción:100|pollo,achuras|
+Corazones de pollo|Pollo y aves|185|26.4|0.1|7.9|0|0|2.3|48|porción:100|pollo,achuras|
+Milanesa de pollo frita|Pollo y aves|264|23.8|12.9|12.3|0.8|1.2|1.9|420|unidad:140|suprema,pollo|P
+Milanesa de pollo al horno|Pollo y aves|243|26.7|14.5|7.8|0.9|1.3|1.5|430|unidad:130|suprema,pollo|P
+Patitas de pollo rebozadas|Pollo y aves|212|11.5|27.7|6.2|2.9|0|0.7|200|unidad:25|granja del sol,patitas|P
+Nuggets de pollo|Pollo y aves|261|14.4|16.2|15.4|0.7|1.3|3.4|538|unidad:18;porción 6 u:108|bocaditos,mcnuggets|P
+Hamburguesa de pollo|Pollo y aves|210|15|6|14|0.5|0.5|4|600|unidad:80|burger de pollo|P
+Pechuga de pavo|Pollo y aves|136|29.5|0|2|0|0|0.7|114|porción:150|pavo|
+Merluza|Pescados y mariscos|98|21.8|0|1.3|0|0|0.3|90|filet:150|pescado,filet de merluza|
+Milanesa de merluza frita|Pescados y mariscos|219|17|11.7|11.5|0.7|1|1.6|380|unidad:120|pescado,rebozado|P
+Abadejo|Pescados y mariscos|90|20|0|0.6|0|0|0.1|261|filet:150|pescado|
+Lenguado|Pescados y mariscos|86|15.2|0|2.4|0|0|0.5|363|filet:150|pescado|
+Pejerrey|Pescados y mariscos|116|23.5|0|1.7|0|0|0.4|132|filet:120|pescado|
+Tilapia|Pescados y mariscos|128|26.1|0|2.6|0|0|0.9|56|filet:120|pescado|
+Salmón rosado|Pescados y mariscos|206|22.1|0|12.3|0|0|2.4|61|porción:150|pescado,salmon|
+Salmón crudo (sashimi)|Pescados y mariscos|208|20.4|0|13.4|0|0|3|59|feta:15|sashimi,sushi|
+Trucha|Pescados y mariscos|168|23.8|0|7.4|0|0|1.7|61|porción:150|pescado|
+Atún al natural (escurrido)|Pescados y mariscos|86|19.4|0|1|0|0|0.2|247|lata:120|atun,lata|P
+Atún en aceite (escurrido)|Pescados y mariscos|198|29.1|0|8.2|0|0|1.5|416|lata:120|atun,lata|P
+Sardinas en aceite|Pescados y mariscos|208|24.6|0|11.4|0|0|1.5|307|lata:90|lata|P
+Caballa en lata|Pescados y mariscos|156|23.2|0|6.3|0|0|1.9|379|lata:120|lata,pescado|P
+Langostinos|Pescados y mariscos|99|24|0.2|0.3|0|0|0.1|111|porción:100|camarones,mariscos|
+Mejillones|Pescados y mariscos|172|23.8|7.4|4.5|0|0|0.8|369|porción:100|cholgas,mariscos|
+Calamar a la plancha|Pescados y mariscos|110|19|3|1.5|0|0|0.4|260|porción:150|calamares|
+Rabas|Pescados y mariscos|175|17.9|7.8|7.5|0|0.2|1.9|306|porción:150|calamar,frito|P
+Pulpo|Pescados y mariscos|164|29.8|4.4|2.1|0|0|0.5|460|porción:150||
+Kanikama|Pescados y mariscos|99|15.2|6.8|0.9|0|0|0.2|143|unidad:15|surimi|P
+Huevo|Huevos y lácteos|143|12.6|0.7|9.5|0|0.4|3.1|142|unidad grande:51;unidad mediana:45;unidad extra grande:57;unidad chica:40|huevo duro,huevo hervido,poche|
+Huevo frito|Huevos y lácteos|196|13.6|0.8|14.8|0|0.4|4.3|207|unidad grande:46;unidad extra grande:52||
+Huevo revuelto|Huevos y lácteos|149|10|1.6|11|0|1.4|3.3|145|2 huevos:120|revuelto|
+Clara de huevo|Huevos y lácteos|52|10.9|0.7|0.2|0|0.7|0|166|unidad:33|claras|
+Yema de huevo|Huevos y lácteos|322|15.9|3.6|26.5|0|0.6|9.6|48|unidad:17||
+Omelette de queso|Huevos y lácteos|200|13|1.5|16|0|1|6.5|350|unidad:150|tortilla de huevo,omelet|
+Leche entera|Huevos y lácteos|57|3|4.5|3|0|4.5|1.8|43|vaso:200;taza:250|lacteos,la serenisima|
+Leche parcialmente descremada|Huevos y lácteos|45|3.1|4.8|1.5|0|4.8|0.9|47|vaso:200;taza:250|lacteos,semidescremada,deslactosada|
+Leche descremada|Huevos y lácteos|34|3.4|5|0.1|0|5|0.1|42|vaso:200;taza:250|lacteos|
+Leche en polvo entera|Huevos y lácteos|496|26.3|38.4|26.7|0|38.4|16.7|371|cucharada:8|nido|P
+Yogur entero natural|Huevos y lácteos|61|3.5|4.7|3.2|0|4.7|2.1|46|pote:190|yogurt|
+Yogur entero con azúcar|Huevos y lácteos|95|3|15|2.5|0|14|1.6|50|pote:190|yogurt,yogurisimo,sabores|P
+Yogur descremado|Huevos y lácteos|49|4.5|7.8|0|0|6.8|0|55|pote:190|yogurt,light,ser|P
+Yogur bebible con azúcar|Huevos y lácteos|56|2.8|10|0.6|0|9.5|0.4|42|vaso:200;botella:900|yogurt|P
+Yogur griego natural|Huevos y lácteos|81|6.5|7|3.2|0|5.8|1.8|84|pote:170|yogurt|
+Yogur griego descremado|Huevos y lácteos|59|10.2|3.6|0.4|0|3.2|0.1|36|pote:170|yogurt,proteico|
+Yogur con cereales|Huevos y lácteos|130|3.5|21|3.5|0.8|15|2|60|pote:165|yogurt con copos|P
+Leche fermentada (tipo Actimel)|Huevos y lácteos|52|3.6|8|0.7|0|7.5|0.4|48|botellita:100|actimel,probiotico|P
+Postrecito de queso (tipo Danonino)|Huevos y lácteos|98|6.5|13|2.5|0|12|1.6|50|pote:90|danonino|P
+Postre de leche (tipo Serenito)|Huevos y lácteos|87|4|10.5|2.9|0|9.5|1.8|53|pote:120|serenito,postrecito|P
+Crema de leche|Huevos y lácteos|340|2.8|2.7|36.1|0|2.7|23|27|cucharada:15||P
+Crema chantilly|Huevos y lácteos|344|2.5|11.5|32.8|0|11.5|20.9|25|cucharada:15|crema batida|P
+Manteca|Huevos y lácteos|717|0.8|0.1|81.1|0|0.1|50.5|11|cucharadita:5;cucharada:14|mantequilla|P
+Dulce de leche|Huevos y lácteos|310|5.5|55|7|0|44|5|155|cucharada:20;cucharadita:7|dulce de leche repostero|P
+Dulce de leche light|Huevos y lácteos|275|6|60|0|0|25|0|110|cucharada:20||P
+Queso cremoso|Quesos|300|20|2|24|0|1|15|600|porción:30;cubo:15|queso,cremon|P
+Queso port salut light|Quesos|230|24|2|14|0|1|9|550|porción:30|queso|P
+Mozzarella|Quesos|306|24.3|0|23|0|0|14|370|porción:30;taza rallada:110|muzzarella,muzza,queso|P
+Queso de máquina (Tybo/Danbo)|Quesos|357|25|1.4|27.8|0|1.4|17.6|812|feta:20|queso tybo,queso danbo,queso en fetas,queso|P
+Queso Pategrás|Quesos|370|27|1|29|0|0.5|18|700|porción:30|queso,gruyere|P
+Queso gouda / fynbo|Quesos|356|24.9|2.2|27.4|0|2.2|17.6|819|feta:20|queso|P
+Queso sardo|Quesos|387|31.8|3.6|26.9|0|0.7|17.1|1433|porción:20|queso,romano|P
+Queso rallado|Quesos|456|40|2|32|0|0|22|1317|cucharada:6|reggianito,parmesano,queso|P
+Queso crema|Quesos|233|6|6|20.7|0|3|13.7|190|cucharada:15|philadelphia,queso untable,mendicrim|P
+Queso untable light|Quesos|130|8.7|7.7|7|0|0|4.7|147|cucharada:15|casancrem light,queso crema light,finlandia|P
+Ricota entera|Quesos|174|11.3|3|13|0|0.3|8.3|84|cucharada:30|ricotta|P
+Ricota descremada|Quesos|126|16.4|4|5|0|0|3.4|124|cucharada:30|ricotta|P
+Queso cottage|Quesos|81|10.4|4.8|2.3|0|4|1.2|308|cucharada:30;pote:250||P
+Provoleta|Quesos|351|25.6|2.1|26.6|0|0.6|17.1|876|unidad:120|provolone,parrilla,queso|P
+Queso azul|Quesos|353|21.4|2.3|28.7|0|0.5|18.7|1146|porción:30|roquefort,queso|P
+Queso de cabra|Quesos|364|21.6|0.1|29.8|0|0.1|20.6|415|porción:30|queso|P
+Queso brie|Quesos|334|20.8|0.5|27.7|0|0.5|17.4|629|porción:30|camembert,queso|P
+Queso feta|Quesos|264|14.2|4.1|21.3|0|4.1|14.9|917|porción:30|queso|P
+Jamón cocido|Fiambres|95|15.5|1.3|3|0|0|1|890|feta:20|jamon,fiambre|P
+Jamón crudo|Fiambres|215|30|0|10.5|0|0|4.5|2550|feta:15|jamon serrano,fiambre|P
+Paleta cocida|Fiambres|95|15.5|1.3|3|0|1.3|1|890|feta:20|fiambre|P
+Salame|Fiambres|407|22.6|1.6|33.7|0|1|11.9|2260|feta:10|fiambre,picada,salamin|P
+Mortadela|Fiambres|311|16.4|3|25.4|0|0|9.5|1246|feta:15|fiambre|P
+Pechuga de pavo (fiambre)|Fiambres|100|16.3|2.3|2.4|0|2.3|0.3|922|feta:20|fiambre,pavo|P
+Lomito ahumado|Fiambres|140|22|1|5|0|0.5|1.8|1100|feta:15|lomo ahumado,fiambre|P
+Bondiola curada|Fiambres|300|26|1|21|0|0.5|8|1900|feta:10|fiambre,coppa|P
+Matambre arrollado|Fiambres|210|20|2|13.5|0|0.5|5|900|feta:20|fiambre|P
+Panceta|Fiambres|468|33.9|1.7|35.1|0|0|12|1684|feta:8|bacon,tocino|P
+Leberwurst|Fiambres|305|12.4|5.9|25.4|2.5|1.6|9.9|700|cucharada:15|paté,pate de higado|P
+Salchicha|Fiambres|278|9.8|4.9|24.3|0|1|7.2|1013|unidad:40|pancho,viena,vienissima|P
+Arroz blanco|Cereales y pastas|130|2.7|28.2|0.3|0.4|0.1|0.1|1|taza:160;plato:200|arroz cocido|
+Arroz integral|Cereales y pastas|123|2.7|25.6|1|1.6|0.2|0.3|4|taza:160;plato:200|arroz cocido,yamani|
+Arroz crudo|Cereales y pastas|365|7.1|80|0.7|1.3|0.1|0.2|5|porción:70|arroz|
+Fideos|Cereales y pastas|158|5.8|30.9|0.9|1.8|0.6|0.2|1|plato:220;taza:140|pasta,spaghetti,tallarines,mostachol,tirabuzón,moñitos|
+Fideos crudos|Cereales y pastas|371|13|74.7|1.5|3.2|2.7|0.3|6|porción:80|pasta seca|
+Fideos integrales|Cereales y pastas|149|6|30.1|1.7|3.9|0.8|0.2|4|plato:220|pasta|
+Tallarines frescos al huevo|Cereales y pastas|131|5.2|24.9|1.1|1.2|0.4|0.1|6|plato:220|pasta fresca|
+Fideos de arroz|Cereales y pastas|108|1.8|24|0.2|1|0|0|19|plato:200|noodles|
+Ñoquis de papa|Cereales y pastas|141|4|29.2|0.8|1.7|0.7|0.2|300|plato:250|noquis,gnocchi|P
+Ravioles de ricota|Cereales y pastas|181|8|25.8|4.8|0.9|0.2|2.6|380|plato:250|pasta rellena|P
+Ravioles de carne y verdura|Cereales y pastas|178|8.8|25.5|4.1|1.1|0.2|1.7|380|plato:250|pasta rellena|P
+Sorrentinos de jamón y queso|Cereales y pastas|185|9.9|23.2|5.5|0.8|0.1|3|420|plato:250|pasta rellena|P
+Capelettinis|Cereales y pastas|220|9|30|7|1.3|1.2|3.2|450|plato:250|pasta rellena,cappelletti|P
+Lasagna de carne|Cereales y pastas|172|8.8|13.5|9|1.1|2.5|4.4|380|porción:300|lasaña|P
+Canelones de verdura con salsa|Cereales y pastas|121|5.8|9.8|6.6|1.1|3|3.1|350|porción:300|canelones|P
+Polenta|Cereales y pastas|74|1.4|15.9|0.4|0.8|0.3|0|5|plato:250|harina de maiz|
+Avena arrollada|Cereales y pastas|379|13.2|67.7|6.5|10.1|1|1.1|6|cucharada:10;media taza:40|avena,quaker,copos de avena|
+Salvado de avena|Cereales y pastas|246|17.3|66.2|7|15.4|1.4|1.3|4|cucharada:8|salvado|
+Quinoa|Cereales y pastas|120|4.4|21.3|1.9|2.8|0.9|0.2|7|taza:185|quinua|
+Cuscús|Cereales y pastas|112|3.8|23.2|0.2|1.4|0.1|0|5|taza:160|cous cous|
+Trigo burgol|Cereales y pastas|83|3.1|18.6|0.2|4.5|0.1|0|5|taza:180|bulgur|
+Granola|Cereales y pastas|489|13.7|53.9|24.3|8.9|19.8|4|26|porción:40||P
+Copos de maíz sin azúcar|Cereales y pastas|357|7.5|84.1|0.4|3.3|9.5|0.1|729|taza:30|corn flakes,cereal|P
+Cereales azucarados|Cereales y pastas|369|4|89.2|1.7|2.2|35.4|0.5|468|taza:30|zucaritas,froot loops,cereal|P
+Cereales de chocolate|Cereales y pastas|389|4.6|87.9|2.7|1.4|38.6|2.1|424|taza:30|chocapic,trix,cereal|P
+Harina de trigo|Cereales y pastas|364|10.3|76.3|1|2.7|0.3|0.2|2|cucharada:8;taza:120|harina 000,harina 0000|
+Harina integral|Cereales y pastas|340|13.2|72|2.5|10.7|0.4|0.4|2|cucharada:8;taza:120||
+Fécula de maíz|Cereales y pastas|381|0.3|91.3|0.1|0.9|0|0|9|cucharada:8|maicena,almidon|
+Pan rallado|Cereales y pastas|395|13.3|72|5.3|4.5|6.2|1.2|732|cucharada:8|rebozador|P
+Pan francés|Panificados|272|10.8|51.9|2.4|2.2|4.6|0.5|602|mignon:50;flauta:120;felipe:60|pan,pan blanco,miñon|P
+Pan lactal blanco|Panificados|253|10.2|46.9|2.7|2.4|4.3|0.7|490|rebanada:25|pan de molde,bimbo,fargo,lactal|P
+Pan lactal integral|Panificados|252|12.4|42.7|3.5|6|4.3|0.7|455|rebanada:27|pan de molde,integral,lactal|P
+Pan de semillas|Panificados|265|13.4|43.3|4.2|7.4|6.4|0.9|381|rebanada:30|pan multicereal|P
+Pan de centeno|Panificados|259|8.5|48.3|3.3|5.8|3.9|0.6|603|rebanada:30||P
+Pan de campo|Panificados|273|7.2|50.6|4|2.1|0.2|1.8|560|rodaja:50|pan casero,masa madre|P
+Pan árabe|Panificados|275|9.1|55.7|1.2|2.2|1.3|0.2|536|unidad:60|pita|P
+Pan de hamburguesa|Panificados|279|9.8|50.1|3.9|1.8|7.3|0.8|494|unidad:60||P
+Pan de pancho|Panificados|279|9.8|50.1|3.9|1.8|7.3|0.8|494|unidad:50||P
+Pan dulce|Panificados|373|8.4|58.1|12.5|2.4|19.7|5.6|170|porción:80|panettone|P
+Medialuna de manteca|Panificados|406|8.2|45.8|21|2.6|11.3|11.7|467|unidad:40|factura,croissant|P
+Medialuna de grasa|Panificados|394|6.6|52.3|17.3|1.7|10.9|8.3|450|unidad:35|factura|P
+Factura con crema o dulce|Panificados|377|7.4|48.6|16.8|1.8|21.1|9.7|373|unidad:55|vigilante,bola de fraile,cañoncito,sacramento|P
+Churro relleno|Panificados|310|4.4|40.8|14.2|0.8|14.9|2.5|250|unidad:50|churros|P
+Scones|Panificados|356|7.6|51.8|13.1|1.5|10.4|7.7|500|unidad:40|scon|P
+Galletitas de agua|Panificados|438|11|69|13|3|0.8|6|440|unidad:6|criollitas,express,galletas,traviata|P
+Galletitas de salvado o cereal|Panificados|427|10.6|69.5|14.1|10.3|1.2|2.1|704|unidad:7|cerealitas,galletas integrales|P
+Galletas de arroz|Panificados|387|8.2|81.5|2.8|4.2|0.9|0.6|26|unidad:9|tostadas de arroz|P
+Tostadas de pan|Panificados|390|12.1|76.6|3.2|6.3|0.9|0.4|598|unidad:8|tostadas,riera|P
+Grisines|Panificados|412|12|68.4|9.5|3|1.3|1.4|713|unidad:5||P
+Bizcochitos de grasa|Panificados|516|9|53.3|29.7|0|2|13.7|570|unidad:4|don satur|P
+Tortilla de trigo (wrap)|Panificados|306|8.2|49.4|8|3.5|3.7|2.9|736|unidad:40|rapidita,wrap,tortilla mexicana|P
+Prepizza|Panificados|256|6.7|46.5|4.4|2.2|0.9|0.6|550|1/8:40;entera:320|pizza base|P
+Tapa de empanada|Panificados|303|6.4|46.4|9.6|2.5|0|5.4|660|unidad:33|La Salteña|P
+Tapa de tarta|Panificados|303|6.7|46.7|9.7|2.7|1|5.3|663|tapa:200|masa de tarta,pascualina|P
+Lentejas|Legumbres|116|9|20.1|0.4|7.9|1.8|0.1|2|taza:200||
+Garbanzos|Legumbres|164|8.9|27.4|2.6|7.6|4.8|0.3|7|taza:165||
+Porotos negros|Legumbres|132|8.9|23.7|0.5|8.7|0.3|0.1|1|taza:170|frijoles|
+Porotos colorados|Legumbres|127|8.7|22.8|0.5|6.4|0.3|0.1|1|taza:175|frijoles|
+Porotos alubia|Legumbres|139|9.7|25.1|0.3|6.3|0.3|0.1|6|taza:180|alubias,porotos blancos|
+Soja cocida|Legumbres|172|18.2|8.4|9|6|3|1.3|1|taza:170|porotos de soja|
+Arvejas|Legumbres|78|5.2|14.3|0.3|4.5|4.4|0|72|taza:160|guisantes|
+Hummus|Legumbres|166|7.9|14.3|9.6|6|0.3|1.4|379|cucharada:15||P
+Tofu|Legumbres|144|17.3|2.8|8.7|2.3|0.6|1.3|14|porción:100|soja|
+Milanesa de soja|Legumbres|276|11.8|30|12|3.5|2|1.3|363|unidad:100|vegetariano|P
+Hamburguesa vegetal|Legumbres|200|9|22|8|5|2|1|450|unidad:80|medallón de lentejas,garbanzos,vegano|P
+Falafel|Legumbres|333|13.3|31.8|17.8|4.9|0|2.4|294|unidad:17||P
+Lechuga|Verduras|15|1.4|2.9|0.1|1.3|0.8|0|28|plato:50|ensalada|
+Rúcula|Verduras|25|2.6|3.6|0.7|1.6|2|0.1|27|plato:30|rucula,ensalada|
+Radicheta|Verduras|23|1.7|4.7|0.3|4|0.7|0.1|45|plato:50|achicoria,ensalada|
+Tomate|Verduras|18|0.9|3.9|0.2|1.2|2.6|0|5|unidad:120;rodaja:20;cherry:15|ensalada,tomate perita|
+Zanahoria|Verduras|41|0.9|9.6|0.2|2.8|4.7|0|69|unidad:70;rallada taza:110|ensalada|
+Cebolla|Verduras|40|1.1|9.3|0.1|1.7|4.2|0|4|unidad:110||
+Cebolla de verdeo|Verduras|32|1.8|7.3|0.2|2.6|2.3|0|16|tallo:15|verdeo|
+Ajo|Verduras|149|6.4|33.1|0.5|2.1|1|0.1|17|diente:3||
+Morrón|Verduras|31|1|6|0.3|2.1|4.2|0|4|unidad:150|pimiento,ají|
+Pepino|Verduras|15|0.7|3.6|0.1|0.5|1.7|0|2|unidad:200||
+Zapallito|Verduras|17|1.2|3.1|0.3|1|2.5|0.1|8|unidad:150|calabacín,zucchini|
+Zapallo / calabaza|Verduras|40|0.9|10.5|0.1|3.2|2|0|4|porción:200|anco,calabaza,cabutia|
+Brócoli|Verduras|35|2.4|7.2|0.4|3.3|1.4|0.1|41|taza:155|brocoli|
+Espinaca|Verduras|23|3|3.8|0.3|2.4|0.4|0|70|taza cocida:180;plato crudo:30||
+Acelga|Verduras|20|1.9|4.1|0.1|2.1|1.1|0|179|taza:175||
+Coliflor|Verduras|23|1.8|4.1|0.5|2.3|2.1|0.1|15|taza:125||
+Repollo|Verduras|25|1.3|5.8|0.1|2.5|3.2|0|18|taza:90|col,ensalada|
+Repollo colorado|Verduras|31|1.4|7.4|0.2|2.1|3.8|0|27|taza:90|col morada,ensalada|
+Berenjena|Verduras|35|0.8|8.7|0.2|2.5|3.2|0|1|unidad:250||
+Champiñones|Verduras|22|3.1|3.3|0.3|1|2|0.1|5|taza:70|hongos,portobello|
+Chauchas|Verduras|35|1.9|7.9|0.3|3.2|3.6|0.1|1|taza:125|judías verdes|
+Remolacha|Verduras|44|1.7|10|0.2|2|8|0|77|unidad:80||
+Espárragos|Verduras|22|2.4|4.1|0.2|2|1.3|0|14|atado chico:100||
+Apio|Verduras|16|0.7|3|0.2|1.6|1.3|0|80|rama:40||
+Puerro|Verduras|31|0.8|7.6|0.2|1|2.1|0|246|unidad:90||
+Rabanito|Verduras|16|0.7|3.4|0.1|1.6|1.9|0|39|unidad:10|rabanitos|
+Choclo en grano|Verduras|96|3.4|21|1.5|2.4|4.5|0.2|1|taza:160;mazorca:100|maíz,choclo|
+Choclo cremoso (lata)|Verduras|72|1.7|18.1|0.4|1.2|3.2|0.1|261|taza:250|maíz cremoso|P
+Papa hervida|Verduras|86|1.7|20|0.1|1.8|0.9|0|5|unidad mediana:170|patata|
+Papa al horno|Verduras|93|2.5|21.1|0.1|2.2|1.2|0|10|unidad mediana:170|patata|
+Papas al horno con aceite|Verduras|131|2.4|20.1|4.9|2.1|1.1|0.5|150|porción:200|papas rústicas|
+Papas fritas|Verduras|312|3.4|41|15|3.8|0.3|2.3|210|porción:120|papas,fritas,bastón|P
+Puré de papas|Verduras|113|1.9|16.8|4.2|1.5|1.4|2.6|317|porción:200|pure|P
+Puré de calabaza|Verduras|61|1|9.9|2.7|2.9|2.1|1.6|200|porción:200|pure de zapallo|P
+Batata|Verduras|90|2|20.7|0.1|3.3|6.5|0.1|36|unidad:150|camote,boniato|
+Mandioca|Verduras|125|1|30|0.3|1.4|1.4|0.1|14|porción:150|yuca|
+Palta|Verduras|160|2|8.5|14.7|6.7|0.7|2.1|7|unidad:150;media:75|aguacate|
+Aceitunas verdes|Verduras|145|1|3.8|15.3|3.3|0.5|2|1556|unidad:4||P
+Aceitunas negras|Verduras|115|0.8|6.3|10.7|3.2|0|1.4|735|unidad:4||P
+Ensalada mixta|Verduras|60|1.1|4.3|4.6|1.3|2.1|0.5|12|plato:200|lechuga tomate cebolla|
+Banana|Frutas|89|1.1|22.8|0.3|2.6|12.2|0.1|1|unidad:120|plátano|
+Manzana|Frutas|52|0.3|13.8|0.2|2.4|10.4|0|1|unidad:180||
+Naranja|Frutas|47|0.9|11.8|0.1|2.4|9.3|0|0|unidad:180||
+Mandarina|Frutas|53|0.8|13.3|0.3|1.8|10.6|0|2|unidad:90||
+Pera|Frutas|57|0.4|15.2|0.1|3.1|9.8|0|1|unidad:180||
+Frutillas|Frutas|32|0.7|7.7|0.3|2|4.9|0|1|taza:150|fresas|
+Uvas|Frutas|69|0.7|18.1|0.2|0.9|15.5|0.1|2|racimo:150||
+Durazno|Frutas|39|0.9|9.5|0.2|1.5|8.4|0|0|unidad:150|melocotón|
+Pelón|Frutas|44|1.1|10.6|0.3|1.7|7.9|0|0|unidad:140|nectarina|
+Damasco|Frutas|48|1.4|11.1|0.4|2|9.2|0|1|unidad:35|albaricoque|
+Kiwi|Frutas|61|1.1|14.7|0.5|3|9|0|3|unidad:75||
+Ananá|Frutas|50|0.5|13.1|0.1|1.4|9.8|0|1|rodaja:80|piña|
+Sandía|Frutas|30|0.6|7.5|0.1|0.4|6.2|0|1|tajada:280||
+Melón|Frutas|34|0.8|8.2|0.2|0.9|7.9|0.1|16|tajada:160||
+Mango|Frutas|60|0.8|15|0.4|1.6|13.7|0.1|1|unidad:200||
+Papaya|Frutas|43|0.5|10.8|0.3|1.7|7.8|0.1|8|taza:145|mamón|
+Arándanos|Frutas|57|0.7|14.5|0.3|2.4|10|0|1|taza:150||
+Frambuesas|Frutas|52|1.2|11.9|0.7|6.5|4.4|0|1|taza:125||
+Moras|Frutas|43|1.4|9.6|0.5|5.3|4.9|0|1|taza:145||
+Ciruela|Frutas|46|0.7|11.4|0.3|1.4|9.9|0|0|unidad:66||
+Pomelo|Frutas|42|0.8|10.7|0.1|1.6|6.9|0|0|medio:120||
+Cerezas|Frutas|63|1.1|16|0.2|2.1|12.8|0|0|taza:140||
+Higos|Frutas|74|0.8|19.2|0.3|2.9|16.3|0.1|1|unidad:50|brevas|
+Granada|Frutas|83|1.7|18.7|1.2|4|13.7|0.1|3|media:140||
+Maracuyá|Frutas|97|2.2|23.4|0.7|10.4|11.2|0.1|28|unidad:20|pasionaria|
+Limón (jugo)|Frutas|22|0.3|6.9|0.2|0.3|2.5|0|1|cucharada:15|limon,jugo de limon|
+Dátiles|Frutas|277|1.8|75|0.1|6.7|66.5|0|1|unidad:8||
+Pasas de uva|Frutas|299|3.1|79.2|0.5|3.7|59.2|0.1|11|cucharada:10||
+Ciruelas pasas|Frutas|240|2.2|63.9|0.4|7.1|38.1|0.1|2|unidad:9||
+Orejones|Frutas|239|3.6|61.3|0.8|8.2|41.7|0.1|7|unidad:8|durazno deshidratado|
+Duraznos en almíbar|Frutas|74|0.5|19.9|0.1|1.3|18.6|0|6|mitad:50|lata|P
+Ensalada de frutas|Frutas|55|0.6|14|0.2|1.5|11|0|2|compotera:200|macedonia|
+Almendras|Frutos secos y semillas|579|21.1|21.6|49.9|12.5|4.3|3.8|1|puñado:30;unidad:1.2||
+Nueces|Frutos secos y semillas|654|15.2|13.7|65.2|6.7|2.6|6.1|2|puñado:30;unidad:5||
+Avellanas|Frutos secos y semillas|628|14.9|16.7|60.8|9.7|4.3|4.5|0|puñado:30||
+Maní tostado sin sal|Frutos secos y semillas|587|24.4|21.3|49.7|8.4|4.9|7.7|6|puñado:30|mani,cacahuate|
+Maní salado|Frutos secos y semillas|587|24.4|21.3|49.7|8.4|4.9|7.7|410|puñado:30|mani,cacahuate|P
+Mantequilla de maní|Frutos secos y semillas|598|22.2|22.3|51.4|5|10.5|10.3|426|cucharada:16|pasta de maní,peanut butter|P
+Castañas de cajú|Frutos secos y semillas|553|18.2|30.2|43.9|3.3|5.9|7.8|12|puñado:30|caju|
+Pistachos|Frutos secos y semillas|572|21.1|28.3|45.8|10.3|7.7|5.6|6|puñado:30||
+Mix de frutos secos|Frutos secos y semillas|607|19.5|22.4|53.5|6.4|5|8|4|puñado:30||
+Mix de frutos secos con pasas|Frutos secos y semillas|460|13|45|29|5|30|5|10|puñado:40|trail mix|
+Coco rallado|Frutos secos y semillas|660|6.9|23.6|64.5|16.3|7.3|57.2|37|cucharada:7|coco|
+Semillas de chía|Frutos secos y semillas|486|16.5|42.1|30.7|34.4|0|3.3|16|cucharada:12|chia|
+Semillas de girasol|Frutos secos y semillas|584|20.8|20|51.5|8.6|2.6|4.5|9|cucharada:10||
+Semillas de lino|Frutos secos y semillas|534|18.3|28.9|42.2|27.3|1.6|3.7|30|cucharada:10|linaza|
+Semillas de sésamo|Frutos secos y semillas|573|17.7|23.4|49.7|11.8|0.3|7|11|cucharada:9|sesamo,ajonjoli|
+Semillas de zapallo|Frutos secos y semillas|559|30.2|10.7|49|6|1.4|8.7|7|cucharada:10|pepitas|
+Aceite de oliva|Aceites y salsas|884|0|0|100|0|0|13.8|2|cucharada:13;cucharadita:4.5;chorrito:5|aceite|N
+Aceite de girasol|Aceites y salsas|884|0|0|100|0|0|10.3|0|cucharada:13;cucharadita:4.5|aceite,aceite de maiz,aceite mezcla|N
+Aceite de coco|Aceites y salsas|892|0|0|99.1|0|0|82.5|0|cucharada:13|aceite|N
+Grasa vacuna|Aceites y salsas|902|0|0|100|0|0|49.8|0|cucharada:13|grasa,cebo|N
+Sal|Aceites y salsas|0|0|0|0|0|0|0|38758|pizca:0.4;cucharadita:6|sal fina,sal gruesa|N
+Caldo en cubo|Aceites y salsas|267|16.7|18|13.9|0|17.4|3.4|23875|cubo:10|knorr,caldo|P
+Mayonesa|Aceites y salsas|680|1|0.6|74.8|0|0.6|11.7|635|cucharada:14;sobre:8|hellmanns,natura|P
+Mayonesa light|Aceites y salsas|238|0.4|9.2|22.2|0|3.6|3.4|827|cucharada:14||P
+Ketchup|Aceites y salsas|101|1|27.4|0.1|0.3|21.3|0|907|cucharada:17;sobre:9||P
+Mostaza|Aceites y salsas|60|3.7|5.8|3.3|4|0.9|0.2|1104|cucharadita:5||P
+Salsa golf|Aceites y salsas|506|1|8.6|52.4|0.1|6.8|8.2|717|cucharada:15||P
+Salsa barbacoa|Aceites y salsas|172|0.8|40.8|0.6|0.9|33.2|0|1027|cucharada:17|bbq|P
+Salsa César|Aceites y salsas|542|2.2|3.3|57.9|0.5|2.8|8.8|1209|cucharada:15|aderezo|P
+Salsa de soja|Aceites y salsas|60|10.5|5.6|0.1|0.8|1.7|0|5586|cucharada:16|soya|P
+Salsa picante|Aceites y salsas|11|0.5|1.8|0.4|0.3|1.3|0.1|2643|cucharadita:5|tabasco|P
+Chimichurri|Aceites y salsas|534|0.5|2.3|58.6|0.3|0.2|6|900|cucharada:10||P
+Salsa criolla|Aceites y salsas|83|0.9|5.2|6.7|1.3|3|0.7|300|cucharada:20||P
+Guacamole|Aceites y salsas|157|2|8.6|14.7|6.2|0.7|2.1|240|cucharada:20||P
+Salsa de tomate|Aceites y salsas|50|1.4|7.4|1.6|1.8|4.9|0.2|437|porción:100|filetto,tuco|P
+Puré de tomate|Aceites y salsas|38|1.6|9|0.2|1.9|4.8|0|28|porción:100|tomate triturado|P
+Salsa bolognesa|Aceites y salsas|141|7.1|5.8|9.8|1.4|3.6|3|450|porción:150|tuco con carne|P
+Salsa blanca|Aceites y salsas|117|3.5|8.7|7.6|0.2|4.3|4.7|300|porción:100|bechamel|P
+Salsa cuatro quesos|Aceites y salsas|190|7|5|16|0|3|10|500|porción:100|salsa de queso|P
+Pesto|Aceites y salsas|418|9.8|10.1|37.6|1.8|6.3|7.1|603|cucharada:15||P
+Vinagre|Aceites y salsas|21|0|0.9|0|0|0.4|0|5|cucharada:15|aceto|N
+Azúcar|Dulces y snacks|387|0|100|0|0|99.8|0|1|cucharadita:5;sobre:6|azucar|P
+Azúcar mascabo|Dulces y snacks|380|0.1|98.1|0|0|97|0|28|cucharadita:5|azucar rubia|P
+Miel|Dulces y snacks|304|0.3|82.4|0|0.2|82.1|0|4|cucharada:21;cucharadita:7||P
+Mermelada|Dulces y snacks|278|0.4|68.9|0.1|1.1|48.5|0|32|cucharada:20|dulce|P
+Mermelada light|Dulces y snacks|120|0.4|30|0|1|25|0|40|cucharada:20|dulce diet|P
+Dulce de membrillo|Dulces y snacks|280|0.3|70|0.1|2|55|0|10|porción:50|vigilante,postre vigilante|P
+Dulce de batata|Dulces y snacks|245|0.5|60|0.1|1.5|50|0|30|porción:50||P
+Crema de avellanas (tipo Nutella)|Dulces y snacks|541|5.4|62.2|29.7|5.4|54|28.4|41|cucharada:15|nutella|P
+Cacao en polvo azucarado|Dulces y snacks|398|6.7|83.7|4|3.7|65.5|2.4|504|cucharada:10|nesquik,toddy,chocolatada en polvo|P
+Cacao amargo|Dulces y snacks|228|19.6|57.9|13.7|37|1.8|8.1|21|cucharada:6||P
+Alfajor triple de chocolate|Dulces y snacks|450|5|62|20|1.5|38|11|200|unidad:70|alfajor,guaymallen triple,jorgito|P
+Alfajor simple de chocolate|Dulces y snacks|430|5|63|18|1.5|38|10|200|unidad:40|alfajor,havanna,fantoche|P
+Alfajor de maicena|Dulces y snacks|420|5|62|17|0.8|35|9|250|unidad:45|alfajor|P
+Alfajor de arroz|Dulces y snacks|450|5|70|17|1.5|38|8|60|unidad:22|alfajor gallo|P
+Chocolate con leche|Dulces y snacks|535|7.7|59.4|29.7|3.4|51.5|18.5|79|barrita:25;tableta:100|milka,cofler,chocolate|P
+Chocolate amargo 70%|Dulces y snacks|598|7.8|45.9|42.6|10.9|24|24.5|20|cuadradito:10|chocolate negro|P
+Chocolate blanco|Dulces y snacks|539|5.9|59.2|32.1|0.2|59|19.4|90|barrita:25||P
+Chocolate con maní (tipo Shot)|Dulces y snacks|540|11|52|32|3|45|13|80|unidad:35|shot,block|P
+Bombón de maní (tipo Bon o Bon)|Dulces y snacks|556|9.1|48|36|2|43|18|95|unidad:15|bon o bon,bombon|P
+Confites de chocolate (tipo Rocklets)|Dulces y snacks|492|4.3|71.2|21.1|2.8|63.7|13.1|61|paquete:40|rocklets,m&m|P
+Turrón de maní|Dulces y snacks|440|10|60|18|3|45|3|100|unidad:25|turron arcor|P
+Garrapiñada|Dulces y snacks|520|18|45|30|6|30|4|30|cucurucho:50|maní con azúcar|P
+Mantecol|Dulces y snacks|503|14|42|31|7|40|7.2|44|porción:25|postre de maní|P
+Helado de crema|Dulces y snacks|207|3.5|23.6|11|0.7|21.2|6.8|80|bocha:60;cucurucho 2 bochas:150;1/4 kg:250|helado,dulce de leche,chocolate,americana|P
+Helado de agua|Dulces y snacks|100|0|25|0|0|22|0|5|palito:70|palito,frutal|P
+Torta de chocolate|Dulces y snacks|379|3.2|55.4|17.8|1.5|39.2|5.8|310|porción:100|torta|P
+Chocotorta|Dulces y snacks|400|5|47|22|1.5|30|13|200|porción:120|torta|P
+Lemon pie|Dulces y snacks|330|4|48|14|0.5|30|6|200|porción:110|tarta de limón|P
+Cheesecake|Dulces y snacks|321|5.5|25.5|22.5|0.4|21.8|9.9|438|porción:110|torta de queso|P
+Tiramisú|Dulces y snacks|283|4.6|28|17|0.4|20|10|60|porción:120|tiramisu|P
+Pastafrola|Dulces y snacks|400|5|60|15|1.5|30|6|250|porción:80|pasta frola|P
+Flan casero|Dulces y snacks|145|4.5|22.8|4|0|22.8|1.8|53|porción:130|flan|P
+Arroz con leche|Dulces y snacks|108|3.2|18.4|2.1|0.3|11.6|1.2|97|compotera:200||P
+Brownie|Dulces y snacks|405|4.8|63.9|16.3|2.1|36.6|4.2|286|unidad:60||P
+Budín|Dulces y snacks|380|5|52|17|1|30|4|300|rebanada:50|budin|P
+Muffin|Dulces y snacks|375|4.5|53|16.1|1.1|31.5|2.8|336|unidad:80|magdalena|P
+Vainillas|Dulces y snacks|386|8|80|4|1|45|1.2|180|unidad:7||P
+Galletitas dulces simples|Dulces y snacks|440|7|73|13|2.5|22|6|380|unidad:6|maría,galletitas,manon|P
+Galletitas dulces rellenas|Dulces y snacks|464|5.2|71|19.1|2.9|40.7|5.6|388|unidad:11|oreo,tita,galletitas,melba|P
+Galletitas de chocolate|Dulces y snacks|450|6|72|15|3|30|7|330|unidad:8|chocolinas,galletitas|P
+Galletitas con chips de chocolate|Dulces y snacks|492|5.1|65.4|24.7|2|32.9|8.1|311|unidad:12|pepitos,cookies|P
+Oblea bañada (tipo Tita/Rhodesia)|Dulces y snacks|494|5.3|63.2|23.7|0|37.9|13.2|204|unidad:20|tita,rhodesia|P
+Barra de cereal|Dulces y snacks|400|6|70|10|4|30|3|150|unidad:23|cereal bar,cereal mix|P
+Papas fritas de paquete|Dulces y snacks|532|6.4|53.8|34|3.1|0.3|3.4|527|porción:30;bolsa chica:45|lays,pringles,snack|P
+Palitos / chizitos|Dulces y snacks|560|5.8|53.5|36|1.4|3.2|5.4|942|porción:30|snack,cheetos,palitos de queso|P
+Nachos / Doritos|Dulces y snacks|519|7.4|60.8|27.4|5.1|2.6|3.9|691|porción:30|doritos,tortilla chips|P
+Pochoclo salado|Dulces y snacks|500|8|57|28|10|0.5|4.5|900|porción:30;balde mediano:120|pop,palomitas|P
+Pochoclo dulce|Dulces y snacks|431|3.8|79.1|12.8|5.2|53.2|3.6|206|porción:30;balde mediano:120|pop,palomitas|P
+Caramelos|Dulces y snacks|394|0|98|0.2|0|62.9|0|38|unidad:5|chupetín,pastillas|P
+Gomitas|Dulces y snacks|340|7|77|0.2|0|46|0|40|porción:30|mogul,gomitas|P
+Empanada de carne al horno|Comidas argentinas|259|9.9|21|14.6|1.5|1.1|6.4|420|unidad:100|empanada|P
+Empanada de carne frita|Comidas argentinas|314|9.3|19.6|21.8|1.4|1.1|6.8|420|unidad:105|empanada|P
+Empanada de jamón y queso|Comidas argentinas|283|15.1|24.3|13.5|1.3|0|7.8|758|unidad:90|empanada|P
+Empanada de pollo|Comidas argentinas|213|13.1|20.9|8.2|1.6|1.5|2.9|420|unidad:100|empanada|P
+Empanada de verdura|Comidas argentinas|181|5.9|23.1|7.2|2|1.5|4.2|400|unidad:95|empanada|P
+Empanada de humita|Comidas argentinas|211|5.4|28.4|8.6|1.7|2.2|5.1|420|unidad:95|empanada,choclo|P
+Empanada caprese|Comidas argentinas|260|9|25|14|1.5|2|6|450|unidad:95|empanada|P
+Empanada de queso y cebolla|Comidas argentinas|280|10|26|15|1.5|2|7|480|unidad:95|empanada,fugazza|P
+Empanada árabe|Comidas argentinas|220|10|25|9|2|2|3|400|unidad:90|empanada,sfiha|P
+Pizza muzzarella|Comidas argentinas|281|13.3|27|13|1.2|0.9|6.1|598|porción (1/8):120|pizza|P
+Pizza napolitana|Comidas argentinas|240|10.8|25.1|10.5|1.3|1.4|4.7|560|porción (1/8):130|pizza|P
+Pizza de jamón y morrones|Comidas argentinas|247|12.4|24.5|10.7|1.3|1.2|4.8|720|porción (1/8):130|pizza|P
+Fugazzeta|Comidas argentinas|275|13.1|25.7|13|1.3|1.4|6.1|600|porción (1/8):130|pizza|P
+Pizza a la piedra|Comidas argentinas|280|12|28|13.5|1.6|2.5|6.5|650|porción (1/8):90|pizza|P
+Calzone|Comidas argentinas|260|11|28|11|1.5|2.5|5.5|600|unidad:300|pizza|P
+Fainá|Comidas argentinas|206|8.8|22.6|8.9|4.2|4.2|1.1|350|porción:80|faina|P
+Tarta de jamón y queso|Comidas argentinas|244|14|19.5|12|1.1|0.9|6.5|622|porción:160|tarta|P
+Tarta de verdura|Comidas argentinas|174|7.2|18.5|8|2|1.4|3.8|400|porción:160|tarta,pascualina|P
+Tarta de zapallitos|Comidas argentinas|162|6.1|19.2|6.8|1.7|2.3|3.2|380|porción:160|tarta|P
+Tarta de choclo|Comidas argentinas|190|6.5|24|7.9|1.6|2.1|4.2|393|porción:160|tarta|P
+Tortilla de papa|Comidas argentinas|142|4.5|14.2|7.7|1.8|1.2|1.3|250|porción:150|tortilla española|P
+Milanesa napolitana|Comidas argentinas|232|21.6|9.5|11.8|0.8|1.4|3.7|650|unidad:220|milanesa|P
+Milanesa a caballo|Comidas argentinas|229|19.9|8.3|12.6|0.5|0.9|2.8|450|unidad:200|milanesa con huevo|P
+Choripán|Comidas argentinas|306|14.4|22.5|17.5|0.9|2.2|6.4|807|unidad:170|chori|P
+Bondiola en pan|Comidas argentinas|250|16.4|21|10.8|1|2|3.8|550|unidad:250|sandwich de bondiola|P
+Sándwich de milanesa|Comidas argentinas|235|14.3|24.3|9|1.3|2.5|1.5|550|unidad:300|sanguche de milanesa|P
+Sándwich de jamón y queso|Comidas argentinas|257|14.4|27.4|10|1.1|2.6|5.6|900|unidad:150|sanguche|P
+Sándwich de miga jamón y queso|Comidas argentinas|257|10|26|12.5|1.2|3|4|550|unidad simple:35;unidad triple:55|miga|P
+Tostado de jamón y queso|Comidas argentinas|266|15.8|22.9|12.3|1.1|2.4|7.1|750|unidad:160|carlitos,sandwich|P
+Lomito completo|Comidas argentinas|207|16.2|16.7|8.3|0.8|1.8|2.7|500|unidad:400|sandwich de lomo|P
+Hamburguesa completa|Comidas argentinas|229|14.9|15|11.8|0.7|3.2|4.2|500|unidad:220|burger,sandwich|P
+Pancho|Comidas argentinas|267|9.5|26.4|13.5|1.1|4|3.8|800|unidad:90|hot dog|P
+Locro|Comidas argentinas|126|6.1|13.3|5.7|1.6|1.5|1.8|400|plato:400||P
+Guiso de lentejas|Comidas argentinas|101|7.2|10.5|3.6|2.7|1.6|1|350|plato:350|guiso|P
+Guiso de arroz|Comidas argentinas|96|5.5|13.9|2|1|1.5|0.4|350|plato:350|guiso|P
+Estofado de carne|Comidas argentinas|110|15.1|3.7|4|0.9|1.8|1|400|plato:300||P
+Carne al horno con papas|Comidas argentinas|153|17.2|9.6|5.2|1.1|0.9|1.2|300|plato:350||P
+Albóndigas con salsa|Comidas argentinas|173|13.2|6.6|10|0.9|2.3|3.3|500|porción:250|albondigas|P
+Pollo al horno con verduras|Comidas argentinas|156|15|4.1|8.7|1.1|1.4|2.2|300|plato:350||P
+Pastel de papa|Comidas argentinas|158|8.9|9.8|9|1|1.3|3.6|300|porción:300||P
+Arroz con pollo|Comidas argentinas|121|7.1|14.8|3.5|0.8|1.1|0.7|350|plato:350||P
+Revuelto gramajo|Comidas argentinas|202|7.6|18.5|10.8|2|1.1|2.2|350|plato:300||P
+Puchero|Comidas argentinas|110|10.5|12.2|2.4|2.2|2.5|0.7|300|plato:450||P
+Matambre a la pizza|Comidas argentinas|211|22.4|0.9|13.1|0.2|0.6|6.2|500|porción:250||P
+Vitel toné|Comidas argentinas|267|24.5|0.3|18.7|0|0.3|4.7|400|porción:150|vitel tone|P
+Humita en chala|Comidas argentinas|127|4.4|17|6|2|4.4|3.2|300|unidad:250|humita|P
+Tamal|Comidas argentinas|180|6|20|8.5|2|1|3|400|unidad:200|tamales|P
+Fideos con tuco|Comidas argentinas|140|4.6|24.7|2.3|1.8|1.7|0.4|200|plato:300|fideos con salsa|P
+Fideos con manteca y queso|Comidas argentinas|195|7.5|28.2|5.5|1.6|0.5|3.2|150|plato:250||P
+Fideos con bolognesa|Comidas argentinas|151|6.9|21|4.1|1.6|1.5|1|200|plato:300||P
+Ñoquis con tuco|Comidas argentinas|119|3.3|23.9|1|1.7|1.7|0.2|330|plato:300||P
+Buñuelos de acelga|Comidas argentinas|200|6|18|11|1.5|1|1.8|300|unidad:30|buñuelos|P
+Ensalada rusa|Comidas argentinas|132|1.9|14.3|7.7|2.3|2|1.2|300|porción:150||P
+Ensalada de papa y huevo|Comidas argentinas|139|4.2|14.1|7.4|1.3|0.8|1.5|250|porción:150||P
+Sopa de verduras|Comidas argentinas|23|0.5|4.5|0.6|0.8|1|0.1|300|plato:300|caldo de verduras|P
+Sopa crema (de sobre)|Comidas argentinas|50|1|7|2|0.5|1|1|400|plato:250|sopa instantánea|P
+Big Mac|Comidas rápidas|257|11.8|20.1|15|1.6|4|3.8|460|unidad:219|mcdonalds,hamburguesa|P
+Cuarto de libra con queso|Comidas rápidas|258|14.6|19.9|14.2|1.4|4.9|5.6|579|unidad:200|mcdonalds,hamburguesa|P
+Cheeseburger simple|Comidas rápidas|263|13|27.8|11.8|1.1|6.2|4.4|626|unidad:115|mcdonalds,hamburguesa con queso|P
+Whopper|Comidas rápidas|233|10.7|18.6|12.8|1.8|4.2|4.2|313|unidad:290|burger king,hamburguesa|P
+Papas fritas de cadena|Comidas rápidas|323|3.4|42.6|15.5|3.9|0.2|2.3|189|chicas:80;medianas:110;grandes:150|mcdonalds,burger king,papas|P
+Pollo frito rebozado|Comidas rápidas|231|21.9|6.3|13.1|0.5|0|3|606|presa:120|kfc|P
+Sundae de dulce de leche|Comidas rápidas|190|4|30|6|0|26|4|110|unidad:180|helado mcdonalds|P
+Burrito|Comidas rápidas|205|7.3|31.2|6|4.2|1.7|2.3|563|unidad:250|mexicano|P
+Tacos|Comidas rápidas|220|10|20|11|2.5|1.5|4|450|unidad:90|mexicano|P
+Shawarma|Comidas rápidas|220|13|20|10|1.5|2|2.5|500|unidad:300|kebab,döner|P
+Sushi roll philadelphia|Comidas rápidas|180|6.5|25|6|0.8|5|2.5|400|pieza:25|sushi,roll|P
+Sushi roll de langostino tempura|Comidas rápidas|230|6|30|9|1|5|1.5|450|pieza:30|sushi,roll|P
+Nigiri de salmón|Comidas rápidas|150|7|22|3.5|0.3|5|0.7|350|pieza:30|sushi|P
+Poke bowl|Comidas rápidas|150|8|19|4.5|1.5|3|0.8|380|bowl:400|poke|P
+Ramen|Comidas rápidas|90|4.5|11|3|0.7|1|1|500|plato:500|sopa japonesa|P
+Arroz frito / chaufa|Comidas rápidas|170|5|25|5.5|1|1|1|450|plato:300|arroz chino|P
+Wok de pollo y verduras|Comidas rápidas|120|9|10|5|1.5|4|0.8|450|plato:350||P
+Ensalada César con pollo|Comidas rápidas|160|11|7|10|1.2|1.5|2.5|400|plato:300|cesar|P
+Gaseosa común|Bebidas|42|0|10.4|0.2|0|9.9|0|3|vaso:250;lata:354;botella:500|coca cola,pepsi,sprite,fanta,7up,gaseosa|P
+Gaseosa sin azúcar|Bebidas|0|0.1|0|0|0|0|0|6|vaso:250;lata:354;botella:500|coca zero,light,diet|P
+Agua saborizada|Bebidas|18|0|4.5|0|0|4.5|0|15|botella:500|levite,aquarius|P
+Agua saborizada sin azúcar|Bebidas|1|0|0.2|0|0|0|0|15|botella:500|levite cero|P
+Jugo de naranja exprimido|Bebidas|45|0.7|10.4|0.2|0.2|8.4|0|1|vaso:250|jugo natural|N
+Jugo en caja o polvo|Bebidas|45|0|11|0|0|10.5|0|10|vaso:250|tang,cepita,baggio|P
+Jugo en polvo light|Bebidas|5|0|1|0|0|0.5|0|10|vaso:250|clight,tang light|P
+Bebida isotónica|Bebidas|26|0|6.4|0|0|5.2|0|39|botella:500|gatorade,powerade|P
+Bebida energizante|Bebidas|45|0|11|0|0|11|0|40|lata:250;lata grande:473|speed,red bull,monster|P
+Cerveza|Bebidas|43|0.5|3.5|0|0|0|0|4|vaso:300;lata:473;porrón:340|birra,quilmes,stella|P
+Cerveza sin alcohol|Bebidas|22|0.3|5|0|0|3|0|3|lata:473||P
+Vino tinto|Bebidas|85|0.1|2.6|0|0|0.6|0|4|copa:150|malbec,vino|P
+Vino blanco|Bebidas|82|0.1|2.6|0|0|1|0|5|copa:150|vino,torrontés|P
+Espumante|Bebidas|76|0.2|1.5|0|0|1|0|5|copa:120|champagne,champan|P
+Fernet con coca|Bebidas|113|0|12|0|0|12|0|5|vaso:300|fernet|P
+Gin tonic|Bebidas|75|0|7|0|0|7|0|8|vaso:300|gin|P
+Aperitivo con soda (tipo Aperol)|Bebidas|100|0|10|0|0|10|0|5|copa:250|aperol spritz,campari|P
+Whisky, vodka o ron|Bebidas|231|0|0|0|0|0|0|1|medida:45|whisky,vodka,ron,tequila|P
+Café negro|Bebidas|1|0.1|0|0|0|0|0|2|taza:200;espresso:40|cafe|N
+Café con leche|Bebidas|25|1.3|1.9|1.3|0|1.9|0.8|22|taza:250|cafe,cortado,lagrima|N
+Capuchino|Bebidas|32|1.7|2.8|1.7|0.3|2.4|1|30|taza:250|capuccino,latte|N
+Mate sin azúcar|Bebidas|1|0|0.2|0|0|0|0|1|termo:1000;mate:40|yerba|N
+Té|Bebidas|1|0|0.3|0|0|0|0|3|taza:250|te,mate cocido|N
+Leche chocolatada|Bebidas|80|3|12|2.2|0.8|11|1.4|60|vaso:200|cindor,chocolatada|P
+Submarino|Bebidas|112|3.6|10.7|6|0.4|9.8|3.7|50|taza:250|chocolate caliente|P
+Licuado de banana con leche|Bebidas|81|2.3|14.2|2|0.9|10.4|1.2|35|vaso:300|batido,smoothie|N
+Licuado de frutas con agua|Bebidas|39|0.5|9.7|0.1|0.8|7|0|5|vaso:300|smoothie|N
+Leche de almendras sin azúcar|Bebidas|15|0.6|0.6|1.1|0|0|0|71|vaso:200|bebida vegetal|P
+Bebida de soja|Bebidas|54|3.3|6.3|1.8|0.6|4|0.2|51|vaso:200|leche de soja|P
+Bebida de avena|Bebidas|46|1|7|1.5|0.8|4|0.2|40|vaso:200|leche de avena|P
+Kombucha|Bebidas|15|0|3.5|0|0|3|0|5|botella:350||P
+Proteína whey (polvo)|Suplementos|352|78.1|6.2|1.6|3.1|0|0.8|156|scoop:30|proteina,whey,suplemento|P
+Proteína whey isolate|Suplementos|370|88|2|1|0|1|0.5|300|scoop:30|proteina,isolate|P
+Caseína (polvo)|Suplementos|360|78|9|2|0|3|1|300|scoop:30|proteina|P
+Ganador de peso (gainer)|Suplementos|380|20|70|3|2|20|1|200|porción:100|gainer|P
+Barra proteica|Suplementos|330|34.9|23.3|10.7|18.6|13.7|1.6|190|unidad:50|proteina|P
+Gel energético|Suplementos|270|0|67|0|0|30|0|200|unidad:40|gel|P
+Bife de costilla|Carnes|291|25.9|0|20|0|0|7.9|53|bife:300|t-bone,carne vacuna|
+Hinojo|Verduras|31|1.2|7.3|0.2|3.1|3.9|0.1|52|unidad:230||
+Alcaucil|Verduras|53|2.9|11.9|0.3|5.7|1|0.1|60|unidad:120|alcachofa|
+Brotes de soja|Verduras|30|3|5.9|0.2|1.8|4.1|0|6|taza:100|germinados|
+Kale|Verduras|49|4.3|8.8|0.9|3.6|2.3|0.1|38|taza:70|col rizada|
+Coco fresco|Frutas|354|3.3|15.2|33.5|9|6.2|29.7|20|porción:40|coco|
+Kinotos|Frutas|71|1.9|15.9|0.9|6.5|9.4|0.1|10|unidad:19|kumquat|
+Níspero|Frutas|47|0.4|12.1|0.2|1.7|10|0|1|unidad:30||
+Caqui|Frutas|70|0.6|18.6|0.2|3.6|12.5|0|1|unidad:170|kaki,persimón|
+Leche condensada|Huevos y lácteos|321|7.9|54.4|8.7|0|54.4|5.5|127|cucharada:20||P
+Queso mascarpone|Quesos|429|4.6|4.8|44|0|4.8|30|30|cucharada:15|queso|P
+Yogur de soja|Huevos y lácteos|66|2.6|9.7|1.8|0.4|5.3|0.2|13|pote:170|yogurt vegetal|P
+Kéfir|Huevos y lácteos|52|3.6|4.5|2|0|4.5|1.2|40|vaso:200|kefir|P
+Pan sin TACC|Panificados|260|3|49|6|4|4|1|450|rebanada:30|sin gluten,celiaco|P
+Pan de leche|Panificados|310|8.5|52|7|2|10|3|400|unidad:40|pancito de leche|P
+Palmeritas|Panificados|520|6|55|31|1.5|25|15|300|unidad:15|hojaldre,factura|P
+Rosca de pascua|Panificados|360|7|55|12|1.5|20|5|250|porción:80|rosca|P
+Chipá|Panificados|377|11.9|38.5|19.4|0.4|2.8|11.7|600|unidad:25|chipa,pan de queso|P
+Tortas fritas|Panificados|405|6.6|48.9|19.9|1.7|0.2|5.1|500|unidad:50|torta frita|P
+Galletitas de queso|Panificados|480|11|58|22|2|3|9|1100|porción:30|mini kesitas,crackers|P
+Panqueques|Panificados|227|6.4|28.3|9.7|0.8|5|2.1|439|unidad:50|crepes|P
+Panqueque con dulce de leche|Dulces y snacks|270|6.4|40|9|0.5|25|4|190|unidad:90||P
+Waffles|Panificados|291|7.9|32.9|14.1|1|6|2.9|511|unidad:75|wafles|P
+Tostadas francesas|Panificados|229|7.7|25|10.8|0.8|8|2.7|479|unidad:65|torrejas,french toast|P
+Tostadas con palta|Comidas argentinas|217|6|28.3|9.9|5|2.5|1.5|447|unidad:70|avocado toast|P
+Avena con leche|Comidas argentinas|114|4.8|15.3|3.8|1.7|4.2|1.8|40|bowl:250|porridge,avena cocida|N
+Milanesa de berenjena|Comidas argentinas|200|4|18|12|3|3|2|350|unidad:100||P
+Empanada de atún|Comidas argentinas|197|10.2|22|7.5|1.6|1.4|2.8|450|unidad:100|empanada|P
+Pizza de rúcula y crudo|Comidas argentinas|260|12|28|11|2|3|5|800|porción (1/8):130|pizza|P
+Pizza de cancha|Comidas argentinas|180|5|30|4|2|4|0.6|400|porción:120|pizza sin queso|P
+Tortilla de espinaca|Comidas argentinas|114|8.3|3.3|7.7|1.3|0.9|2.5|250|porción:150|tortilla de verdura|P
+Croquetas de arroz|Comidas argentinas|250|6|28|12.5|1|1|2|350|unidad:40|croquetas|P
+Polenta con salsa y queso|Comidas argentinas|85|3.1|13.3|2.1|1|1.4|1|300|plato:350||P
+Risotto de hongos|Comidas argentinas|150|4|20|5.5|0.8|0.8|3|350|plato:300|risotto|P
+Arroz primavera|Comidas argentinas|120|2.6|22|2.4|1.4|1.8|0.3|171|plato:250||P
+Canelones de carne|Cereales y pastas|160|9|13|8|1|2.5|3.6|380|porción:300|canelones|P
+Lasagna de verdura|Cereales y pastas|130|6|12|6.5|1.5|3|3.2|350|porción:300|lasaña|P
+Ensalada de lentejas|Comidas argentinas|107|5.1|12.9|4.3|4.8|2.4|0.6|158|plato:250||P
+Ensalada caprese|Comidas argentinas|180|10|3|14|0.8|2.5|6.5|350|plato:200|caprese|P
+Tabule|Comidas argentinas|120|3|18|4.5|3|2|0.6|250|plato:200|tabbouleh|P
+Wrap de pollo|Comidas rápidas|200|13|18|8|1.5|2|2|500|unidad:220|wrap|P
+Sándwich de crudo y queso|Comidas argentinas|299|17.3|28.1|13|1.2|2.9|6.6|1300|unidad:150|sanguche|P
+Pollo al curry|Comidas rápidas|150|14|5|8|1|2|3|400|plato:300|curry|P
+Chop suey|Comidas rápidas|90|7|6|4|1.5|2.5|0.7|500|plato:300|chino|P
+Maní japonés|Dulces y snacks|500|17|45|28|4|8|4|600|puñado:30|mani japones|P
+Galletas de arroz bañadas en chocolate|Dulces y snacks|480|6|65|22|2.5|30|13|60|unidad:15||P
+Barra de chocolate con maní y caramelo|Dulces y snacks|491|7.5|61.5|23.9|2.3|50.5|9.1|239|unidad:52|snickers,mantecol bar|P
+Jugo de manzana|Bebidas|46|0.1|11.3|0.1|0.2|9.6|0|4|vaso:250|jugo|P
+Limonada|Bebidas|40|0.1|10.4|0|0|10|0|4|vaso:300|limonada con menta|P
+Agua tónica|Bebidas|34|0|8.8|0|0|8.8|0|12|vaso:250|paso de los toros,schweppes|P
+Sidra|Bebidas|50|0|5|0|0|4|0|5|copa:150||P
+Nalga cruda|Carnes|103|22.5|0|1.4|0|0|0.5|61|kilo:1000;bife:150|carne vacuna,crudo|
+Bola de lomo cruda|Carnes|114|22|0|2.9|0|0|1|60|kilo:1000|carne vacuna,crudo|
+Cuadril crudo|Carnes|116|21.5|0|3.3|0|0|1.3|52|kilo:1000|carne vacuna,crudo|
+Peceto crudo|Carnes|125|24.4|0|3|0|0|1|60|kilo:1000|carne vacuna,crudo|
+Lomo crudo|Carnes|116|21.4|0|3.4|0|0|1.3|56|kilo:1000|carne vacuna,crudo|
+Paleta vacuna cruda|Carnes|125|21|0|4.6|0|0|1.7|74|kilo:1000|carne vacuna,crudo,carnaza|
+Osobuco crudo|Carnes|120|21|0|4|0|0|1.3|63|rodaja:300|carne vacuna,crudo|
+Carne picada común cruda|Carnes|254|17.2|0|20|0|0|7.6|66|kilo:1000;medio kilo:500|carne molida,crudo|
+Carne picada especial cruda|Carnes|215|18.6|0|15|0|0|5.7|66|kilo:1000;medio kilo:500|carne molida,crudo|
+Carne picada magra cruda|Carnes|137|21.4|0|5|0|0|2.2|66|kilo:1000;medio kilo:500|carne molida,crudo|
+Carré de cerdo crudo|Carnes|127|22.4|0|3.4|0|0|1.2|49|kilo:1000|cerdo,crudo|
+Bondiola de cerdo cruda|Carnes|186|17.4|0|12.4|0|0|4.3|61|kilo:1000|cerdo,crudo|
+Muslo de pollo crudo sin piel|Pollo y aves|121|19.7|0|4.1|0|0|1.1|95|unidad:120|pollo,crudo|
+Merluza cruda|Pescados y mariscos|78|17|0|1|0|0|0.3|70|filet:180|pescado,crudo|
+Lentejas secas|Legumbres|352|24.6|63.4|1.1|10.7|2|0.2|6|taza:190;paquete:400|lentejas crudas,crudo|
+Garbanzos secos|Legumbres|378|20.5|63|6|12.2|10.7|0.6|24|taza:200;paquete:400|garbanzos crudos,crudo|
+Porotos secos|Legumbres|333|23.6|60|0.8|24.9|2.2|0.1|24|taza:185;paquete:400|porotos crudos,crudo|
+Papa cruda|Verduras|77|2|17.5|0.1|2.1|0.8|0|6|unidad mediana:200;kilo:1000|patata,crudo|
+Batata cruda|Verduras|86|1.6|20.1|0.1|3|4.2|0|55|unidad:200|camote,crudo|
+Zapallo crudo|Verduras|45|1|11.7|0.1|2|2.2|0|4|kilo:1000|calabaza,anco,crudo|
+Harina de maíz (polenta)|Cereales y pastas|370|7.1|79.5|1.8|3.9|1.6|0.2|7|taza:160;paquete:500|polenta cruda,crudo|
+Quinoa cruda|Cereales y pastas|368|14.1|64.2|6.1|7|0|0.7|5|taza:170|quinua,crudo|
+Arroz integral crudo|Cereales y pastas|367|7.5|76.2|3.2|3.6|0.7|0.6|5|taza:190|arroz,crudo|
+Entrecot|Carnes|235|27|0|14|0|0|5.6|52|bife:250|ojo de bife,carne vacuna|
+Tortuguita|Carnes|221|32.3|0|10.2|0|0|3.5|64|porción:200|carne vacuna,estofado|
+Milanesa de cerdo|Carnes|271|23.7|12.9|13|0.8|1.2|2.4|420|unidad:140|milanga de cerdo|P
+Hamburguesa de cerdo|Carnes|270|18|3|21|0|0.5|8|650|unidad:110|burger de cerdo|P
+Pollo deshuesado al horno|Pollo y aves|174|24.2|0|7.8|0|0|2.1|99|porción:200|pollo|
+Suprema grillada|Pollo y aves|165|31|0|3.6|0|0|1|74|unidad:180|pechuga grillada,suprema a la plancha|
+Pata de pollo hervida|Pollo y aves|185|26.3|0|8.1|0|0|2.2|78|unidad:110|pollo hervido,puchero|
+Pavita (muslo)|Pollo y aves|159|25.1|0.5|6.2|0|0|2|104|porción:200|pavo|
+Filet de merluza rebozado (congelado, al horno)|Pescados y mariscos|200|12|17|9|1|1|1.5|420|unidad:100|pescado rebozado,crocante|P
+Bacalao|Pescados y mariscos|105|22.8|0|0.9|0|0|0.2|78|porción:150|pescado|
+Corvina|Pescados y mariscos|123|24.8|0|2.4|0|0|0.8|70|filet:150|pescado|
+Brótola|Pescados y mariscos|118|24.9|0|1.3|0|0|0.2|110|filet:150|pescado|
+Atún fresco|Pescados y mariscos|130|29.1|0|0.6|0|0|0.2|54|bife:150|pescado|
+Cazuela de mariscos|Pescados y mariscos|110|13|5|4|0.8|2|1|450|plato:350|mariscos|P
+Huevo poché|Huevos y lácteos|143|12.5|0.7|9.5|0|0.4|3.1|297|unidad grande:51;unidad mediana:45;unidad extra grande:57;unidad chica:40|huevo|
+Tortilla de claras|Huevos y lácteos|70|11|1|2.5|0|1|0.5|250|unidad:150|omelette de claras|
+Leche cultivada|Huevos y lácteos|62|3.1|4.8|3.3|0|4.8|2|45|vaso:200|leche fermentada|P
+Yogur proteico (tipo Ser Protein)|Huevos y lácteos|62|10|4.5|0.2|0|4|0.1|50|pote:160|yogur alto en proteína|P
+Bebible proteico|Huevos y lácteos|60|8|5|0.8|0|4.5|0.5|60|botella:250|batido listo|P
+Flan de vainilla comercial|Huevos y lácteos|120|3|20|3|0|17|2|80|pote:120|postre|P
+Queso parmesano|Quesos|392|35.8|3.2|25.8|0|0.8|16.4|1376|cucharada:5;porción:20|parmigiano,queso|P
+Queso Mar del Plata|Quesos|356|24.9|2.2|27.4|0|2.2|17.6|819|feta:20|queso|P
+Queso en hebras|Quesos|318|21.6|2.5|24.6|0|1|15.6|710|puñado:30|mozzarella rallada,queso|P
+Queso tybo light|Quesos|260|30|2|14|0|1|8.5|700|feta:20|queso light|P
+Salchicha de pollo|Fiambres|223|15.5|2.7|16.2|0|2.7|3.9|1027|unidad:40|salchicha|P
+Jamón natural|Fiambres|105|16.5|1.5|3.8|0|1.5|1.3|905|feta:20|jamón cocido natural|P
+Arroz parboil|Cereales y pastas|123|2.9|26.1|0.4|0.9|0.1|0.1|2|taza:160;plato:200|arroz cocido|
+Arroz yamaní|Cereales y pastas|123|2.7|25.6|1|1.6|0.2|0.3|4|taza:160|arroz integral|
+Arroz blanco crudo|Cereales y pastas|365|7.1|80|0.7|1.3|0.1|0.2|5|taza:190|arroz,crudo|
+Fideos de legumbres|Cereales y pastas|150|10|24|1.5|5|1.5|0.2|5|plato:200|pasta de lentejas,garbanzos|
+Gnocchi de calabaza|Cereales y pastas|140|3|27|2|2|2|0.5|300|plato:250|ñoquis|P
+Panqueque de avena|Cereales y pastas|190|9|24|6|3|3|1.6|150|unidad:60|pancake de avena|
+Avena instantánea|Cereales y pastas|362|11.9|69.5|6.9|10|1.5|1.3|220|sobre:30|avena|
+Pan integral de molde con semillas|Panificados|265|13.4|43.3|4.2|7.4|6.4|0.9|381|rebanada:30|pan integral|P
+Pan de pebete|Panificados|290|9|52|5|2|6|1.2|480|unidad:70|pebete|P
+Pan de viena|Panificados|272|10.8|51.9|2.4|2.2|4.6|0.5|602|unidad:60|pan de viena|P
+Bizcochos de agua|Panificados|430|9|72|11|3|2|4|600|unidad:5|bizcochitos|P
+Galletas de avena|Dulces y snacks|450|6.2|68.7|18.1|2.8|24.7|4.5|383|unidad:12|cookies de avena|P
+Tostadas de arroz integral|Panificados|387|8.2|81.5|2.8|4.2|0.9|0.6|26|unidad:9|galletas de arroz|P
+Medialuna rellena de jamón y queso|Panificados|360|12|34|20|1|6|10|700|unidad:70|medialuna|P
+Arvejas partidas secas|Legumbres|352|23.8|63.7|1.2|25.5|8|0.2|15|taza:200|crudo|
+Porotos aduki cocidos|Legumbres|128|7.5|24.8|0.1|7.3|0|0|8|taza:230|aduki|
+Edamame|Legumbres|121|11.9|8.9|5.2|5.2|2.2|0.6|6|taza:155|soja verde|
+Seitán|Legumbres|370|75.2|13.8|1.9|0.6|0|0.3|29|porción:100|gluten de trigo|P
+Tempeh|Legumbres|192|20.3|7.6|10.8|0|0|2.5|9|porción:100|soja fermentada|P
+Zanahoria cocida|Verduras|35|0.8|8.2|0.2|3|3.5|0|58|taza:150||
+Cebolla salteada|Verduras|152|1.6|13.9|10.6|2.5|6.3|1.1|6|porción:50|cebolla con aceite|
+Verduras salteadas|Verduras|80|1.6|7.9|5.1|2.5|4.1|0.5|150|plato:200|wok de verduras|P
+Ensalada de hojas verdes|Verduras|15|1.4|2.9|0.1|1.3|0.8|0|28|plato:60|mix de hojas|
+Tomate perita en lata|Verduras|16|0.8|3.5|0.2|1.9|2.5|0|115|lata:400|tomate envasado|P
+Pimiento asado|Verduras|28|0.9|6.7|0.2|1.2|4.4|0|2|unidad:120|morrón asado|
+Calabaza asada|Verduras|40|0.9|10.5|0.1|3.2|2|0|4|porción:200|zapallo al horno|
+Papas a la crema|Verduras|160|3|14|10|1.2|1.5|6|300|porción:200|gratén|P
+Papas noisette|Verduras|190|3|25|9|2|0.5|1.5|400|porción:120|papas congeladas|P
+Mango deshidratado|Frutas|319|2.5|78.6|1.2|2.4|66.3|0.3|162|porción:30||P
+Banana deshidratada|Frutas|346|3.9|88.3|1.8|9.9|47.3|0.7|3|porción:30||P
+Frutillas congeladas|Frutas|35|0.4|9.1|0.1|2.1|4.6|0|2|taza:150|frutos rojos|
+Mix de frutos rojos|Frutas|45|0.8|10|0.4|4|6|0|1|taza:140|frambuesas,moras,arandanos|
+Compota de manzana|Frutas|68|0.2|17.5|0.2|1.2|14.7|0|2|porción:120|puré de manzana|P
+Manzana asada|Frutas|79|0.3|20.9|0.2|2.7|17.1|0|1|unidad:180|manzana al horno|P
+Almendras tostadas saladas|Frutos secos y semillas|598|21|21|52.5|10.9|4.9|4.1|498|puñado:30||P
+Mantequilla de almendras|Frutos secos y semillas|614|21|18.8|55.5|10.3|4.4|4.2|7|cucharada:16|pasta de almendras|P
+Tahini|Frutos secos y semillas|595|17|21.2|53.8|9.3|0.5|7.5|115|cucharada:15|pasta de sésamo|P
+Castañas (de cajú) saladas|Frutos secos y semillas|574|15.3|32.7|46.4|3|5|9.2|640|puñado:30|caju salado|P
+Aceite en aerosol|Aceites y salsas|792|0|0|90|0|0|9|0|1 segundo:0.3;3 segundos:1|rocío vegetal,spray|N
+Mayonesa de palta|Aceites y salsas|300|1|4|31|1.5|1|5|450|cucharada:15|guacamole,aderezo|P
+Aderezo de yogur|Aceites y salsas|120|3|8|8|0|6|1.5|500|cucharada:15|aderezo light|P
+Salsa de queso cheddar|Aceites y salsas|200|7|7|16|0|2|9|900|cucharada:20|cheddar líquido|P
+Ajo picado en aceite|Aceites y salsas|400|2|10|40|1|1|5|10|cucharadita:5|ajo|P
+Edulcorante de mesa|Dulces y snacks|0|0|0|0|0|0|0|0|sobre:1;gotas:0.1|stevia,sucralosa,sacarina|P
+Dulce de leche de cabra|Huevos y lácteos|320|7|56|7.5|0|50|4.8|120|cucharada:20||P
+Alfajor de fruta (tipo Fantoche simple)|Dulces y snacks|400|5|65|14|2|35|7|200|unidad:45|alfajor|P
+Alfajor de dulce de leche y coco|Dulces y snacks|440|5|60|20|3|38|14|150|unidad:50|alfajor|P
+Turrón de miel y almendras|Dulces y snacks|480|10|60|22|4|50|2|20|porción:30|turron español|P
+Helado de yogur|Dulces y snacks|160|4|26|4|0|22|2.5|70|bocha:60|frozen yogurt|P
+Helado de chocolate amargo|Dulces y snacks|216|3.8|28.2|11|1.2|25.4|6.8|76|bocha:60|helado|P
+Torta de manzana|Dulces y snacks|290|3.5|42|12|1.5|25|4|220|porción:100|tarta de manzana|P
+Torta de ricota|Dulces y snacks|300|7|35|15|0.5|22|8|200|porción:100|tarta de ricota|P
+Profiteroles|Dulces y snacks|330|6|30|21|0.5|18|11|150|unidad:20||P
+Barrita de proteína y cereal|Suplementos|380|20|50|10|5|20|4|200|unidad:40|barra|P
+Hamburguesa de cadena con queso doble|Comidas rápidas|270|15|19|15|1.2|4.5|7|600|unidad:230|doble cheeseburger|P
+Combo de nuggets (10 u)|Comidas rápidas|302|15.8|15.1|19.8|1|0.1|3.3|566|caja:180|mcnuggets|P
+Pizza de cadena (muzzarella)|Comidas rápidas|266|11.4|33.3|9.7|2.3|3.6|4.5|598|porción:110|pizza|P
+Empanada salteña|Comidas argentinas|254|9.4|26.5|11.8|1.7|0.8|4.7|400|unidad:85|empanada,salteña|P
+Empanada tucumana|Comidas argentinas|260|11|24|13|1.5|2|5|420|unidad:90|empanada|P
+Carbonada|Comidas argentinas|83|6.7|10.4|2|1.4|3.2|0.5|300|plato:400|guiso|P
+Mondongo a la española|Comidas argentinas|90|5.7|8.5|3.8|1.5|1.8|1|400|plato:350|mondongo|P
+Polenta con tuco y queso|Comidas argentinas|85|3.1|13.3|2.1|1|1.4|1|330|plato:350|polenta|P
+Bife con papas fritas|Comidas argentinas|265|15.9|18.4|14.2|1.7|0.1|4|150|plato:400|bife,minuta|P
+Pollo con papas al horno|Comidas argentinas|179|14.8|9.5|8.8|1|0.5|2.1|200|plato:400|pollo|P
+Tarta de atún|Comidas argentinas|186|9.7|19.8|7.4|1.6|2.1|2.8|500|porción:160|tarta|P
+Zapallitos rellenos|Comidas argentinas|100|8|2.8|6.3|0.8|1.9|2.5|300|unidad:180|relleno|P
+Pimientos rellenos|Comidas argentinas|117|7.4|8.8|5.5|1.2|2.4|2.1|320|unidad:220|morrones rellenos|P
+Niños envueltos|Comidas argentinas|150|8|12|8|1.5|3|3|400|unidad:80|repollo relleno|P
+Pizzetas|Comidas argentinas|260|10|33|10|2|3|5|600|unidad:150|pizza individual|P
+Picada (fiambres y quesos)|Comidas argentinas|304|20|3|23.9|0.8|1.1|10.9|1400|plato chico:150|picada|P
+Sandwich de pollo|Comidas argentinas|220|14|22|8|1.5|3|1.5|550|unidad:250|sanguche de pollo|P
+Tostado de queso|Comidas argentinas|331|17.6|24.2|18.1|1.2|2.9|11|651|unidad:140|tostado|P
+Mate cocido con leche|Bebidas|25|1.2|2|1.3|0|1.9|0.8|22|taza:250|mate cocido|N
+Café con leche de almendras|Bebidas|10|0.4|0.3|0.7|0.1|0|0.1|45|taza:250|cafe|P
+Licuado de frutilla con leche|Bebidas|58|2|8.7|1.9|0.8|7.5|1.1|35|vaso:300|batido|N
+Jugo de naranja exprimido con zanahoria|Bebidas|42|0.8|9.8|0.2|0.6|7.5|0|20|vaso:250|jugo|N
+Chocolatada light|Bebidas|45|3.2|5.5|1|0.7|4.5|0.6|60|vaso:200|chocolatada|P
+Té helado (tipo Lipton)|Bebidas|30|0|7.5|0|0|7.5|0|10|botella:500|ice tea|P
+Gaseosa de pomelo|Bebidas|40|0|10|0|0|10|0|10|vaso:250;botella:500|paso de los toros pomelo,schweppes pomelo|P
+Agua tónica light|Bebidas|1|0|0|0|0|0|0|12|vaso:250|tonica light|P
+Sidra sin alcohol|Bebidas|40|0|10|0|0|9|0|5|copa:150|sidra|P
+Pato|Pollo y aves|201|23.5|0|11.2|0|0|4|65|porción:200|magret|
+Codorniz|Pollo y aves|227|25.1|0|14.1|0|0|4|52|unidad:110||
+Ciervo|Carnes|158|30.2|0|3.2|0|0|1.2|54|porción:200|venado,carne de caza|
+Jabalí|Carnes|160|28.3|0|4.4|0|0|1.3|60|porción:200|carne de caza|
+Búfalo|Carnes|143|28.4|0|2.4|0|0|0.9|57|porción:200|bisonte|
+Chuleta de cerdo|Carnes|231|23.7|0|14.3|0|0|4.3|74|unidad:180|cerdo|
+Pechito de cerdo a la parrilla|Carnes|320|27|0|23.6|0|0|8.6|93|porción:250|costillitas,cerdo|
+Lechón|Carnes|235|26.1|0|13.7|0|0|4.7|55|porción:250|cerdo|
+Salmón ahumado|Pescados y mariscos|117|18.3|0|4.3|0|0|0.9|672|feta:15|salmon|P
+Langosta|Pescados y mariscos|89|19|0|0.9|0|0|0.2|486|porción:150|mariscos|
+Almejas|Pescados y mariscos|148|25.6|5.1|1.9|0|0|0.2|1202|porción:100|mariscos|
+Vieiras|Pescados y mariscos|111|20.5|5.4|0.8|0|0|0.2|667|porción:100|mariscos|
+Cornalitos fritos|Pescados y mariscos|290|18|12|19|0.5|0.3|3|350|porción:150|pescaditos,fritos|P
+Paella de mariscos|Comidas internacionales|160|9|20|5|0.8|1|1|450|plato:350|paella|P
+Ceviche|Comidas internacionales|90|14|6|1|0.8|3|0.2|400|porción:200|peruano|P
+Lomo saltado|Comidas internacionales|160|11|12|7.5|1.2|2|2|500|plato:350|peruano|P
+Ají de gallina|Comidas internacionales|170|11|10|10|0.7|2|3.5|400|plato:300|peruano|P
+Causa limeña|Comidas internacionales|160|5|20|7|1.7|1|1.2|300|porción:200|peruano|P
+Chivito uruguayo|Comidas internacionales|250|14|16|15|1|2.5|5|600|unidad:450|sándwich uruguayo|P
+Feijoada|Comidas internacionales|150|10|10|8|3.5|0.5|2.8|500|plato:350|brasileño|P
+Arepa con queso|Comidas internacionales|250|8|30|11|2|1|5|400|unidad:150|venezolano|P
+Tacos al pastor|Comidas internacionales|210|11|19|10|2|2|3.5|450|unidad:90|mexicano|P
+Quesadilla|Comidas internacionales|290|13|26|15|1.5|2|7.5|600|unidad:150|mexicano|P
+Nachos con queso|Comidas internacionales|306|8|32|17|3|2|6|700|porción:150|mexicano|P
+Chili con carne|Comidas internacionales|120|9|10|5|3.5|3|2|450|plato:300|mexicano|P
+Pad thai|Comidas internacionales|180|8|25|5.5|1.2|7|1|600|plato:350|tailandés|P
+Pollo teriyaki con arroz|Comidas internacionales|160|10|22|3.5|0.6|6|0.8|500|plato:350|japonés|P
+Gyozas|Comidas internacionales|200|8|25|7|1.5|2|2|500|unidad:25|dumplings|P
+Arrolladitos primavera|Comidas internacionales|250|6|28|12|2|3|2.5|500|unidad:60|spring rolls,chino|P
+Pollo agridulce|Comidas internacionales|210|11|22|8.5|0.8|12|1.5|450|plato:300|chino|P
+Curry de garbanzos|Comidas internacionales|130|5|15|5.5|4|3|2|400|plato:300|indio,vegetariano|P
+Pollo tikka masala|Comidas internacionales|150|13|6|8|1|3|3.5|450|plato:300|indio|P
+Falafel en pan árabe|Comidas internacionales|230|8|28|10|4|3|1.5|500|unidad:250|shawarma vegetariano|P
+Ensalada griega|Comidas internacionales|110|4|5|9|1.5|3|3.5|400|plato:250|ensalada|P
+Risotto de calabaza|Comidas internacionales|140|3.5|21|4.5|1|2|2.5|330|plato:300|risotto|P
+Fideos carbonara|Comidas internacionales|210|9|25|8.5|1.2|1|3.8|380|plato:300|pasta,spaghetti carbonara|P
+Fideos a la bolognesa|Comidas internacionales|151|6.9|21|4.1|1.6|1.5|1|250|plato:350|spaghetti bolognesa|P
+Fideos al pesto|Comidas internacionales|230|6|28|10|1.8|1|2|200|plato:300|pasta al pesto|P
+Fideos con crema y champiñones|Comidas internacionales|190|5.5|24|8|1.5|1.5|4.5|250|plato:300|pasta|P
+Gnocchi a la sorrentina|Comidas internacionales|150|5|25|3.5|2|3|2|400|plato:300|ñoquis|P
+Moussaka|Comidas internacionales|140|7|8|9|2|3|3.5|350|porción:300|griego|P
+Hamburguesa vegana de cadena|Comidas rápidas|230|10|25|10|4|5|2.5|600|unidad:220|beyond,veggie burger|P
+Mostaza: hamburguesa clásica|Comidas rápidas|255|12|24|12.5|1.3|5|4.5|550|unidad:200|mostaza,hamburguesa|P
+Big Tasty|Comidas rápidas|255|12.5|17|15|1|3|6|500|unidad:340|mcdonalds|P
+McNífica|Comidas rápidas|235|11|20|12|1.3|4|4.5|480|unidad:260|mcdonalds|P
+Cajita feliz (hamburguesa simple)|Comidas rápidas|264|12.9|30.3|10.1|1.3|6|3.5|494|unidad:100|mcdonalds,hamburguesa simple|P
+McFlurry|Comidas rápidas|170|4|28|5.5|0.5|23|3.5|100|vaso:260|mcdonalds,helado|P
+Sundae de chocolate|Comidas rápidas|185|4|30|6|0.5|25|4|110|unidad:180|helado|P
+Stacker doble|Comidas rápidas|290|16|14|19|0.6|3.5|8|700|unidad:270|burger king|P
+Whopper doble con queso|Comidas rápidas|266|14.5|13.5|17.1|1.6|3.6|7|387|unidad:390|burger king|P
+Aros de cebolla|Comidas rápidas|276|4.1|33.8|14.3|2.2|5.1|2.1|370|porción:100|onion rings|P
+Pizza Kentucky muzzarella|Comidas rápidas|266|11.4|33.3|9.7|2.3|3.6|4.5|598|porción (1/8):130|pizza de cadena|P
+Empanadas de cadena (carne)|Comidas rápidas|260|10|26|13|1.5|2|5|430|unidad:95|empanada|P
+Hot dog de cadena|Comidas rápidas|247|10.6|18.4|14.8|1.2|4|5.2|684|unidad:120|pancho|P
+Café latte grande con leche entera|Bebidas|51|2.6|4|2.7|0|4|1.6|42|vaso grande:470|starbucks,latte|P
+Frappuccino|Bebidas|90|1.5|16|2.5|0|15|1.6|50|vaso grande:470|café frío|P
+Chocolate caliente de cafetería|Bebidas|90|3.5|12|3.5|1|11|2.2|60|taza:350|submarino|P
+Coca-Cola|Bebidas|42|0|10.4|0.2|0|9.9|0|3|lata:354;botella chica:500;botella grande:1500|gaseosa cola|P
+Coca-Cola Zero|Bebidas|0|0.1|0|0|0|0|0|6|lata:354;botella chica:500|gaseosa cola sin azúcar|P
+Sprite|Bebidas|41|0.1|10.4|0|0|10.4|0|10|lata:354;botella:500|gaseosa lima limón|P
+Fanta naranja|Bebidas|48|0|12.3|0|0|11|0|12|lata:354;botella:500|gaseosa naranja|P
+Pepsi|Bebidas|42|0|10.4|0.2|0|9.9|0|3|lata:354;botella:500|gaseosa cola|P
+Gaseosa segunda marca|Bebidas|42|0|10.4|0.2|0|9.9|0|3|vaso:250;botella:2250|manaos,cunnington|P
+Red Bull|Bebidas|43|0.5|10.2|0|0|10.2|0|39|lata:250|energizante|P
+Monster Energy|Bebidas|47|0.5|11.3|0|0|10.9|0|77|lata:473|energizante|P
+Speed|Bebidas|45|0|11.2|0|0|11|0|40|lata:250|energizante|P
+Gatorade|Bebidas|26|0|6.4|0|0|5.2|0|39|botella:500|isotónica|P
+Powerade|Bebidas|20|0|5|0|0|5|0|40|botella:500|isotónica|P
+Levité|Bebidas|9|0|2.2|0|0|2.2|0|15|botella:500|agua saborizada|P
+Cepita del Valle naranja|Bebidas|52|0|12.5|0|0|12.5|0|17|vaso:250;caja:1000|jugo|P
+Jugo de pomelo natural|Bebidas|39|0.5|9.2|0.1|0.1|9|0|1|vaso:250|jugo natural|N
+Jugo verde (espinaca, manzana, apio)|Bebidas|30|0.8|7|0.2|0.8|5|0|30|vaso:300|jugo detox|N
+Agua de coco|Bebidas|19|0.7|3.7|0.2|1.1|2.6|0.2|105|vaso:250||N
+Té verde|Bebidas|1|0.2|0|0|0|0|0|1|taza:250|te verde|N
+Té con leche y azúcar|Bebidas|27|0.6|5|0.6|0|4.8|0.4|12|taza:250|te|N
+Mate con azúcar|Bebidas|10|0|2.5|0|0|2.5|0|1|mate:40;termo:1000|mate dulce|N
+Tereré|Bebidas|8|0|2|0|0|2|0|2|vaso:250|terere,jugo con yerba|P
+Cerveza IPA|Bebidas|60|0.6|5|0|0|0|0|5|pinta:473;lata:473|birra artesanal|P
+Cerveza negra|Bebidas|50|0.4|5|0|0|0|0|5|pinta:473|stout,porter|P
+Cerveza light|Bebidas|29|0.2|1.6|0|0|0.1|0|4|lata:473|birra light|P
+Vino rosado|Bebidas|83|0.4|3.8|0|0|3.8|0|5|copa:150|vino|P
+Vermú|Bebidas|150|0|14|0|0|14|0|8|medida:60|vermouth,cinzano,martini|P
+Licor de café o crema|Bebidas|336|0.1|46.8|0.3|0|38.3|0.1|8|medida:40|baileys,licor|P
+Daiquiri|Bebidas|186|0.1|6.9|0.1|0.1|5.6|0|5|copa:200|trago|P
+Mojito|Bebidas|80|0|9|0|0|9|0|2|vaso:300|trago|P
+Caipirinha|Bebidas|130|0|14|0|0|14|0|2|vaso:250|trago|P
+Piña colada|Bebidas|174|0.4|22.7|1.9|0.3|22.3|1.6|6|vaso:300|trago|P
+Clericó|Bebidas|75|0.2|8|0|0.4|7|0|5|vaso:250|sangría|P
+Leche de coco (lata)|Huevos y lácteos|197|2|2.8|21.3|0|2|18.9|13|cucharada:15;lata:400|coco|P
+Huevo de codorniz|Huevos y lácteos|158|13.1|0.4|11.1|0|0.4|3.6|141|unidad:9||
+Queso reggianito|Quesos|456|40|2|32|0|0|22|1317|porción:20|reggianito,queso duro|P
+Queso provolone|Quesos|351|25.6|2.1|26.6|0|0.6|17.1|876|feta:20|provolone|P
+Queso cheddar|Quesos|404|22.9|3.1|33.3|0|0.5|18.9|653|feta:20|cheddar|P
+Queso untable saborizado|Quesos|210|7|5|18|0|3|11|700|cucharada:15|queso crema con hierbas|P
+Queso cremoso light|Quesos|210|21|2|13|0|1|8|600|porción:30|queso light|P
+Queso de rallar light|Quesos|300|38|3|15|0|0.8|9|1300|cucharada:6|queso rallado light|P
+Manteca light|Huevos y lácteos|360|1|1|39|0|1|25|200|cucharadita:5|margarina|P
+Margarina|Aceites y salsas|717|0.2|0.7|80.7|0|0|15.2|751|cucharadita:5;cucharada:14||P
+Crema de leche light|Huevos y lácteos|133|0|4|12|0|4|7.3|46|cucharada:15|crema light|P
+Ricota con miel|Quesos|230|9|18|13|0|16|8|70|porción:100|postre|P
+Harina de almendras|Cereales y pastas|578|26|16|50|9|4.4|3.8|1|taza:100;cucharada:7|almendra molida|
+Harina de garbanzos|Cereales y pastas|387|22.4|57.8|6.7|10.8|10.8|0.7|64|taza:90|harina de garbanzo|
+Harina de avena|Cereales y pastas|404|15|66|9|6.5|0.8|1.6|19|cucharada:8;taza:90|avena molida|
+Harina de arroz|Cereales y pastas|366|6|80.1|1.4|2.4|0.1|0.4|0|taza:150||
+Premezcla sin TACC|Cereales y pastas|350|2|84|0.5|2|0.5|0.1|50|taza:130|harina sin gluten|P
+Levadura seca|Cereales y pastas|325|40.4|41.2|7.6|26.9|0|1|51|sobre:10||P
+Polvo de hornear|Cereales y pastas|53|0|27.7|0|0.2|0|0|10600|cucharadita:4|royal|P
+Copos de avena con frutas (muesli)|Cereales y pastas|360|9|67|6|7|20|1|50|porción:40|muesli|P
+Cereales Special K|Cereales y pastas|377|17.8|73.4|1.8|1.4|12.7|0.4|667|taza:30|special k,cereal|P
+Choco Krispis|Cereales y pastas|389|4.6|87.9|2.7|1.4|38.6|2.1|424|taza:30|cereal de chocolate|P
+Arroz inflado|Cereales y pastas|383|7|87.8|0.9|1.4|0|0.3|5|taza:15|cereal|
+Fideos instantáneos (tipo ramen)|Cereales y pastas|190|4.3|27|7|1|1|3.5|900|paquete preparado:300|maruchan,sopa instantánea|P
+Tortellini de carne|Cereales y pastas|240|10|32|8|1.5|1|3|450|plato:250|pasta rellena|P
+Lasaña de pollo y verdura|Cereales y pastas|140|9|12|6|1.2|2.5|3|350|porción:300|lasagna|P
+Pan de molde blanco (tipo Bimbo)|Panificados|253|10.2|46.9|2.7|2.4|4.3|0.7|490|rebanada:25|bimbo,fargo|P
+Pan de molde integral (tipo Bimbo)|Panificados|252|12.4|42.7|3.5|6|4.3|0.7|455|rebanada:27|bimbo integral|P
+Pan de hamburguesa con sésamo|Panificados|279|9.8|50.1|3.9|1.8|7.3|0.8|494|unidad:65||P
+Pan casero de grasa|Panificados|330|8|52|10|2|2|4|500|unidad:80|pan de campo|P
+Pan de queso|Panificados|330|9|38|16|0.5|1|9|600|unidad:25|chipá|P
+Bagel|Panificados|264|10.6|52.4|1.3|1.6|8.4|0.4|422|unidad:100||P
+Croissant de cafetería|Panificados|406|8.2|45.8|21|2.6|11.3|11.7|467|unidad:60|medialuna grande|P
+Muffin de arándanos|Dulces y snacks|375|4.5|53|16.1|1.1|31.5|2.8|336|unidad:110|muffin|P
+Donas|Dulces y snacks|426|5.2|50.8|22.9|1.5|24|5.9|402|unidad:60|donut|P
+Galletitas Criollitas|Panificados|438|11|69|13|3|0.8|6|440|unidad:6|galletitas de agua|P
+Galletitas Express|Panificados|420|10|70|11|3|2|4.5|780|unidad:6|galletitas de agua|P
+Galletitas Oreo|Dulces y snacks|464|5.2|71|19.1|2.9|40.7|5.6|388|unidad:11|oreo|P
+Galletitas Pepitos|Dulces y snacks|492|5.1|65.4|24.7|2|32.9|8.1|311|unidad:13|pepitos,chips de chocolate|P
+Galletitas Chocolinas|Dulces y snacks|453|8.9|67|17|4|20|5|271|unidad:7.5|chocolinas|P
+Galletitas Sonrisas|Dulces y snacks|412|7.7|71|11|2.4|29|4.9|236|unidad:10|rellenas de frutilla|P
+Galletitas Rumba|Dulces y snacks|480|5|70|20|2|35|10|250|unidad:12|rellenas|P
+Galletitas Toddy|Dulces y snacks|476|5.3|63.3|20.3|2.7|33.3|7.7|387|unidad:12|cookies de chocolate|P
+Merengadas|Dulces y snacks|470|4|72|18|1|40|9|200|unidad:10|galletitas rellenas|P
+Galletitas Opera|Dulces y snacks|510|5|66|25|1.5|32|13|180|unidad:8|obleas|P
+Galletitas Granix|Panificados|427|10.6|69.5|14.1|10.3|1.2|2.1|704|unidad:7|galletas integrales|P
+Galletitas de arroz bañadas (tipo Gallo)|Dulces y snacks|480|6|65|22|2.5|30|13|60|unidad:15|gallo snacks|P
+Obleas rellenas|Dulces y snacks|520|5|64|27|1.5|38|14|150|unidad:10|obleas|P
+Alfajor Havanna de chocolate|Dulces y snacks|375|6.4|58|13|1.5|31|7.1|61|unidad:55|havanna|P
+Alfajor Guaymallén|Dulces y snacks|400|5.8|63.2|13.7|2.4|38|7.4|195|unidad:38|guaymallen|P
+Alfajor Jorgito|Dulces y snacks|403|5.8|60|14.9|1.6|36.4|8|113|unidad:55|jorgito|P
+Alfajor Milka|Dulces y snacks|460|5.5|60|22|2|38|12|180|unidad:42|milka mousse|P
+Alfajor Terrabusi|Dulces y snacks|400|6.7|59|15|1.9|40|8.2|168|unidad:50|terrabusi|P
+Alfajor Capitán del Espacio|Dulces y snacks|410|6.5|62.5|15|4.5|35|12|113|unidad:70|capitan del espacio|P
+Alfajor de maicena casero|Dulces y snacks|430|5|63|18|0.8|33|10|230|unidad:40|alfajorcito|P
+Alfajor sin azúcar|Dulces y snacks|390|5|60|17|3|3|10|150|unidad:45|alfajor diet|P
+Bananita Dolca|Dulces y snacks|420|3|65|17|1|55|11|50|unidad:30|bananita|P
+Tofi|Dulces y snacks|392|6.1|61|14|1.6|41|6.4|110|unidad:30|caramelo con chocolate|P
+Chocolate Block|Dulces y snacks|541|14|45|34|3.5|44|15|103|unidad:38|block,chocolate con maní|P
+Chocolate Cofler|Dulces y snacks|535|7.7|59.4|29.7|3.4|51.5|18.5|79|tableta:100;barra:25|cofler|P
+Chocolate Milka|Dulces y snacks|535|7.7|59.4|29.7|3.4|51.5|18.5|79|tableta:100;barra:25|milka|P
+Kit Kat|Dulces y snacks|518|6.5|64.6|26|1|48.7|18|54|unidad:42|oblea con chocolate|P
+Snickers|Dulces y snacks|491|7.5|61.5|23.9|2.3|50.5|9.1|239|unidad:52|barra de maní y caramelo|P
+Mantecol barra|Dulces y snacks|503|14|42|31|7|40|7.2|44|barra:25|mantecol|P
+Rocklets|Dulces y snacks|492|4.3|71.2|21.1|2.8|63.7|13.1|61|paquete:40|confites|P
+Mogul|Dulces y snacks|340|5|78|0.2|0|50|0|40|paquete:30|gomitas|P
+Chupetín|Dulces y snacks|394|0|98|0.2|0|62.9|0|38|unidad:10|chupetin,pico dulce|P
+Turrón Arcor|Dulces y snacks|450|9|62|18|3|45|3|100|unidad:25|turron de maní|P
+Garoto/bombones surtidos|Dulces y snacks|510|6|60|27|2|50|16|70|unidad:13|bombones|P
+Helado palito bombón|Dulces y snacks|290|3.5|27|19|0.5|24|14|60|unidad:60|frigor,palito bombon|P
+Helado Grido (crema)|Dulces y snacks|207|3.5|23.6|11|0.7|21.2|6.8|80|bocha:60;1 kg:1000|helado|P
+Helado de dulce de leche granizado|Dulces y snacks|230|4|28|11.5|0.5|25|7.5|90|bocha:60|helado|P
+Helado de limón (al agua)|Dulces y snacks|120|0.3|30|0|0.2|27|0|10|bocha:60|helado de agua|P
+Helado light|Dulces y snacks|180|4.8|29.5|4.8|0.3|22.1|2.9|74|bocha:60|helado sin azúcar|P
+Torta Balcarce|Dulces y snacks|380|5|52|17|0.5|38|9|150|porción:100|postre balcarce|P
+Torta rogel|Dulces y snacks|420|6|58|18|0.5|40|9|180|porción:100|rogel|P
+Torta de frutilla con crema|Dulces y snacks|280|4|32|15|0.6|22|9|150|porción:120|torta de crema|P
+Bizcochuelo|Dulces y snacks|290|5.4|61|2.7|0.5|36.7|0.8|623|porción:60|bizcochuelo de vainilla|P
+Pionono|Dulces y snacks|300|7|50|8|0.5|30|2.5|200|porción:60|arrollado|P
+Pastelitos de membrillo|Dulces y snacks|410|4|50|22|1.5|22|10|250|unidad:50|pastelitos criollos|P
+Churros con dulce de leche|Dulces y snacks|400|5|50|20|1.5|22|6|250|unidad:50|churro|P
+Ensalada de frutas con crema|Dulces y snacks|110|0.8|15|5.5|1.3|13|3.3|10|compotera:220|postre|P
+Mousse de chocolate|Dulces y snacks|225|4.1|16.1|16|0.6|14.8|9.2|38|porción:100|postre|P
+Gelatina|Dulces y snacks|62|1.2|14.2|0|0|13.5|0|75|porción:120|postre|P
+Gelatina light|Dulces y snacks|20|0.8|4.2|0|0|0|0|48|porción:120|postre sin azúcar|P
+Arroz con leche comercial|Dulces y snacks|108|3.2|18.4|2.1|0.3|11.6|1.2|97|pote:150|postre|P
+Dulce de leche repostero|Huevos y lácteos|330|7|56|8|0|52|5|130|cucharada:20||P
+Cacao Nesquik|Dulces y snacks|398|6.7|83.7|4|3.7|65.5|2.4|504|cucharada:10|cacao en polvo|P
+Papas Lays clásicas|Dulces y snacks|532|6.4|53.8|34|3.1|0.3|3.4|527|porción:30;bolsa:85|lays,papas fritas|P
+Pringles originales|Dulces y snacks|545|4.6|55.4|35.3|2.9|0.8|8.6|400|porción:30|pringles|P
+Doritos|Dulces y snacks|519|7.4|60.8|27.4|5.1|2.6|3.9|691|porción:30|nachos|P
+Cheetos|Dulces y snacks|560|5.8|53.5|36|1.4|3.2|5.4|942|porción:30|chizitos|P
+Twistos|Panificados|430|10|68|13|4|4|3|900|porción:30|tostaditas|P
+Maní con chocolate|Dulces y snacks|519|13.1|49.7|33.5|4.7|37.6|14.6|41|puñado:30|maní confitado|P
+Pasas con chocolate|Dulces y snacks|390|4.1|68.4|14.8|3.1|62.2|10.3|36|puñado:30||P
+Palitos salados|Dulces y snacks|384|10|80.4|2.9|3.4|2.2|0.4|1240|porción:30|pretzels|P
+Popcorn de microondas|Dulces y snacks|583|7.3|45.1|43.5|8.1|0.5|6.8|679|bolsa:85;porción:30|pochoclo|P
+Barra de cereal Cereal Mix|Dulces y snacks|390|6|72|9|5|28|3|150|unidad:23|cereal mix|P
+Barra de granola y frutos secos|Dulces y snacks|454|8|63.6|20.4|5.6|25|9.5|254|unidad:35|barra de frutos secos|P
+Yogurísimo frutilla|Huevos y lácteos|95|3|15|2.5|0|14|1.6|50|pote:190|yogurisimo,yogur con azúcar|P
+Ser yogur bebible|Huevos y lácteos|40|3|6|0|0|5.5|0|55|vaso:200|ser,yogur descremado|P
+Danette|Huevos y lácteos|134|3.7|21|4|0.7|17|2.3|60|pote:100|postre de chocolate|P
+Cindor|Bebidas|73|3.3|12.5|1.1|0.3|12.1|0.8|69|vaso:200;caja:250|chocolatada|P
+Actimel|Huevos y lácteos|52|3.6|8|0.7|0|7.5|0.4|48|botellita:100|leche fermentada|P
+Leche La Serenísima entera|Huevos y lácteos|57|3|4.5|3|0|4.5|1.8|43|vaso:200|leche entera|
+Leche Zero lactosa|Huevos y lácteos|50|3.3|4.8|2|0|4.8|1.3|47|vaso:200|deslactosada|
+Leche con calcio extra|Huevos y lácteos|50|3.3|4.8|2|0|4.8|1.3|47|vaso:200|leche fortificada|
+Bebida de almendras con azúcar|Bebidas|38|0.4|6.6|1|0.4|6.2|0|63|vaso:200|leche de almendras|P
+Bebida de arroz|Bebidas|47|0.3|9.2|1|0.3|5.3|0|39|vaso:200|leche de arroz|P
+Mayonesa Hellmann's|Aceites y salsas|680|1|0.6|74.8|0|0.6|11.7|635|cucharada:14|mayonesa|P
+Ketchup Hellmann's|Aceites y salsas|101|1|27.4|0.1|0.3|21.3|0|907|cucharada:17|ketchup|P
+Aceto balsámico|Aceites y salsas|88|0.5|17|0|0|14.9|0|23|cucharada:15|vinagre balsámico|P
+Aderezo de mostaza y miel|Aceites y salsas|380|1|20|33|0.5|17|5|600|cucharada:15|honey mustard|P
+Salsa tártara|Aceites y salsas|211|1|13.3|16.7|0.5|4.2|3.3|667|cucharada:15|tartara|P
+Salsa de ajo|Aceites y salsas|600|1|5|65|0.2|1|9|600|cucharada:15|alioli|P
+Salsa teriyaki|Aceites y salsas|89|5.9|15.6|0|0.1|14.1|0|3833|cucharada:18|teriyaki|P
+Salsa agridulce|Aceites y salsas|150|0.2|37|0.1|0.2|33|0|400|cucharada:17|chino|P
+Salsa sriracha|Aceites y salsas|93|1.9|19.2|0.9|2.2|15.1|0.1|2124|cucharadita:5|picante|P
+Pasta de curry|Aceites y salsas|150|2|15|9|5|5|1|3000|cucharada:15|curry|P
+Hummus de remolacha|Legumbres|140|6|14|7|5|4|1|360|cucharada:15|hummus|P
+Pasta de berenjenas (babaganoush)|Aceites y salsas|140|2|9|11|3|4|1.6|300|cucharada:15|baba ganoush|P
+Escabeche de berenjenas|Verduras|120|1|8|9.5|2.5|4|1.4|400|porción:50|berenjenas en escabeche|P
+Pickles en vinagre|Verduras|12|0.5|2.4|0.3|1|1.1|0.1|809|unidad:30|pepinillos|P
+Morrones en vinagre|Verduras|28|0.8|5|0.4|1.5|3|0|500|porción:50|ají en vinagre|P
+Champiñones en lata|Verduras|25|1.9|5.1|0.3|2.4|2.3|0|425|lata:180|hongos|P
+Palmitos|Verduras|28|2.5|4.6|0.6|2.4|0|0.1|426|unidad:35|palmito|P
+Choclo amarillo en granos (lata)|Verduras|67|2.3|14.3|1.2|2|4.4|0.2|205|lata:200|maíz|P
+Arvejas en lata|Legumbres|68|4.5|11.4|0.8|4.9|3|0.1|273|lata:200|arvejas|P
+Lentejas en lata|Legumbres|114|9|19.5|0.4|7.9|1.8|0.1|238|lata:300||P
+Garbanzos en lata|Legumbres|139|7|22.5|2.8|6.4|4|0.2|246|lata:300||P
+Porotos negros en lata|Legumbres|91|6|16.6|0.3|6.9|0.2|0.1|138|lata:300||P
+Kale salteado|Verduras|60|2.9|5|3.5|3|1|0.5|60|taza:130|col rizada|
+Coles de Bruselas|Verduras|36|2.5|7.1|0.5|2.6|1.7|0.1|21|taza:155|repollitos de bruselas|
+Alcauciles|Verduras|53|2.9|11.9|0.3|5.7|1|0.1|60|unidad:120|alcachofa|
+Hinojo cocido|Verduras|31|1.2|7.3|0.2|3.1|3.9|0.1|52|porción:100||
+Zapallo plomo|Verduras|50|2.5|10.8|0.6|4.9|4.9|0.1|8|porción:200|zapallo|
+Nabo|Verduras|28|0.9|6.4|0.1|1.8|3.8|0|67|unidad:120||
+Jengibre fresco|Verduras|80|1.8|17.8|0.8|2|1.7|0.2|13|cucharadita:2||
+Perejil|Verduras|36|3|6.3|0.8|3.3|0.8|0.1|56|cucharada:4||
+Albahaca|Verduras|23|3.1|2.6|0.6|1.6|0.3|0|4|cucharada:2||
+Cilantro|Verduras|23|2.1|3.7|0.5|2.8|0.9|0|46|cucharada:2||
+Zanahoria rallada con limón|Verduras|45|0.9|10|0.3|2.8|5|0|70|plato:150|ensalada de zanahoria|N
+Ensalada de tomate y cebolla|Verduras|50|0.9|5|3.3|1.3|2.9|0.4|8|plato:200|ensalada|N
+Ensalada de remolacha y huevo|Verduras|70|4|7|3|1.5|5|0.9|100|plato:200|ensalada|N
+Ensalada Waldorf|Comidas internacionales|180|2.5|10|15|2|7|2|200|plato:200|ensalada con nueces|P
+Verduras grilladas|Verduras|69|1.4|6.4|4.6|2.6|4.3|0.6|100|plato:250|vegetales a la parrilla|
+Lychee|Frutas|66|0.8|16.5|0.4|1.3|15.2|0.1|1|unidad:10|lichi|
+Pitaya|Frutas|60|1.2|13|0|3|8|0|0|unidad:350|fruta del dragón|
+Guayaba|Frutas|68|2.5|14.3|0.9|5.4|8.9|0.3|2|unidad:55||
+Membrillo|Frutas|57|0.4|15.3|0.1|1.9|12|0|4|unidad:200||
+Pera asada|Frutas|85|0.4|22|0.1|3|17|0|1|unidad:180|pera al horno|P
+Kiwi dorado|Frutas|63|1|15.8|0.3|1.4|12.3|0.1|3|unidad:85|kiwi amarillo|
+Uvas pasas rubias|Frutas|302|3.4|79.5|0.5|4|59.2|0.2|12|cucharada:10|pasas sultanas|
+Arándanos deshidratados|Frutas|308|0.2|82.8|1.1|5.3|72.6|0.1|5|cucharada:10|cranberries|P
+Higos secos|Frutas|249|3.3|63.9|0.9|9.8|47.9|0.1|10|unidad:20||
+Castañas (de árbol) asadas|Frutos secos y semillas|245|3.2|53|2.2|5.1|10.6|0.4|2|unidad:8|castañas|
+Nuez de pecán|Frutos secos y semillas|691|9.2|13.9|72|9.6|4|6.2|0|puñado:30|pecan|
+Nuez de macadamia|Frutos secos y semillas|718|7.9|13.8|75.8|8.6|4.6|12.1|5|puñado:30|macadamia|
+Nueces de Brasil|Frutos secos y semillas|659|14.3|11.7|67.1|7.5|2.3|16.1|3|unidad:5|nuez de brasil|
+Semillas de cáñamo|Frutos secos y semillas|553|31.6|8.7|48.8|4|1.5|4.6|5|cucharada:10|hemp|
+Mix de semillas|Frutos secos y semillas|560|21|23|45|15|1.5|5|15|cucharada:10|semillas|
+Proteína vegetal (polvo)|Suplementos|380|75|8|6|5|2|1|800|scoop:30|proteína de arveja|P
+Colágeno hidrolizado|Suplementos|360|90|0|0|0|0|0|200|cucharada:10|colageno|P
+BCAA (polvo)|Suplementos|0|0|0|0|0|0|0|0|scoop:7|aminoácidos|P
+Creatina monohidrato|Suplementos|0|0|0|0|0|0|0|0|cucharadita:5|creatina|P
+Batido de proteína listo|Suplementos|60|8|4|1.5|0|2|0.7|90|botella:330|proteína líquida|P
+Gomitas de proteína|Suplementos|330|20|60|0|0|30|0|50|porción:30||P
+Pan de proteína|Panificados|260|20|20|11|7|2|1.5|450|rebanada:40|pan proteico|P
+Panqueque proteico|Panificados|220|18|20|7|2|4|2|250|unidad:60|pancake proteico|P
+Helado proteico|Dulces y snacks|140|8|16|4|3|6|2.5|80|pote:120|helado proteína|P
+Huevos revueltos con queso y jamón|Huevos y lácteos|192|14.5|1|14.2|0|0.5|6.9|600|plato:150|revuelto|P
+Tostadas con queso crema y mermelada|Panificados|254|7.1|42.7|6.1|1.6|13.8|3.4|450|unidad:50|desayuno|P
+Yogur con granola y frutas|Huevos y lácteos|123|4.3|15.1|5.3|1.7|8.3|1.9|45|bowl:250|desayuno|P
+Bowl de açaí|Dulces y snacks|130|2|22|4.5|4|13|1|10|bowl:300|acai|P
+Avocado toast con huevo|Comidas argentinas|189|8.1|18|10|3.4|1.7|2.1|376|unidad:150|tostada con palta y huevo|P
+Sándwich de jamón crudo, rúcula y parmesano|Comidas argentinas|290|15|30|12|2|2|4.5|1100|unidad:180|sanguche|P
+Wrap de atún|Comidas rápidas|210|13|19|9|1.5|2|1.5|500|unidad:220|wrap|P
+Ensalada de pollo, palta y quinoa|Comidas argentinas|150|10|11|7.5|3|1.5|1.2|250|bowl:350|bowl|P
+Bowl de arroz, pollo y verduras|Comidas argentinas|130|9|16|3|1.5|2|0.6|300|bowl:400|bowl|P
+Milanesa con puré|Comidas argentinas|171|11.3|15.1|7.2|1.2|1.3|2.3|380|plato:350|milanesa con pure|P
+Milanesa con papas fritas|Comidas argentinas|285|12.1|29|13.4|2.5|0.7|2.1|330|plato:350|milanesa con fritas|P
+Pollo al horno con ensalada|Comidas argentinas|117|12.9|1.6|6.4|0.6|0.9|1.4|250|plato:350|pollo con ensalada|P
+Merluza al horno con puré|Comidas argentinas|118|10.4|9.4|4.3|0.8|0.8|1.7|260|plato:350|pescado con pure|P
+Bife de chorizo con ensalada|Comidas argentinas|144|14.9|1.8|8.8|0.6|0.9|3.1|60|plato:400|bife con ensalada|P
+Asado completo (porción)|Comidas argentinas|250|21.8|0.4|17.8|0|0.2|7.3|400|plato:350|parrillada|P
+Choripán con chimichurri|Comidas argentinas|330|13|22|21|1|2|7|900|unidad:180|chori|P
+Morcipán|Comidas argentinas|329|12.8|25.1|19.4|1|2.9|7.3|700|unidad:170|morcilla en pan|P
+Vacío a la parrilla con papas|Comidas argentinas|172|13.8|10|8.6|1|0.6|2.8|80|plato:400|vacio|P
+Provoleta a la parrilla con orégano|Comidas argentinas|355|25|2|27.5|0|0.6|17|870|unidad:120|provoleta|P
+Pizza de muzzarella casera|Comidas argentinas|281|13.3|27|13|1.2|0.9|6.1|550|porción:120|pizza|P
+Pizza de fugazza|Comidas argentinas|221|5.6|34.5|6.5|1.8|2.1|1.4|500|porción:120|fugaza|P
+Empanada de carne picante|Comidas argentinas|255|10|25|12.5|1.5|2|5|430|unidad:100|empanada|P
+Empanada de cebolla y queso|Comidas argentinas|280|10|26|15|1.5|2|7|480|unidad:95|empanada|P
+Empanada de choclo|Comidas argentinas|213|4.5|32.7|7.3|2|2.4|3.6|380|unidad:95|empanada humita|P
+Empanada de espinaca y ricota|Comidas argentinas|224|8|26.1|9.7|2.1|0.7|5.4|380|unidad:95|empanada de verdura|P
+Empanada de roquefort y jamón|Comidas argentinas|290|11|25|16|1.2|1.5|7.5|700|unidad:95|empanada|P
+Sopa de calabaza|Comidas argentinas|58|0.9|8.5|2.7|1.3|1.7|1.7|280|plato:300|crema de zapallo|P
+Sopa de pollo con fideos|Comidas argentinas|52|4.1|6.1|1.1|0.5|0.5|0.3|257|plato:350|caldo de pollo|P
+Guiso de mondongo|Comidas argentinas|90|5.7|8.5|3.8|1.5|1.8|1|400|plato:350|mondongo|P
+Pollo a la provenzal|Comidas argentinas|259|25.3|0.8|16.5|0.1|0|4.1|300|porción:250|pollo con ajo y perejil|P
+Matambre con papas|Comidas argentinas|179|16.1|8|9.3|0.8|0.4|3.2|200|plato:350|matambre|P
+Tortilla de papa y cebolla|Comidas argentinas|136|4.3|13.6|7.4|1.7|1.5|1.2|260|porción:150|tortilla española|P
+Croquetas de pollo|Comidas argentinas|240|12|20|12.5|1|1|2.5|400|unidad:40|croquetas|P
+Medallones de pollo al horno|Pollo y aves|200|12.3|23.8|6.2|4.1|0|0.7|190|unidad:80|bocaditos de pollo|P
+Arroz con atún|Comidas argentinas|137|5.7|18.9|4.1|0.4|0.4|0.7|200|plato:300|arroz|P
+Fideos con atún|Comidas argentinas|143|7|22.8|2.4|1.5|1.1|0.4|250|plato:300|pasta con atún|P
+Ensalada César sin pollo|Comidas rápidas|170|5|8|13|1.5|1.5|3|450|plato:250|cesar|P
+Aguacate (palta Hass)|Verduras|167|2|8.6|15.4|6.8|0.3|2.1|8|unidad:170;media:85|palta hass|
+Tomate cherry|Verduras|18|0.9|3.9|0.2|1.2|2.6|0|5|unidad:15;puñado:100|tomatitos|
+Lechuga mantecosa|Verduras|13|1.4|2.2|0.2|1.1|0.9|0|5|plato:50|lechuga|
+Lechuga morada|Verduras|16|1.3|2.3|0.2|0.9|0.5|0|25|plato:50|lechuga|
+Mix de verduras congeladas|Verduras|65|2.9|13.1|0.1|4.4|3.1|0|35|taza:135|verduras congeladas|
+Espinaca a la crema|Verduras|80|4.7|6.3|4.6|1.8|1.6|2.7|400|porción:150|crema de espinaca|P
+Zapallitos salteados|Verduras|63|1.5|3.8|5.1|1.2|3.1|0.6|10|plato:200|zapallitos|
+Brócoli al vapor|Verduras|35|2.4|7.2|0.4|3.3|1.4|0.1|41|taza:155|brocoli|
+Coliflor gratinada|Verduras|80|4.8|5.4|4.7|1.5|2.6|2.9|246|porción:200|coliflor con queso|P
+Berenjenas a la napolitana|Verduras|130|6|8|8.5|2.5|4|3.5|350|porción:200|berenjenas|P
+Calabaza rellena|Comidas argentinas|120|5|14|5|2.5|4|2.5|250|porción:300||P
+Papas rejilla|Verduras|300|3.5|38|15|3.5|0.5|2.5|300|porción:120|papas fritas|P
+Papas al rescoldo|Verduras|93|2.5|21.1|0.1|2.2|1.2|0|10|unidad:200|papa asada|
+Puré mixto (papa y calabaza)|Verduras|84|1.5|14.3|2.6|2.2|1.6|1.6|250|porción:200|puré|P
+Puré de batata|Verduras|107|2|19.3|2.7|3|6.2|1.7|180|porción:200|puré|P
+Ensalada de rúcula y parmesano|Verduras|120|6|3|9.5|1.2|1.5|3|350|plato:150|ensalada|P
+Ensalada de quinoa|Comidas argentinas|140|4.5|18|6|2.8|2|0.8|200|plato:250|quinoa|P
+Ensalada de arroz|Comidas argentinas|143|3.5|18.8|5.9|1.1|1.6|1.1|214|plato:250|ensalada|P
+Ensalada de fideos|Comidas argentinas|170|5|24|6|1.5|2|1|250|plato:250|ensalada de pasta|P
+Banana con dulce de leche|Dulces y snacks|133|2|29.2|1.6|2.1|18.6|1.1|32|unidad:150|postre|P
+Frutillas con crema|Dulces y snacks|90|1|8.6|6.2|1.6|6.3|3.7|7|compotera:200|postre|P
+Durazno en almíbar con crema|Dulces y snacks|140|1|18|7.5|1|17|4.5|15|porción:150|postre|P
+Queso y dulce|Dulces y snacks|290|11|33|13|0.8|28|8|330|porción:80|postre vigilante|P
+Leche con cereales|Huevos y lácteos|100|3.7|15.1|2.8|0.4|5.4|1.7|132|bowl:300|desayuno|P
+Café cortado|Bebidas|13|0.7|1|0.6|0|1|0.4|15|pocillo:90|cortado|N
+Lágrima|Bebidas|52|2.6|4.1|2.7|0|4.1|1.6|37|taza:200|cafe con leche|N
+Café con crema|Bebidas|35|0.3|0.5|3.5|0|0.5|2.2|5|taza:200||N
+Matcha latte|Bebidas|60|3|7|2.3|0.2|6|1.4|45|taza:300|te matcha|P
+Chai latte|Bebidas|70|2.5|11|2|0|10|1.2|40|taza:300|te chai|P
+Leche de cabra|Huevos y lácteos|69|3.6|4.5|4.1|0|4.5|2.7|50|vaso:200||
+Queso de oveja|Quesos|380|25|1|30|0|0.5|19|700|porción:30|queso|P
+Queso halloumi|Quesos|311|23.9|1.7|23.5|0|1.7|16.6|1200|porción:50|queso para grillar|P
+Burrata|Quesos|250|17|1.5|20|0|1|12.5|250|unidad:125|mozzarella fresca|P
+Bocconcino|Quesos|250|17|1|19.5|0|1|12|300|unidad:15|mozzarella fresca|P
+Queso Por Salut|Quesos|352|23.8|0.6|28.2|0|0.6|16.7|534|porción:30|queso|P
+Tofu frito|Legumbres|270|18.8|8.9|20.2|3.9|2.7|2.9|16|porción:100|tofu|P
+Medallón de quinoa|Legumbres|210|7|26|8|4|1|1|400|unidad:80|hamburguesa de quinoa|P
+Medallón de espinaca|Legumbres|200|6|20|10|3|1|1.5|450|unidad:80|hamburguesa de verdura|P
+Nuggets de soja|Legumbres|240|12|22|11|4|1|1.5|500|unidad:20|soja|P
+Chorizo vegano|Legumbres|240|18|8|15|3|1|2|800|unidad:80|vegano|P
+Leche de soja con calcio|Bebidas|43|2.6|4.9|1.5|0.2|3.6|0.2|47|vaso:200|bebida de soja|P
+Arroz con verduras|Comidas argentinas|124|2.5|22.8|2.3|1.1|1.1|0.3|250|plato:250|arroz primavera|P
+Arroz con huevo|Comidas argentinas|154|4.7|22.6|4.6|0.3|0.2|1.9|200|plato:250|arroz|P
+Arroz a la cubana|Comidas argentinas|124|3.7|21.9|2.3|0.9|3.2|0.7|250|plato:350|arroz con huevo y banana|P
+Fideos con manteca|Comidas argentinas|180|5.6|29.7|4|1.7|0.6|2.1|60|plato:250|fideos|P
+Fideos con salsa blanca|Comidas argentinas|162|6.2|24.5|4.2|1.3|1.7|2.4|200|plato:300|pasta|P
+Ravioles con crema|Cereales y pastas|219|8.8|21.1|10.8|0.7|0.6|6.7|380|plato:300|ravioles|P
+Sorrentinos con salsa rosa|Cereales y pastas|182|9.1|18.8|7.7|0.9|1|4.4|430|plato:300|sorrentinos|P
+Ñoquis con salsa bolognesa|Cereales y pastas|141|4.7|23.5|3|1.6|1.4|0.9|330|plato:300|ñoquis|P
+Canelones de carne con salsa blanca|Cereales y pastas|188|10.7|12.5|10.4|0.5|2.4|4.2|400|porción:300|canelones|P
+Pastel de carne y choclo|Comidas argentinas|151|9.2|11.5|8.1|1|2.5|2.8|300|porción:300|pastel de choclo|P
+Pollo al disco|Comidas argentinas|140|13|6|7|1.5|3|1.8|350|plato:350||P
+Guiso de carne y papas|Comidas argentinas|93|8.8|9.2|2.5|1.2|1.6|0.6|350|plato:350|guiso|P
+Estofado de pollo|Comidas argentinas|106|10.1|8.8|3.3|1.5|2.3|0.6|350|plato:350||P
+Carne a la cacerola|Comidas argentinas|117|13.1|5.2|5.2|1.2|2.7|1.2|350|porción:250|carne al horno|P
+Bondiola braseada|Comidas argentinas|220|19|4|14|0.5|3|4.5|400|porción:250|bondiola|P
+Lomo al champignon|Comidas argentinas|180|20|3|9.5|0.5|1|4.5|300|porción:250|lomo con salsa|P
+Pollo al verdeo|Comidas argentinas|180|17|3|11|0.3|1.5|5|300|porción:250|pollo a la crema|P
+Salpicón de pollo|Comidas argentinas|114|13.1|3.1|5.1|0.9|1.8|1.1|223|plato:250|ensalada de pollo|P
+Pollo relleno|Comidas argentinas|200|20|3|12|0.3|0.5|4.5|500|porción:200|matambre de pollo|P
+Albóndigas de pollo|Comidas argentinas|170|14|7|9.5|0.5|1.5|2.5|450|unidad:40|albondigas|P
+Hamburguesa de pescado|Pescados y mariscos|220|12|17|11.5|1|1|2|450|unidad:80|medallón de merluza|P
+Sushi de salmón y palta (roll)|Comidas rápidas|170|6|24|5.5|1.3|5|1|380|pieza:25|sushi|P
+Sushi tempura roll|Comidas rápidas|240|5.5|30|10.5|1|5|1.6|450|pieza:30|sushi frito|P
+Sashimi mixto|Pescados y mariscos|150|22|0|6.5|0|0|1.5|60|pieza:15|sushi|
+Temaki de salmón|Comidas rápidas|170|7|22|6|1|4|1.2|400|unidad:120|temaki|P
+Edamame salado|Legumbres|121|11.9|8.9|5.2|5.2|2.2|0.6|6|taza:155|soja verde|P
+Ramen tonkotsu|Comidas rápidas|110|6|11|4.5|0.7|1|1.6|600|plato:550|ramen|P
+Poke de salmón|Comidas rápidas|160|9|18|5.5|1.8|3|1|400|bowl:400|poke bowl|P
+Buñuelos de manzana|Dulces y snacks|280|4|35|14|1.5|15|2.5|150|unidad:40|buñuelos|P
+Torrejas|Dulces y snacks|260|7|30|12|1|12|3.5|300|unidad:70|tostadas francesas|P
+Pastafrola de batata|Dulces y snacks|390|5|60|14|1.6|30|6|250|porción:80|pasta frola|P
+Torta de coco|Dulces y snacks|430|5|50|23|3|35|16|200|porción:100||P
+Tarta de frutillas|Dulces y snacks|260|4|35|12|1.5|22|7|150|porción:110||P
+Lemon pie individual|Dulces y snacks|330|4|48|14|0.5|30|6|200|unidad:120|lemon pie|P
+Brownie con nueces|Dulces y snacks|480|6.5|55|26|3|38|8|250|unidad:60|brownie|P
+Cookie de chocolate (cafetería)|Dulces y snacks|492|5.1|65.4|24.7|2|32.9|8.1|311|unidad:80|cookie|P
+Alfajor de maicena grande|Dulces y snacks|420|5|62|17|0.8|35|9|250|unidad:70|alfajor|P
+Garrapiñada de almendras|Dulces y snacks|540|15|45|34|7|32|3|10|cucurucho:50|almendras con azúcar|P
+Bombón helado|Dulces y snacks|280|3.5|26|18.5|0.5|23|13|60|unidad:70|bombón escocés|P
+Almendrado|Dulces y snacks|300|4.5|30|18|1|25|9|70|porción:100|postre helado|P
+Palito de agua frutal|Dulces y snacks|90|0|22|0|0|20|0|5|unidad:70|helado de agua|P
+Barrita de arroz inflado|Dulces y snacks|390|4|85|4|1|35|2|150|unidad:20|cereal bar|P
+Turrón de maní casero|Dulces y snacks|480|15|45|28|5|35|5|50|porción:30||P
+Maní con miel|Frutos secos y semillas|560|20|35|40|6|25|6|200|puñado:30|maní tostado|P
+Mix tropical (frutas secas y nueces)|Frutos secos y semillas|430|8|55|21|5|40|5|20|puñado:40|frutas secas|P
+Chips de banana|Dulces y snacks|519|2.3|58.4|33.6|7.7|35.3|29|6|porción:30||P
+Chips de batata|Dulces y snacks|490|3|60|26|8|10|3|300|porción:30||P
+Galletas de avena caseras|Dulces y snacks|440|7|64|17|4|25|5|280|unidad:20||P
+Pan dulce con frutas|Panificados|360|6|56|12|2|30|5|170|porción:80|panettone|P
+Budín de banana|Dulces y snacks|330|4.5|50|13|1.5|28|2.5|300|rebanada:60|banana bread|P
+Budín de limón|Dulces y snacks|380|5|52|17|0.7|32|4|300|rebanada:50|budin|P
+Magdalenas|Dulces y snacks|420|6|50|22|1|28|3|350|unidad:30||P
+Pan de Viena con dulce de leche|Panificados|310|7|52|8|1.5|25|4|300|unidad:80|merienda|P
+Tostadas de pan integral con mermelada|Panificados|260|7|47|3.5|5|20|0.7|350|unidad:35|tostadas|P
+Galletas de agua con queso untable|Panificados|370|9|50|15|2|4|7|700|porción:40|merienda|P
+Factura de hojaldre|Panificados|460|6|45|28|1.5|15|13|300|unidad:50|palmerita,cañoncito|P
+Bola de fraile|Panificados|380|6|48|18|1|20|6|250|unidad:60|berlinesa|P
+Vigilante|Panificados|360|6|50|15|1.5|20|7|300|unidad:55|factura|P
+Sacramento|Panificados|390|6|50|18|1.2|18|8|300|unidad:55|factura|P
+Tortilla santiagueña|Panificados|330|8|50|10|2|1|4|600|unidad:80|tortilla de rescoldo|P
+Pan de chicharrón|Panificados|420|10|45|22|2|2|9|650|unidad:70|chicharrón|P
+Biscochos de grasa caseros|Panificados|491|8.6|63.6|21.7|2.2|0.2|10.5|900|unidad:6|bizcochitos|P
+Grisines integrales|Panificados|400|13|62|10|8|2|2|700|unidad:5|grisines|P
+Pan lactal sin corteza|Panificados|253|10.2|46.9|2.7|2.4|4.3|0.7|490|rebanada:20|pan de miga|P
+Tapa de empanada de hojaldre|Panificados|380|6|40|22|1.5|1|10|600|unidad:33|tapas hojaldre|P
+Tapas para pascualina|Panificados|303|6.7|46.7|9.7|2.7|1|5.3|663|tapa:200|masa|P
+Masa de pizza casera|Panificados|294|7.4|51.4|6.1|2.2|0.2|0.9|500|bollo:300|masa|P
+Arepa|Panificados|220|4.5|45|2.5|3|0.5|0.4|300|unidad:100|arepa|P
+Pan de maíz|Panificados|266|6.7|43.5|7.1|2.5|8|1.6|658|porción:80|cornbread|P
+Puré instantáneo preparado|Verduras|100|2|15|3.5|1|1.5|2|350|porción:200|puré de paquete|P
+Polenta instantánea preparada con leche|Cereales y pastas|127|3.7|17.9|4.3|0.7|3.9|2.5|60|plato:250|polenta|P
+Sémola cocida con leche|Cereales y pastas|95|3.5|15|2.3|0.5|5|1.4|50|plato:250|sémola|P
+Avena cocida con agua|Cereales y pastas|71|2.5|12|1.5|1.7|0.3|0.3|4|bowl:250|porridge|
+Overnight oats|Cereales y pastas|130|5|19|4|2.5|7|1.5|50|frasco:300|avena remojada|P
+Pancake americano|Panificados|227|6.4|28.3|9.7|1|5|2.1|439|unidad:60|hot cake|P
+Pan de molde sin gluten|Panificados|250|3|46|6|5|4|1|450|rebanada:30|sin tacc|P
+Fideos sin TACC cocidos|Cereales y pastas|126|2.6|27.9|0.7|4.8|0.3|0.1|0|plato:220|pasta sin gluten|
+Galletitas sin TACC|Panificados|450|4|70|17|2|20|8|300|unidad:8|sin gluten|P
+Agua mineral|Bebidas|0|0|0|0|0|0|0|0|vaso:250;botella:500|agua|N
+Agua con gas|Bebidas|0|0|0|0|0|0|0|21|vaso:250|soda|N
+Soda|Bebidas|0|0|0|0|0|0|0|21|vaso:250|sifón|N
+Bife de chorizo crudo|Carnes|190|20.7|0|11.9|0|0|4.8|52|bife:280;porción chica:170|carne vacuna,bife,crudo|N
+Vacío crudo|Carnes|174|19.5|0|10.7|0|0|4.4|54|porción:300|asado,crudo|N
+Entraña cruda|Carnes|187|20.4|0|11.7|0|0|4.6|64|porción:250|asado,crudo|N
+Asado de tira crudo|Carnes|170|15.5|0|12|0|0|5.2|78|tira:300|asado,costilla,crudo|N
+Picaña cruda|Carnes|211|19.5|0|14.8|0|0|5.5|51|porción:300|picanha,crudo|N
+Hígado vacuno crudo|Carnes|135|20.4|3.9|3.6|0|0|1.2|69|bife:150|achuras,crudo|N
+Solomillo de cerdo crudo|Carnes|109|20.9|0|2.2|0|0|0.7|53|porción:200|cerdo,filet,crudo|N
+Costillas de cerdo crudas|Carnes|277|15.5|0|23.4|0|0|7.5|81|porción:300|cerdo,pechito,crudo|N
+Cordero crudo|Carnes|267|16.9|0|21.6|0|0|9.5|58|porción:250|cordero,crudo|N
+Pechuga de pavo cruda|Pollo y aves|114|23.3|0|2.3|0|0|0.3|74|porción:180|pavo,crudo|N
+Pata y muslo con piel crudo|Pollo y aves|214|16.4|0.2|15.9|0|0|4.4|84|unidad:250|pollo,cuarto trasero,crudo|N
+Alitas de pollo crudas|Pollo y aves|191|17.5|0|12.8|0|0|3.5|84|unidad:55|pollo,alas,crudo|N
+Muslo de pollo con piel crudo|Pollo y aves|221|16.5|0.2|16.6|0|0|4.5|81|unidad:140|pollo,crudo|N
+Tilapia cruda|Pescados y mariscos|96|20.1|0|1.7|0|0|0.6|52|filet:150|pescado,crudo|N
+Atún fresco crudo|Pescados y mariscos|109|24.4|0|0.5|0|0|0.2|45|bife:180|pescado,crudo|N
+Langostinos crudos|Pescados y mariscos|85|20.1|0|0.5|0|0|0.1|119|porción:130|camarones,crudo|N
+Trucha cruda|Pescados y mariscos|141|19.9|0|6.2|0|0|1.4|51|porción:180|pescado,crudo|N
+Fideos integrales crudos|Cereales y pastas|352|13.9|73.4|2.9|9.2|2.7|0.4|6|porción:80|pasta,seco,crudo|N
+Almidón de mandioca|Cereales y pastas|358|0.2|88.7|0|0.9|3.4|0|1|cucharada:10;taza:130|fécula de mandioca,tapioca,harina de mandioca|N
+
+Colita de cuadril cruda|Carnes|143|20|0|7|0|0|2.9|0|porción:250;kilo:1000|carne vacuna,crudo|N
+Matambre crudo|Carnes|174|19.5|0|10.7|0|0|4.5|0|porción:250;kilo:1000|carne vacuna,crudo|N
+Tortuguita cruda|Carnes|154|21|0|7.8|0|0|3.3|0|porción:250;kilo:1000|carne vacuna,crudo|N
+Pechuga de pollo hervida|Pollo y aves|151|29|0|3|0|0|0.9|63|pechuga:170;media pechuga:85|pollo,pechuga,hervido,cocido|N
+Huevo duro|Huevos y lácteos|155|12.6|1.1|10.6|0|1.1|3.3|124|unidad grande:51;unidad mediana:45;unidad extra grande:57|huevo,hervido,huevo cocido|N
+Brócoli crudo|Verduras|34|2.8|6.6|0.4|2.6|1.7|0|33|taza:90;ramillete:30|brocoli,crudo|N
+Espinaca cruda|Verduras|23|2.9|3.6|0.4|2.2|0.4|0.1|79|taza:30;puñado:30|espinaca,crudo,ensalada|N
+Zapallito hervido|Verduras|15|1.1|2.7|0.4|1|1.7|0.1|3|unidad:180;taza:180|zucchini,zapallito,cocido|N
+Coliflor cruda|Verduras|25|1.9|5|0.3|2|1.9|0.1|30|taza:100|coliflor,crudo|N
+Berenjena cruda|Verduras|25|1|5.9|0.2|3|3.5|0|2|unidad:300|berenjena,crudo|N
+Chauchas crudas|Verduras|31|1.8|7|0.2|2.7|3.3|0.1|6|taza:100|chauchas,crudo|N
+Acelga cruda|Verduras|19|1.8|3.7|0.2|1.6|1.1|0|213|taza:36;atado:400|acelga,crudo|N
+Remolacha cruda|Verduras|43|1.6|9.6|0.2|2.8|6.8|0|78|unidad:130|remolacha,crudo,rallada|N
+Cebolla hervida|Verduras|44|1.4|10.2|0.2|1.4|4.7|0|3|unidad:150|cebolla,cocido|N
+Champiñones cocidos|Verduras|28|2.2|5.3|0.5|2.2|2.3|0.1|2|taza:155|hongos,champiñones,cocido|N

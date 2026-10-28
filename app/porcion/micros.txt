@@ -1,0 +1,666 @@
+# nombre exacto|calcio mg|hierro mg|potasio mg|colesterol mg|vitamina C mg   (por 100 g)
+Bife de chorizo|17|1.8|316|97|0
+Lomo|19|1.8|370|82|0
+Nalga|4|3.3|330|90|0
+Bola de lomo|6|2.5|241|76|0
+Cuadril|19|2|355|89|0
+Colita de cuadril|19|1.7|323|83|0
+Peceto|6|2.5|241|76|0
+Paleta vacuna|8|3|363|67|0
+Roast beef|10|2.6|320|85|0
+Osobuco|32|3.9|447|78|0
+Asado de tira|14|2.7|239|100|0
+Vacío|10|2.4|290|85|0
+Matambre|12|2.6|290|90|0
+Entraña|11|2.6|379|59|0
+Tapa de asado|13|2.4|324|83|0
+Falda|7|2.5|251|93|0
+Picaña|17|1.7|308|85|0
+Carne picada común|26|2.6|335|84|0
+Carne picada especial|20|2.7|349|84|0
+Carne picada magra|9|2.9|376|84|0
+Milanesa de carne frita|25|2.4|280|75|0
+Milanesa de carne al horno|25|2.6|300|80|0
+Hamburguesa casera|20|2.7|349|84|0
+Hamburguesa comercial (tipo Paty)|25|1.8|250|70|0
+Chorizo parrillero|10|1.2|280|70|0
+Salchicha parrillera|10|1.1|189|71|0
+Morcilla|6|6.4|38|120|0
+Chinchulines|10|1.4|90|200|0
+Molleja|10|1.5|433|294|30.2
+Riñón vacuno|19|5.8|135|716|0
+Hígado vacuno|6|6.2|351|381|0.7
+Lengua vacuna|5|2.6|184|132|1.3
+Mondongo|81|0.7|42|157|0
+Bondiola de cerdo|28|1.4|332|86|0.7
+Carré de cerdo|11|0.9|425|76|0
+Solomillo de cerdo|6|1.1|421|73|0
+Matambre de cerdo|15|1.1|300|85|0
+Costillas de cerdo|47|1.9|320|121|0
+Cordero|16|1.9|318|96|0
+Chivito|17|3.7|405|75|0
+Conejo|19|2.3|383|82|0
+Pechuga de pollo|15|1|256|85|0
+Pechuga de pollo cruda|5|0.4|334|73|0
+Muslo de pollo sin piel|9|1.1|269|133|0
+Pata y muslo con piel|12|1.1|264|127|0
+Alitas de pollo|18|0.8|212|141|0
+Pollo al horno con piel|15|1.3|223|88|0
+Pollo al spiedo|15|1.3|223|88|0
+Higaditos de pollo|11|11.6|263|563|27.9
+Corazones de pollo|19|9|132|242|1.8
+Milanesa de pollo frita|20|1.2|250|65|0
+Milanesa de pollo al horno|20|1.2|270|70|0
+Patitas de pollo rebozadas|20|1|220|40|0
+Nuggets de pollo|38|1.4|281|34|0
+Hamburguesa de pollo|20|1|250|60|0
+Pechuga de pavo|14|1|297|70|0
+Merluza|20|0.4|330|50|0
+Milanesa de merluza frita|35|0.8|280|45|0
+Abadejo|14|0.2|351|66|0
+Lenguado|25|0.2|197|56|0
+Pejerrey|62|0.4|434|84|0
+Tilapia|14|0.7|380|57|0
+Salmón rosado|15|0.3|384|63|3.7
+Salmón crudo (sashimi)|9|0.3|363|55|3.9
+Trucha|30|0.4|450|70|2.9
+Atún al natural (escurrido)|17|1.6|179|36|0
+Atún en aceite (escurrido)|13|1.4|207|18|0
+Sardinas en aceite|382|2.9|397|142|0
+Caballa en lata|241|2|194|79|0.9
+Langostinos|70|0.5|259|189|0
+Mejillones|33|6.7|268|56|13.6
+Calamar a la plancha|32|0.7|250|230|4
+Rabas|39|1|279|260|4.2
+Pulpo|106|9.5|630|96|8
+Kanikama|9|0.3|112|30|0
+Huevo|56|1.8|138|372|0
+Huevo frito|62|1.9|152|401|0
+Huevo revuelto|66|1.3|132|277|0
+Clara de huevo|7|0.1|163|0|0
+Yema de huevo|129|2.7|109|1085|0
+Omelette de queso|180|1.4|130|300|0
+Leche entera|113|0|132|10|0
+Leche parcialmente descremada|120|0|140|8|0.2
+Leche descremada|122|0|156|2|0
+Leche en polvo entera|912|0.5|1330|97|8.6
+Yogur entero natural|121|0.1|155|13|0.5
+Yogur entero con azúcar|110|0.1|150|10|0.5
+Yogur descremado|140|0.1|170|2|0.5
+Yogur bebible con azúcar|100|0|140|8|0
+Yogur griego natural|100|0|141|13|0
+Yogur griego descremado|110|0.1|141|5|0
+Yogur con cereales|110|0.8|160|9|0
+Leche fermentada (tipo Actimel)|90|0|130|5|0
+Postrecito de queso (tipo Danonino)|120|0.1|120|9|0
+Postre de leche (tipo Serenito)|100|0.2|130|8|0
+Crema de leche|66|0.1|95|113|0.6
+Crema chantilly|65|0|90|100|0.5
+Manteca|24|0|24|215|0
+Dulce de leche|250|0.2|350|25|1
+Dulce de leche light|260|0.2|360|10|1
+Queso cremoso|500|0.3|90|70|0
+Queso port salut light|600|0.2|90|40|0
+Mozzarella|505|0.4|76|79|0
+Queso de máquina (Tybo/Danbo)|731|0.4|188|89|0
+Queso Pategrás|800|0.3|90|90|0
+Queso gouda / fynbo|700|0.2|121|114|0
+Queso sardo|1064|0.8|86|104|0
+Queso rallado|1180|0.8|120|88|0
+Queso crema|98|0.4|130|100|0
+Queso untable light|120|0.2|150|30|0
+Ricota entera|207|0.4|105|51|0
+Ricota descremada|270|0.4|125|20|0
+Queso cottage|111|0.1|125|12|0
+Provoleta|756|0.5|138|69|0
+Queso azul|528|0.3|256|75|0
+Queso de cabra|298|1.6|158|79|0
+Queso brie|184|0.5|152|100|0
+Queso feta|493|0.7|62|89|0
+Jamón cocido|8|0.8|290|50|0
+Jamón crudo|15|1.2|380|80|0
+Paleta cocida|10|0.9|260|50|0
+Salame|13|1.3|378|79|0
+Mortadela|18|1.4|163|56|0
+Pechuga de pavo (fiambre)|7|0.3|401|50|0
+Lomito ahumado|10|0.8|320|50|0
+Bondiola curada|10|1.3|320|80|0
+Matambre arrollado|15|1.5|250|60|0
+Panceta|11|0.9|499|99|0
+Leberwurst|22|8.8|170|118|3.5
+Salchicha|99|1.2|141|73|0
+Arroz blanco|10|1.2|35|0|0
+Arroz integral|3|0.6|86|0|0
+Arroz crudo|28|4.3|115|0|0
+Fideos|7|1.3|44|0|0
+Fideos crudos|21|3.3|223|0|0
+Fideos integrales|13|1.7|96|0|0
+Tallarines frescos al huevo|6|1.1|24|33|0
+Fideos de arroz|4|0.1|4|0|0
+Ñoquis de papa|15|0.6|180|10|2
+Ravioles de ricota|80|1.2|120|30|0
+Ravioles de carne y verdura|40|1.4|160|30|2
+Sorrentinos de jamón y queso|90|1|130|35|0
+Capelettinis|70|1.1|130|35|0
+Lasagna de carne|90|1.1|200|30|2
+Canelones de verdura con salsa|90|1.1|210|20|4
+Polenta|2|0.5|30|0|0
+Avena arrollada|52|4.2|362|0|0
+Salvado de avena|58|5.4|566|0|0
+Quinoa|17|1.5|172|0|0
+Cuscús|8|0.4|58|0|0
+Trigo burgol|10|1|68|0|0
+Granola|76|4|539|0|1.2
+Copos de maíz sin azúcar|5|28.9|168|0|21
+Cereales azucarados|3|26.7|76|0|24.2
+Cereales de chocolate|127|14.5|197|0|48
+Harina de trigo|15|4.6|107|0|0
+Harina integral|34|3.6|363|0|0
+Fécula de maíz|2|0.5|3|0|0
+Pan rallado|183|4.8|196|0|0
+Pan francés|52|3.9|117|0|0
+Pan lactal blanco|144|3.6|126|0|0
+Pan lactal integral|161|2.5|254|0|0
+Pan de semillas|103|2.5|230|0|0.1
+Pan de centeno|73|2.8|166|0|0.4
+Pan de campo|25|2.4|120|0|0
+Pan árabe|86|2.6|120|0|0
+Pan de hamburguesa|144|3.4|122|0|1.3
+Pan de pancho|144|3.4|122|0|1.3
+Pan dulce|50|1.6|200|40|0
+Medialuna de manteca|37|2|118|67|0.2
+Medialuna de grasa|30|2|110|25|0
+Factura con crema o dulce|40|1.5|110|40|0
+Churro relleno|40|1.5|150|20|0
+Scones|80|2.4|100|50|0
+Galletitas de agua|30|2.5|150|0|0
+Galletitas de salvado o cereal|36|3.3|345|0|0
+Galletas de arroz|11|1.5|290|0|0
+Tostadas de pan|93|3.7|202|0|0
+Grisines|22|4.3|124|0|0
+Bizcochitos de grasa|20|2|110|15|0
+Tortilla de trigo (wrap)|146|3.6|125|0|0
+Prepizza|20|2.5|110|0|0
+Tapa de empanada|15|2.5|90|0|0
+Tapa de tarta|15|2.5|90|0|0
+Lentejas|19|3.3|369|0|1.5
+Garbanzos|49|2.9|291|0|1.3
+Porotos negros|27|2.1|355|0|0
+Porotos colorados|35|2.2|405|0|1.2
+Porotos alubia|90|3.7|561|0|0
+Soja cocida|102|5.1|515|0|1.7
+Arvejas|24|1.5|110|0|9.9
+Hummus|38|2.4|228|0|0
+Tofu|683|2.7|237|0|0.2
+Milanesa de soja|60|2.5|300|0|0
+Hamburguesa vegetal|50|2.5|300|0|1
+Falafel|54|3.4|585|0|1.6
+Lechuga|36|0.9|194|0|9.2
+Rúcula|160|1.5|369|0|15
+Radicheta|100|0.9|420|0|24
+Tomate|10|0.3|237|0|13.7
+Zanahoria|33|0.3|320|0|5.9
+Cebolla|23|0.2|146|0|7.4
+Cebolla de verdeo|72|1.5|276|0|18.8
+Ajo|181|1.7|401|0|31.2
+Morrón|7|0.4|211|0|127.7
+Pepino|16|0.3|147|0|2.8
+Zapallito|16|0.4|261|0|17.9
+Zapallo / calabaza|41|0.6|284|0|15.1
+Brócoli|40|0.7|293|0|64.9
+Espinaca|136|3.6|466|0|9.8
+Acelga|58|2.3|549|0|18
+Coliflor|16|0.3|142|0|44.3
+Repollo|40|0.5|170|0|36.6
+Repollo colorado|45|0.8|243|0|57
+Berenjena|6|0.2|123|0|1.3
+Champiñones|3|0.5|318|0|2.1
+Chauchas|44|0.7|146|0|9.7
+Remolacha|16|0.8|305|0|3.6
+Espárragos|23|0.9|224|0|7.7
+Apio|40|0.2|260|0|3.1
+Puerro|30|1.1|87|0|4.2
+Rabanito|25|0.3|233|0|14.8
+Choclo en grano|3|0.5|218|0|5.5
+Choclo cremoso (lata)|3|0.4|134|0|4.6
+Papa hervida|8|0.3|328|0|7.4
+Papa al horno|15|1.1|535|0|9.6
+Papas al horno con aceite|15|1|500|0|9
+Papas fritas|18|0.8|580|0|5
+Puré de papas|24|0.3|284|11|6
+Puré de calabaza|40|0.6|280|5|10
+Batata|38|0.7|475|0|19.6
+Mandioca|16|0.3|270|0|20
+Palta|12|0.6|485|0|10
+Aceitunas verdes|52|0.5|42|0|0
+Aceitunas negras|88|3.3|8|0|0.9
+Ensalada mixta|20|0.5|210|0|12
+Banana|5|0.3|358|0|8.7
+Manzana|6|0.1|107|0|4.6
+Naranja|40|0.1|181|0|53.2
+Mandarina|37|0.1|166|0|26.7
+Pera|9|0.2|116|0|4.3
+Frutillas|16|0.4|153|0|58.8
+Uvas|10|0.4|191|0|3.2
+Durazno|6|0.2|190|0|6.6
+Pelón|6|0.3|201|0|5.4
+Damasco|13|0.4|259|0|10
+Kiwi|34|0.3|312|0|92.7
+Ananá|13|0.3|109|0|47.8
+Sandía|7|0.2|112|0|8.1
+Melón|9|0.2|267|0|36.7
+Mango|11|0.2|168|0|36.4
+Papaya|20|0.2|182|0|60.9
+Arándanos|6|0.3|77|0|9.7
+Frambuesas|25|0.7|151|0|26.2
+Moras|29|0.6|162|0|21
+Ciruela|6|0.2|157|0|9.5
+Pomelo|22|0.1|135|0|31.2
+Cerezas|13|0.4|222|0|7
+Higos|35|0.4|232|0|2
+Granada|10|0.3|236|0|10.2
+Maracuyá|12|1.6|348|0|30
+Limón (jugo)|6|0.1|103|0|38.7
+Dátiles|64|0.9|696|0|0
+Pasas de uva|50|1.9|749|0|2.3
+Ciruelas pasas|43|0.9|732|0|0.6
+Orejones|28|4.1|996|0|4.8
+Duraznos en almíbar|3|0.3|92|0|2.8
+Ensalada de frutas|10|0.2|160|0|20
+Almendras|269|3.7|733|0|0
+Nueces|98|2.9|441|0|1.3
+Avellanas|114|4.7|680|0|6.3
+Maní tostado sin sal|58|1.6|634|0|0
+Maní salado|58|1.6|634|0|0
+Mantequilla de maní|49|1.7|558|0|0
+Castañas de cajú|37|6.7|660|0|0.5
+Pistachos|107|4|1007|0|3
+Mix de frutos secos|87|3.7|643|0|0.8
+Mix de frutos secos con pasas|80|2.5|680|0|1
+Coco rallado|26|3.3|543|0|1.5
+Semillas de chía|631|7.7|407|0|1.6
+Semillas de girasol|78|5.2|645|0|1.4
+Semillas de lino|255|5.7|813|0|0.6
+Semillas de sésamo|975|14.6|468|0|0
+Semillas de zapallo|46|8.8|809|0|1.9
+Aceite de oliva|1|0.6|1|0|0
+Aceite de girasol|0|0|0|0|0
+Aceite de coco|1|0.1|0|0|0
+Grasa vacuna|0|0|0|109|0
+Sal|24|0.3|8|0|0
+Mayonesa|8|0.2|20|42|0
+Mayonesa light|6|0.1|31|16|0
+Ketchup|15|0.3|281|0|4.1
+Mostaza|63|1.6|152|0|0.3
+Salsa golf|10|0.2|80|30|1
+Salsa de soja|20|2.4|212|0|0
+Chimichurri|30|2|120|0|15
+Salsa de tomate|26|0.7|320|2|2
+Puré de tomate|18|1.8|439|0|10.6
+Guacamole|12|0.6|450|0|9
+Azúcar|1|0.1|2|0|0
+Azúcar mascabo|83|0.7|133|0|0
+Miel|6|0.4|52|0|0.5
+Mermelada|20|0.5|77|0|8.8
+Dulce de membrillo|10|0.4|150|0|5
+Dulce de batata|20|0.5|200|0|5
+Crema de avellanas (tipo Nutella)|108|4.4|407|0|0
+Cacao en polvo azucarado|133|1.2|712|0|0.2
+Cacao amargo|128|13.9|1524|0|0
+Alfajor triple de chocolate|50|2|200|25|0
+Alfajor simple de chocolate|50|2|200|25|0
+Alfajor de maicena|40|1|120|50|0
+Chocolate con leche|189|2.4|372|23|0
+Chocolate amargo 70%|73|11.9|715|3|0
+Chocolate blanco|199|0.2|286|21|0.5
+Helado de crema|128|0.1|199|44|0.6
+Torta de chocolate|32|2|187|16|0
+Flan casero|83|0.4|118|90|0
+Arroz con leche|95|0.1|125|12|1.3
+Brownie|29|2.2|149|17|0
+Budín|40|1.4|120|70|0
+Galletitas dulces simples|50|2|120|15|0
+Galletitas dulces rellenas|21|12.1|234|0|0
+Papas fritas de paquete|21|1.3|1196|0|21.6
+Pochoclo salado|10|2.5|240|0|0
+Empanada de carne al horno|25|2|200|30|1
+Empanada de carne frita|25|2|200|30|1
+Empanada de jamón y queso|150|1.5|150|30|0
+Empanada de pollo|25|1.3|200|35|1
+Empanada de verdura|80|1.8|250|15|5
+Empanada de humita|40|1|200|15|3
+Pizza muzzarella|188|2.5|172|17|1.4
+Pizza napolitana|170|2.3|200|18|5
+Fainá|40|2.2|250|0|0
+Tarta de jamón y queso|180|1.5|150|80|0
+Tarta de verdura|120|1.8|250|80|5
+Tortilla de papa|30|0.9|300|110|5
+Milanesa napolitana|130|2.2|280|60|3
+Choripán|25|2|230|40|0
+Sándwich de miga jamón y queso|100|1.5|130|20|0
+Tostado de jamón y queso|180|2|180|30|0
+Hamburguesa completa|80|2.3|240|35|2
+Pancho|50|1.8|170|30|1
+Locro|30|1.2|300|20|5
+Guiso de lentejas|25|2.2|300|10|3
+Pastel de papa|30|1.2|300|30|5
+Arroz con pollo|15|0.8|150|25|3
+Puchero|25|1.1|300|20|8
+Big Mac|116|2|181|36|0.4
+Cuarto de libra con queso|144|2.1|219|47|0.8
+Papas fritas de cadena|19|0.8|596|0|5.6
+Sushi roll philadelphia|30|0.5|120|15|1
+Gaseosa común|1|0|5|0|0
+Jugo de naranja exprimido|11|0.2|200|0|50
+Cerveza|4|0|27|0|0
+Vino tinto|8|0.5|127|0|0
+Vino blanco|9|0.3|71|0|0
+Café negro|2|0|49|0|0
+Café con leche|50|0|90|5|0
+Mate sin azúcar|2|0.1|9|0|0
+Leche chocolatada|110|0.3|170|8|0
+Licuado de banana con leche|80|0.1|240|6|5
+Leche de almendras sin azúcar|197|0.3|67|0|0
+Bebida de soja|25|0.6|118|0|0
+Bebida de avena|120|0.2|40|0|0
+Proteína whey (polvo)|469|1.1|500|16|0
+Proteína whey isolate|450|0.5|400|20|0
+Barra proteica|300|3|300|10|0
+Nalga cruda|20|2|362|55|0
+Bola de lomo cruda|20|2|357|59|0
+Cuadril crudo|24|1.5|315|75|0
+Peceto crudo|20|2|357|59|0
+Lomo crudo|24|1.6|347|65|0
+Paleta vacuna cruda|5|2.2|302|65|0
+Osobuco crudo|20|2.3|387|39|0
+Carne picada común cruda|18|1.9|270|71|0
+Carne picada especial cruda|15|2.1|295|68|0
+Carne picada magra cruda|9|2.4|346|62|0
+Carré de cerdo crudo|5|0.5|387|66|0
+Bondiola de cerdo cruda|16|1.1|318|62|0
+Muslo de pollo crudo sin piel|7|0.8|242|94|0
+Merluza cruda|15|0.3|300|40|0
+Lentejas secas|35|6.5|677|0|4.5
+Garbanzos secos|57|4.3|718|0|4
+Porotos secos|143|8.2|1406|0|4.5
+Papa cruda|12|0.8|425|0|19.7
+Batata cruda|30|0.6|337|0|2.4
+Zapallo crudo|48|0.7|352|0|21
+Harina de maíz (polenta)|3|4.4|142|0|0
+Quinoa cruda|47|4.6|563|0|0
+Arroz integral crudo|9|1.3|250|0|0
+Entrecot|17|1.8|316|97|0
+Tortuguita|32|3.9|447|78|0
+Suprema grillada|15|1|256|85|0
+Pata de pollo hervida|11|1.4|190|89|0
+Bacalao|14|0.5|244|55|1
+Corvina|30|0.5|350|60|0
+Atún fresco|4|0.9|527|47|0
+Huevo poché|56|1.8|138|370|0
+Tortilla de claras|10|0.2|160|0|0
+Yogur proteico (tipo Ser Protein)|130|0.1|160|3|0
+Queso parmesano|1184|0.8|92|68|0
+Queso en hebras|575|0.2|75|89|0
+Arroz parboil|19|1.8|56|0|0
+Arroz yamaní|3|0.6|86|0|0
+Arroz blanco crudo|28|4.3|115|0|0
+Fideos de legumbres|30|3|400|0|0
+Edamame|63|2.3|436|0|6.1
+Tempeh|111|2.7|412|0|0
+Zanahoria cocida|30|0.3|235|0|3.6
+Tomate perita en lata|33|0.6|191|0|12.6
+Pimiento asado|9|0.5|166|0|171
+Calabaza asada|41|0.6|284|0|15.1
+Mix de frutos rojos|20|0.5|130|0|30
+Frutillas congeladas|16|0.8|148|0|41.2
+Manzana asada|6|0.2|120|0|3
+Mantequilla de almendras|347|3.5|748|0|0
+Tahini|426|8.9|414|0|0
+Edulcorante de mesa|0|0|0|0|0
+Té|0|0|37|0|0
+Gaseosa sin azúcar|4|0|2|0|0
+Agua saborizada|2|0|5|0|0
+Bebida isotónica|1|0.1|15|0|0.4
+Kombucha|5|0|20|0|0
+Submarino|110|0.6|200|8|0
+Capuchino|60|0|100|6|0
+Mate cocido con leche|55|0|90|5|0
+Pato|12|2.7|252|89|0
+Codorniz|15|4.4|216|86|2.3
+Ciervo|7|4.5|335|112|0
+Jabalí|16|1.1|396|77|0
+Búfalo|8|3.4|361|82|0
+Chuleta de cerdo|56|0.9|315|78|0
+Lechón|20|0.9|345|83|0.1
+Salmón ahumado|11|0.8|175|23|0
+Langosta|96|0.3|230|146|0
+Almejas|92|2.8|628|67|22.1
+Vieiras|10|0.6|426|41|0
+Huevo de codorniz|64|3.6|132|844|0
+Queso reggianito|1184|0.8|92|68|0
+Queso provolone|756|0.5|138|69|0
+Queso cheddar|710|0.1|76|99|0
+Harina de almendras|269|3.7|733|0|0
+Harina de garbanzos|45|4.9|846|0|0
+Harina de avena|52|4|370|0|0
+Harina de arroz|10|0.3|76|0|0
+Kale salteado|150|1.5|450|0|80
+Coles de Bruselas|36|1.2|317|0|62
+Alcauciles|21|0.6|286|0|7.4
+Zapallo plomo|17|0.5|358|0|9.5
+Nabo|30|0.3|191|0|21
+Jengibre fresco|16|0.6|415|0|5
+Perejil|138|6.2|554|0|133
+Albahaca|177|3.2|295|0|18
+Cilantro|67|1.8|521|0|27
+Lychee|5|0.3|171|0|71.5
+Pitaya|9|0.7|116|0|3
+Guayaba|18|0.3|417|0|228.3
+Membrillo|11|0.7|197|0|15
+Kiwi dorado|17|0.2|315|0|161.3
+Higos secos|162|2|680|0|1.2
+Castañas (de árbol) asadas|29|0.9|592|0|26
+Nuez de pecán|70|2.5|410|0|1.1
+Nuez de macadamia|85|3.7|368|0|1.2
+Nueces de Brasil|160|2.4|659|0|0.7
+Semillas de cáñamo|70|8|1200|0|0.5
+Aguacate (palta Hass)|13|0.6|507|0|8.8
+Tomate cherry|10|0.3|237|0|13.7
+Lechuga mantecosa|35|1.2|238|0|3.7
+Lechuga morada|33|1.2|187|0|3.7
+Brócoli al vapor|40|0.7|293|0|64.9
+Leche de cabra|134|0.1|204|11|1.3
+Queso de oveja|700|0.5|100|90|0
+Queso halloumi|700|0.3|80|70|0
+Burrata|330|0.3|100|60|0
+Bocconcino|330|0.3|100|60|0
+Avena cocida con agua|9|0.9|70|0|0
+Agua mineral|3|0|0|0|0
+Leche de soja con calcio|123|0.4|122|0|0
+Café cortado|40|0|80|3|0
+Lágrima|90|0|130|8|0
+Agua de coco|24|0.3|250|0|2.4
+Té verde|0|0|8|0|0.3
+Jugo de pomelo natural|9|0.2|162|0|38
+Caldo en cubo|187|1|309|13|1.1
+Salsa barbacoa|33|0.6|232|0|0.6
+Salsa César|48|1.1|29|39|0.3
+Salsa picante|8|0.5|144|0|74.8
+Pesto|306|0.6|560|0|0
+Vinagre|7|0.2|73|0|0
+Confites de chocolate (tipo Rocklets)|105|1.1|261|14|0.5
+Cheesecake|51|0.6|90|55|0.4
+Muffin|44|1.3|121|30|0.9
+Galletitas con chips de chocolate|21|5.6|171|0|0
+Palitos / chizitos|56|2.5|182|7|0
+Nachos / Doritos|137|1.2|223|0|0.4
+Pochoclo dulce|43|1.7|109|0|0
+Caramelos|3|0.3|5|0|0
+Cheeseburger simple|167|2.4|200|35|0.6
+Whopper|39|4.4|169|30|0.2
+Pollo frito rebozado|33|0.6|267|81|0
+Burrito|124|2.4|261|5|0.4
+Whisky, vodka o ron|0|0|2|0|0
+Bife de costilla|19|1.7|323|97|0
+Hinojo|49|0.7|414|0|12
+Alcaucil|21|0.6|286|0|7.4
+Brotes de soja|13|0.9|149|0|13.2
+Kale|150|1.5|491|0|120
+Coco fresco|14|2.4|356|0|3.3
+Kinotos|62|0.9|186|0|43.9
+Níspero|16|0.3|266|0|1
+Caqui|8|0.1|161|0|7.5
+Leche condensada|284|0.2|371|34|2.6
+Yogur de soja|132|0|0|0|13.2
+Panqueques|219|1.8|132|59|0.3
+Waffles|255|2.3|159|69|0.4
+Tostadas francesas|100|1.7|134|116|0.3
+Barra de chocolate con maní y caramelo|93|0.7|323|13|0.5
+Jugo de manzana|8|0.1|101|0|0.9
+Limonada|4|0.2|15|0|3.9
+Agua tónica|1|0|0|0|0
+Pollo deshuesado al horno|12|1.1|269|128|0
+Pavita (muslo)|4|1.6|296|116|0
+Brótola|77|0.6|456|91|0
+Queso Mar del Plata|700|0.2|121|114|0
+Salchicha de pollo|74|1.2|202|96|0
+Avena instantánea|351|24.7|366|0|0
+Pan integral de molde con semillas|103|2.5|230|0|0.1
+Pan de viena|52|3.9|117|0|0
+Galletas de avena|37|2.6|142|0|0.5
+Tostadas de arroz integral|11|1.5|290|0|0
+Arvejas partidas secas|37|4.8|823|0|1.8
+Porotos aduki cocidos|28|2|532|0|0
+Seitán|142|5.2|100|0|0
+Ensalada de hojas verdes|36|0.9|194|0|9.2
+Mango deshidratado|0|0.2|279|0|42.3
+Banana deshidratada|22|1.1|1491|0|7
+Compota de manzana|3|0.1|75|0|1.7
+Almendras tostadas saladas|268|3.7|713|0|0
+Castañas (de cajú) saladas|45|6|565|0|0
+Helado de chocolate amargo|109|0.9|249|34|0.7
+Combo de nuggets (10 u)|11|0.9|252|44|1.2
+Pizza de cadena (muzzarella)|188|2.5|172|17|1.4
+Pechito de cerdo a la parrilla|47|1.9|320|121|0
+Cajita feliz (hamburguesa simple)|127|2.9|192|27|0.6
+Whopper doble con queso|78|5.3|189|47|0.2
+Aros de cebolla|31|1.2|123|0|1.6
+Pizza Kentucky muzzarella|188|2.5|172|17|1.4
+Hot dog de cadena|24|2.4|146|45|0.1
+Coca-Cola|1|0|5|0|0
+Coca-Cola Zero|4|0|2|0|0
+Sprite|2|0|1|0|0
+Fanta naranja|5|0.1|2|0|0
+Pepsi|1|0|5|0|0
+Gaseosa segunda marca|1|0|5|0|0
+Red Bull|6|0.1|3|0|0
+Monster Energy|0|0|2|0|0
+Gatorade|1|0.1|15|0|0.4
+Cerveza light|4|0|21|0|0
+Vino rosado|10|0.2|59|0|0
+Licor de café o crema|1|0.1|30|0|0
+Daiquiri|3|0.1|21|0|1.6
+Piña colada|8|0.2|71|0|4.9
+Leche de coco (lata)|18|3.3|220|0|1
+Margarina|3|0.1|18|0|0.2
+Levadura seca|30|2.2|955|0|0.3
+Polvo de hornear|5876|11|20|0|0
+Cereales Special K|23|28|53|0|68
+Choco Krispis|127|14.5|197|0|48
+Arroz inflado|9|2.9|116|0|0
+Pan de molde blanco (tipo Bimbo)|144|3.6|126|0|0
+Pan de molde integral (tipo Bimbo)|161|2.5|254|0|0
+Pan de hamburguesa con sésamo|144|3.4|122|0|1.3
+Bagel|219|3.6|107|0|0
+Croissant de cafetería|37|2|118|67|0.2
+Muffin de arándanos|44|1.3|121|30|0.9
+Donas|60|1.1|102|32|0.1
+Galletitas Oreo|21|12.1|234|0|0
+Galletitas Pepitos|21|5.6|171|0|0
+Galletitas Granix|36|3.3|345|0|0
+Chocolate Cofler|189|2.4|372|23|0
+Chocolate Milka|189|2.4|372|23|0
+Kit Kat|125|1|231|11|0
+Snickers|93|0.7|323|13|0.5
+Rocklets|105|1.1|261|14|0.5
+Chupetín|3|0.3|5|0|0
+Helado Grido (crema)|128|0.1|199|44|0.6
+Helado light|161|0.2|208|27|1.2
+Bizcochuelo|70|2.7|99|102|0
+Mousse de chocolate|96|0.6|143|140|0.1
+Gelatina|3|0|1|0|0
+Gelatina light|3|0|1|0|0
+Arroz con leche comercial|95|0.1|125|12|1.3
+Cacao Nesquik|133|1.2|712|0|0.2
+Papas Lays clásicas|21|1.3|1196|0|21.6
+Pringles originales|17|0.8|637|0|1.2
+Doritos|137|1.2|223|0|0.4
+Cheetos|56|2.5|182|7|0
+Maní con chocolate|104|1.3|502|9|0
+Pasas con chocolate|86|1.7|514|3|0.2
+Palitos salados|27|4.6|223|0|2.1
+Popcorn de microondas|4|2|182|0|0.3
+Barra de granola y frutos secos|84|2.2|392|0|0
+Leche La Serenísima entera|113|0|132|10|0
+Leche Zero lactosa|120|0|140|8|0.2
+Leche con calcio extra|120|0|140|8|0.2
+Bebida de almendras con azúcar|188|0.3|50|0|0
+Bebida de arroz|118|0.2|27|0|0
+Mayonesa Hellmann's|8|0.2|20|42|0
+Ketchup Hellmann's|15|0.3|281|0|4.1
+Aceto balsámico|27|0.7|112|0|0
+Salsa tártara|26|0.2|68|7|2.3
+Salsa teriyaki|25|1.7|225|0|0
+Salsa sriracha|18|1.6|321|0|26.9
+Pickles en vinagre|57|0.3|117|0|2.3
+Champiñones en lata|11|0.8|129|0|0
+Palmitos|58|3.1|177|0|7.9
+Choclo amarillo en granos (lata)|3|0.3|132|0|1.8
+Arvejas en lata|23|1.2|106|0|4.2
+Lentejas en lata|19|3.3|369|0|1.5
+Garbanzos en lata|45|1.1|126|0|0.1
+Porotos negros en lata|35|1.9|308|0|2.7
+Hinojo cocido|49|0.7|414|0|12
+Uvas pasas rubias|53|1.8|746|0|3.2
+Arándanos deshidratados|9|0.4|49|0|0.2
+Mix de verduras congeladas|25|0.8|169|0|3.2
+Papas al rescoldo|15|1.1|535|0|9.6
+Queso Por Salut|650|0.4|136|123|0
+Tofu frito|372|4.9|146|0|0
+Edamame salado|63|2.3|436|0|6.1
+Cookie de chocolate (cafetería)|21|5.6|171|0|0
+Chips de banana|18|1.2|536|0|6.3
+Pan lactal sin corteza|144|3.6|126|0|0
+Pan de maíz|249|2.5|147|40|0.3
+Pancake americano|219|1.8|132|59|0.3
+Fideos sin TACC cocidos|1|0.2|31|0|0
+Agua con gas|5|0|2|0|0
+Soda|5|0|2|0|0
+Bife de chorizo crudo|24|1.5|313|81|0
+Vacío crudo|27|1.6|330|68|0
+Entraña cruda|6|1.7|262|65|0
+Asado de tira crudo|12|2.2|277|75|0
+Picaña cruda|25|1.5|313|68|0
+Hígado vacuno crudo|5|4.9|313|275|1.3
+Solomillo de cerdo crudo|5|1|399|65|0
+Costillas de cerdo crudas|15|0.9|242|80|0
+Cordero crudo|12|1.6|230|72|0
+Pechuga de pavo cruda|9|0.8|267|53|0
+Pata y muslo con piel crudo|9|0.7|203|93|0.2
+Alitas de pollo crudas|11|0.5|187|111|0
+Muslo de pollo con piel crudo|7|0.7|204|98|0
+Tilapia cruda|10|0.6|302|50|0
+Atún fresco crudo|4|0.8|441|39|0
+Langostinos crudos|64|0.5|264|161|0
+Trucha cruda|25|0.3|377|59|2.9
+Fideos integrales crudos|29|3.6|434|0|0
+Brócoli crudo|47|0.7|316|0|89.2
+Espinaca cruda|99|2.7|558|0|28.1
+Zapallito hervido|18|0.4|264|0|12.9
+Coliflor cruda|22|0.4|299|0|48.2
+Berenjena cruda|9|0.2|229|0|2.2
+Chauchas crudas|37|1|211|0|12.2
+Acelga cruda|51|1.8|379|0|30
+Remolacha cruda|16|0.8|325|0|4.9
+Cebolla hervida|22|0.2|166|0|5.2
+Champiñones cocidos|6|1.7|356|0|4
