@@ -34,15 +34,16 @@
              : `<div class="card stack" id="webAcct"><h3 style="font-size:17px">Guardá todo en la nube</h3><p class="small muted" style="margin:0">Creá tu cuenta gratis y lo que anotás queda guardado aunque cambies de celular.</p><button class="btn primary block" id="webIn">Crear cuenta o entrar</button></div>`;
   }
   function mountCard(){ const v=$("#v-perfil"); if(!v) return; const old=$("#webAcct"); if(old) old.remove(); const h=v.querySelector("header"); h.insertAdjacentHTML("afterend", card());
-    const i=$("#webIn"); if(i) i.onclick=openLogin; const o=$("#webOut"); if(o) o.onclick=async()=>{ const sb=await CL.cloud(); await sb.auth.signOut(); location.reload(); }; }
-  function openLogin(){
-    const w=document.createElement("div"); w.className="scrim"; w.id="webLogin";
-    w.innerHTML=`<div class="sheet" role="dialog" aria-modal="true" aria-label="Tu cuenta"><div class="grab"></div><div class="sheet-h"><h2 id="wlT">Creá tu cuenta</h2><button class="icon-btn" id="wlX" aria-label="Cerrar">✕</button></div>
+    const i=$("#webIn"); if(i) i.onclick=()=>openLogin(); const o=$("#webOut"); if(o) o.onclick=async()=>{ const sb=await CL.cloud(); await sb.auth.signOut(); location.reload(); }; }
+  function openLogin(gate){
+    if($("#webLogin")) return;
+    const w=document.createElement("div"); w.className="scrim"; w.id="webLogin"; if(gate===true){ w.style.cssText="background:var(--bg,#fbf8f3);z-index:99999;align-items:center;justify-content:center;display:flex"; }
+    w.innerHTML=`<div class="sheet" role="dialog" aria-modal="true" aria-label="Tu cuenta"><div class="grab"></div><div class="sheet-h"><h2 id="wlT">${gate===true?"Bienvenido a Porción":"Creá tu cuenta"}</h2>${gate===true?"":'<button class="icon-btn" id="wlX" aria-label="Cerrar">✕</button>'}</div>${gate===true?'<p class="small muted" style="margin:0 0 8px">Creá tu cuenta una sola vez: así tus comidas, tu plan y tus entrenamientos quedan guardados en la nube y no se pierden nunca, ni aunque cambies de celular.</p>':""}
       <div class="stack"><label class="field"><span>Mail</span><input class="input" id="wlE" type="email" autocomplete="email" inputmode="email"></label>
       <label class="field"><span>Contraseña (mínimo 6 caracteres)</span><input class="input" id="wlP" type="password" autocomplete="new-password"></label>
       <button class="btn primary block" id="wlGo">Crear cuenta</button><button class="linkbtn" id="wlSw">Ya tengo cuenta: entrar</button><p class="small" id="wlMsg" style="margin:0"></p></div></div>`;
     document.body.appendChild(w); let mode="up";
-    const close=()=>w.remove(); $("#wlX").onclick=close; w.addEventListener("click",e=>{ if(e.target===w) close(); });
+    if(gate!==true){ const close=()=>w.remove(); $("#wlX").onclick=close; w.addEventListener("click",e=>{ if(e.target===w) close(); }); }
     $("#wlSw").onclick=()=>{ mode=mode==="up"?"in":"up"; $("#wlT").textContent=mode==="up"?"Creá tu cuenta":"Entrá a tu cuenta"; $("#wlGo").textContent=mode==="up"?"Crear cuenta":"Entrar"; $("#wlSw").textContent=mode==="up"?"Ya tengo cuenta: entrar":"No tengo cuenta: crearla"; $("#wlP").autocomplete=mode==="up"?"new-password":"current-password"; };
     $("#wlGo").onclick=async()=>{ const email=$("#wlE").value.trim(), pass=$("#wlP").value, msg=$("#wlMsg"); msg.style.color=""; msg.textContent="Un segundo…";
       try{ const sb=await CL.cloud(); if(!sb) throw new Error("Sin conexión");
@@ -59,5 +60,5 @@
     try{ for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(k&&k.startsWith("fierro:doc:")){ const v=JSON.parse(localStorage.getItem(k)); if(v) rows.push({path:base+k.slice(11), owner:uid, data:v}); } } }catch(e){}
     if (rows.length){ const { error } = await sb.from("kv").upsert(rows, { ignoreDuplicates:true }); if (error) console.warn("migrate", error); }
   }
-  CL.cloud().then(()=>{ mountCard(); const mo=new MutationObserver(()=>{ if(!$("#webAcct")) mountCard(); }); const v=$("#v-perfil"); if(v) mo.observe(v,{childList:true}); });
+  CL.cloud().then(sb=>{ if(sb && !CL.session) openLogin(true); mountCard(); const mo=new MutationObserver(()=>{ if(!$("#webAcct")) mountCard(); }); const v=$("#v-perfil"); if(v) mo.observe(v,{childList:true}); });
 })();
