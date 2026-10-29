@@ -507,7 +507,7 @@ body:not(.m-gym) #gym{display:none!important}
   <button class="tab" data-v="hoy" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>Hoy</button>
   <button class="tab" data-v="prog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progreso</button>
   <button class="fab" id="fab" aria-label="Agregar alimento"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button>
-  <button class="tab" id="tabScan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3.2"/></svg>Foto</button>
+  <button class="tab" id="tabScan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>Agregar</button>
   <button class="tab" data-v="perfil"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>Perfil</button>
 </nav></div>
 
@@ -1464,7 +1464,7 @@ document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeSheet(); });
 // ---------- AGREGAR ----------
 const ADD = { mode:"buscar", q:"", photos:[], labelPhoto:null, desc:"", result:null };
 const AI = { ctl:null, busy:false, err:"", res:null };
-const MODES = [["buscar","Buscar",ICON.search],["foto","Foto",ICON.cam],["etiqueta","Etiqueta",ICON.label],["describir","Describir",ICON.text],["receta","Receta",ICON.pot],["manual","Manual",ICON.pen]];
+const MODES = [["buscar","Buscar",ICON.search],["describir","Describir",ICON.text],["receta","Receta",ICON.pot],["manual","Manual",ICON.pen]];
 function openAdd(mode, meal){ if(meal) S.meal=meal; ADD.mode = mode || "buscar"; ADD.q=""; if(!ADD.photos.length){ ADD.total=0; ADD.weighed=false; } AI.err=""; AI.res=null; AI.busy=false; AI.review=null; AI.note="";
   const sh = openSheet(`<div class="sheet-h"><h2 class="addh">Agregar a <button class="mealpick" id="mealPick" aria-expanded="false"><span id="mealName"></span> <span aria-hidden="true">▾</span></button></h2><button class="icon-btn" data-close aria-label="Cerrar">${ICON.x}</button></div>
     <div class="chips" id="mealChips" hidden style="margin-bottom:12px"></div>
@@ -1541,10 +1541,8 @@ function renderAddBody(){
   if (ADD.mode==="buscar"){
     b.innerHTML = `<div class="row" style="position:relative"><input class="input bigq" id="q" type="search" placeholder="Ej: milanesa, o 200 g de pollo y arroz" autocomplete="off" value="${esc(ADD.q)}" style="padding-left:46px"><span style="position:absolute;left:15px;top:50%;transform:translateY(-50%);width:22px;height:22px;color:var(--muted)">${ICON.search}</span></div>
       <div class="qa" id="qa" ${ADD.q.trim().length>=2?"hidden":""}>
-        <button class="qa-big" data-mode="foto"><span class="qi">${ICON.cam}</span><span class="qt"><b>Sacale una foto al plato</b><span>Reconoce la comida y calcula las porciones</span></span><span class="arr">›</span></button>
-        <div class="qa-row">
+        <div class="qa-row" style="grid-template-columns:1fr">
           <button class="qa-sm" data-mode="describir"><span class="qi">${ICON.text}</span><b>Contalo</b><span>“2 empanadas y una coca”</span></button>
-          <button class="qa-sm" data-mode="etiqueta"><span class="qi">${ICON.label}</span><b>Etiqueta</b><span>De un paquete</span></button>
         </div>
         <div class="qa-links"><button class="linkbtn" data-mode="receta">${ICON.pot} Mis comidas</button><button class="linkbtn" data-mode="manual">${ICON.pen} Cargar a mano</button></div>
       </div>
@@ -2011,7 +2009,7 @@ document.addEventListener("click", e=>{
   if (t.classList.contains("tab") && t.dataset.v){ return go(t.dataset.v); }
   if (t.dataset.go){ return go(t.dataset.go); }
   if (t.id==="fab") return openAdd("buscar");
-  if (t.id==="tabScan") return openAdd("foto");
+  if (t.id==="tabScan") return openAdd("buscar");
   if (t.dataset.addmeal) return openAdd("buscar", t.dataset.addmeal);
   if (t.dataset.repeat) return repeatMeal(t.dataset.repeat);
   if (t.dataset.usual){ const u=usualMeal(t.dataset.usual); if(u){ const D=day(S.day); u.items.forEach(i=>D.items.push({...JSON.parse(JSON.stringify(i)), id:uid(), meal:t.dataset.usual})); try{ saveDay(S.day); }catch(e){ reportErr(e); } safeRender(); toast(`Agregado: ${fmt(u.kcal)} kcal`); } return; }
