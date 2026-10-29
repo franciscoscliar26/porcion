@@ -885,6 +885,7 @@ body:not(.m-gym) #gym{display:none!important}
       <button class="btn primary block" id="backupDl">Descargar copia</button>
       <button class="btn ghost block" id="backupUp">Restaurar desde un archivo</button>
       <input type="file" id="backupFile" accept=".json,application/json" hidden>
+      <details class="optd"><summary>¿No podés guardar archivos? Pegá la copia como texto</summary><div class="stack" style="margin-top:8px"><textarea class="input" id="backupPaste" rows="4" placeholder="Pegá acá el texto de la copia" style="font-size:13px"></textarea><button class="btn ghost block" id="backupPasteGo">Restaurar desde el texto</button></div></details>
       <p class="small" id="backupMsg" style="margin:0"></p></div></details>
     <details class="card" id="auditCard"><summary class="sumh"><span>Revisión de alimentos</span><span class="small muted" id="auditSum"></span></summary><div id="auditBody" style="margin-top:10px"></div></details>
     <p class="small muted" style="text-align:center">Los valores de la base son por 100 g de alimento listo para comer y salen de tablas de composición (USDA, ARGENFOODS) y etiquetas comerciales. Son una referencia: marcas y recetas varían.</p>
@@ -1824,7 +1825,8 @@ function renderBackup(){ const card=$("#backupCard"); if(!card) return; const lb
     ? "Tus datos (comidas, perfil, recetas, rutinas, entrenamientos y fotos) se guardan solo en este dispositivo. Descargá una copia cada tanto y guardala en tu mail, Drive o WhatsApp: si cambiás de celular o se borra el navegador, la restaurás acá y no perdés nada."
     : "Tus datos ya se guardan en tu cuenta. Igual podés descargar una copia completa en un archivo, o restaurar una copia hecha en otro dispositivo.";
   $("#backupDl").onclick=doBackup; $("#backupUp").onclick=()=>$("#backupFile").click();
-  $("#backupFile").onchange=async e=>{ const f=e.target.files[0]; e.target.value=""; if(f) await doRestore(f); }; }
+  $("#backupFile").onchange=async e=>{ const f=e.target.files[0]; e.target.value=""; if(f) await doRestore(f); };
+  $("#backupPasteGo").onclick=async()=>{ const t=$("#backupPaste").value.trim(); if(!t){ const m=$("#backupMsg"); m.style.color="var(--bad)"; m.textContent="Pegá primero el texto de la copia."; return; } await doRestore({text:async()=>t}); $("#backupPaste").value=""; }; }
 // En iPhone (Safari, la app de Claude, Gmail y cualquier navegador de iOS) la app corre dentro de la página de Claude
 // como contenido "de terceros": WebKit guarda ese almacenamiento solo en memoria y lo borra al cerrar la app.
 // Sin permiso para guardar en la nube, lo único que sobrevive es una copia en un archivo.
