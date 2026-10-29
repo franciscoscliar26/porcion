@@ -1464,7 +1464,7 @@ document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeSheet(); });
 // ---------- AGREGAR ----------
 const ADD = { mode:"buscar", q:"", photos:[], labelPhoto:null, desc:"", result:null };
 const AI = { ctl:null, busy:false, err:"", res:null };
-const MODES = [["buscar","Buscar",ICON.search],["describir","Describir",ICON.text],["receta","Receta",ICON.pot],["manual","Manual",ICON.pen]];
+const MODES = [["buscar","Buscar",ICON.search],["receta","Receta",ICON.pot],["manual","Manual",ICON.pen]];
 function openAdd(mode, meal){ if(meal) S.meal=meal; ADD.mode = mode || "buscar"; ADD.q=""; if(!ADD.photos.length){ ADD.total=0; ADD.weighed=false; } AI.err=""; AI.res=null; AI.busy=false; AI.review=null; AI.note="";
   const sh = openSheet(`<div class="sheet-h"><h2 class="addh">Agregar a <button class="mealpick" id="mealPick" aria-expanded="false"><span id="mealName"></span> <span aria-hidden="true">▾</span></button></h2><button class="icon-btn" data-close aria-label="Cerrar">${ICON.x}</button></div>
     <div class="chips" id="mealChips" hidden style="margin-bottom:12px"></div>
@@ -1541,10 +1541,11 @@ function renderAddBody(){
   if (ADD.mode==="buscar"){
     b.innerHTML = `<div class="row" style="position:relative"><input class="input bigq" id="q" type="search" placeholder="Ej: milanesa, o 200 g de pollo y arroz" autocomplete="off" value="${esc(ADD.q)}" style="padding-left:46px"><span style="position:absolute;left:15px;top:50%;transform:translateY(-50%);width:22px;height:22px;color:var(--muted)">${ICON.search}</span></div>
       <div class="qa" id="qa" ${ADD.q.trim().length>=2?"hidden":""}>
-        <div class="qa-row" style="grid-template-columns:1fr">
-          <button class="qa-sm" data-mode="describir"><span class="qi">${ICON.text}</span><b>Contalo</b><span>“2 empanadas y una coca”</span></button>
+        <p class="small muted" style="margin:2px 2px 10px">Escribí lo que comiste con la cantidad: <b>2 empanadas y una coca</b>, <b>200 g de pollo con arroz</b>.</p>
+        <div class="qa-row">
+          <button class="qa-sm" data-mode="receta"><span class="qi">${ICON.pot}</span><b>Mis comidas</b><span>Recetas y alimentos guardados</span></button>
+          <button class="qa-sm" data-mode="manual"><span class="qi">${ICON.pen}</span><b>Cargar a mano</b><span>Poné los datos vos</span></button>
         </div>
-        <div class="qa-links"><button class="linkbtn" data-mode="receta">${ICON.pot} Mis comidas</button><button class="linkbtn" data-mode="manual">${ICON.pen} Cargar a mano</button></div>
       </div>
       <div id="sres" style="margin-top:6px"></div>`;
     const q=$("#q"); q.addEventListener("keydown", e=>{ if(e.key==="Enter"){ e.preventDefault(); const P=ADD.qp; if(P&&P.q===ADD.q.trim()&&(P.hasQty||P.multi)&&P.items.some(i=>i.cands.length)) quickAdd(); else q.blur(); } });
