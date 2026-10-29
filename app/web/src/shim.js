@@ -8,11 +8,12 @@
   let sb = null, sbReady = null, session = null;
 
   function loadScript(src){ return new Promise((res, rej)=>{ const s=document.createElement("script"); s.src=src; s.onload=res; s.onerror=rej; document.head.appendChild(s); }); }
+  if (/type=recovery/.test(location.hash||"")) window.PORCION_RECOVERY = true;
   function cloud(){
     if (!hasCloud) return Promise.resolve(null);
     if (!sbReady) sbReady = loadScript("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js")
       .then(async ()=>{ sb = window.supabase.createClient(C.supabaseUrl, C.supabaseKey, {auth:{persistSession:true, autoRefreshToken:true}});
-        const { data } = await sb.auth.getSession(); session = data.session; return sb; })
+        const { data } = await sb.auth.getSession(); session = data.session; if(session){ try{ localStorage.setItem("porcion.web.had","1"); }catch(e){} setTimeout(()=>flush(),1500); } return sb; })
       .catch(e=>{ console.warn("supabase", e); return null; });
     return sbReady;
   }
@@ -24,18 +25,55 @@
   function notify(path){ const col=path.split("/").slice(0,-1).join("/"); (listeners.get(col)||[]).forEach(fn=>{ try{ fn(); }catch(e){} }); }
   function err(code, msg){ const e=new Error(msg||code); e.code=code; return e; }
   function snapDoc(path, row){ return { id: path.split("/").pop(), exists: !!row, data: ()=> row ? JSON.parse(JSON.stringify(row.data)) : null }; }
-  async function getCollection(col){
-    const { data, error } = await sb.from("kv").select("path,data").like("path", esc(col)+"/%");
-    if (error) throw err(error.code==="42501"?"invalid_argument":"unavailable", error.message);
-    const depth = col.split("/").length + 1;
-    return { docs: (data||[]).filter(r=>r.path.split("/").length===depth).map(r=>snapDoc(r.path, r)) };
+  // ---- sin conexión: lo que no se pudo subir queda guardado en el celu y se sube solo cuando vuelve internet ----
+  const LS = { get(k){ try{ return JSON.parse(localStorage.getItem(k)||"null"); }catch(e){ return null; } }, set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} } };
+  const pend = LS.get("porcion.pend") || {};
+  const savePend = ()=>LS.set("porcion.pend", pend);
+  const isNet = e => !!e && (!navigator.onLine || (!e.code && /fetch|network|load failed|timeout/i.test(String(e.message||e))));
+  const warn = m => { try{ window.dispatchEvent(new CustomEvent("porcion-net",{detail:m})); }catch(e){} };
+  const cacheKey = col => "porcion.cache:"+col;
+  function mergePend(col, rows){
+    const depth = col.split("/").length+1, map = new Map(rows.map(r=>[r.path, r]));
+    Object.entries(pend).forEach(([p,v])=>{ if(p.startsWith(col+"/") && p.split("/").length===depth){ if(v.op==="del") map.delete(p); else map.set(p,{path:p,data:v.data}); } });
+    return [...map.values()];
   }
+  async function getCollection(col){
+    let rows;
+    try{
+      const { data, error } = await sb.from("kv").select("path,data").like("path", esc(col)+"/%");
+      if (error){ if(isNet(error)) throw error; throw err(error.code==="42501"?"invalid_argument":"unavailable", error.message); }
+      const depth = col.split("/").length + 1;
+      rows = (data||[]).filter(r=>r.path.split("/").length===depth).map(r=>({path:r.path,data:r.data}));
+      LS.set(cacheKey(col), rows);
+    }catch(e){ if(e&&e.code&&!isNet(e)) throw e; rows = LS.get(cacheKey(col)) || []; warn("offline"); }
+    return { docs: mergePend(col, rows).map(r=>snapDoc(r.path, r)) };
+  }
+  let flushing=false;
+  async function flush(){
+    if (flushing || !sb || !session || !Object.keys(pend).length) return; flushing=true; let done=0;
+    try{ for (const [p,v] of Object.entries(pend)){
+      const r = v.op==="del" ? await sb.from("kv").delete().eq("path",p) : await sb.from("kv").upsert({ path:p, owner:session.user.id, data:v.data, updated_at:new Date().toISOString() });
+      if (r.error){ if(isNet(r.error)) break; delete pend[p]; continue; }
+      delete pend[p]; done++; }
+    }catch(e){} savePend(); flushing=false;
+    if (done){ [...listeners.keys()].forEach(c=>(listeners.get(c)||[]).forEach(fn=>{ try{ fn(); }catch(e){} })); warn("synced"); }
+  }
+  window.addEventListener("online", ()=>flush());
+  window.PORCION_FLUSH = flush;
   function docRef(path){ return {
-    async get(){ const { data, error } = await sb.from("kv").select("path,data").eq("path", path).maybeSingle(); if(error) throw err("unavailable", error.message); return snapDoc(path, data); },
+    async get(){
+      if (pend[path]) return snapDoc(path, pend[path].op==="del" ? null : {data:pend[path].data});
+      try{ const { data, error } = await sb.from("kv").select("path,data").eq("path", path).maybeSingle(); if(error){ if(isNet(error)) throw error; throw err("unavailable", error.message); } return snapDoc(path, data); }
+      catch(e){ if(e&&e.code&&!isNet(e)) throw e; const col=path.split("/").slice(0,-1).join("/"); const c=(LS.get(cacheKey(col))||[]).find(r=>r.path===path); warn("offline"); return snapDoc(path, c||null); } },
     async set(value){ const uid = session && session.user.id; if(!uid) throw err("invalid_argument","sin sesión");
-      const { error } = await sb.from("kv").upsert({ path, owner: uid, data: JSON.parse(JSON.stringify(value)), updated_at: new Date().toISOString() });
-      if (error) throw err(/row-level|42501|permission/i.test(error.message+error.code)?"invalid_argument":"unavailable", error.message); notify(path); },
-    async delete(){ const { error } = await sb.from("kv").delete().eq("path", path); if(error) throw err("unavailable", error.message); notify(path); }
+      const data = JSON.parse(JSON.stringify(value));
+      let error=null; try{ ({ error } = await sb.from("kv").upsert({ path, owner: uid, data, updated_at: new Date().toISOString() })); }catch(e){ error=e; }
+      if (error){ if(isNet(error)){ pend[path]={op:"set",data}; savePend(); warn("offline"); notify(path); return; }
+        throw err(/row-level|42501|permission/i.test(error.message+error.code)?"invalid_argument":"unavailable", error.message); }
+      delete pend[path]; savePend(); notify(path); },
+    async delete(){ let error=null; try{ ({ error } = await sb.from("kv").delete().eq("path", path)); }catch(e){ error=e; }
+      if (error){ if(isNet(error)){ pend[path]={op:"del"}; savePend(); warn("offline"); notify(path); return; } throw err("unavailable", error.message); }
+      delete pend[path]; savePend(); notify(path); }
   }; }
   function colRef(col){ return {
     get: ()=>getCollection(col),

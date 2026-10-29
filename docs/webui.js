@@ -28,6 +28,15 @@
 
   // ---------- cuenta (solo si está configurada la nube) ----------
   if (!CL || !CL.enabled) return;
+  // pantalla de carga mientras se revisa la sesión (así no se ve la app un instante antes de pedir la cuenta)
+  const sp=document.createElement("div"); sp.id="webSplash"; sp.style.cssText="position:fixed;inset:0;z-index:99998;background:var(--bg,#eef1ea);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;font:700 26px/1 system-ui,sans-serif;color:#1b241d";
+  sp.innerHTML='Porción<span style="color:#D4471C">.</span><div style="width:26px;height:26px;border:3px solid #cfd6cb;border-top-color:#D4471C;border-radius:50%;animation:wsp 0.8s linear infinite"></div><style>@keyframes wsp{to{transform:rotate(360deg)}}</style>';
+  (document.body||document.documentElement).appendChild(sp);
+  const noNet=(retry)=>{ sp.innerHTML='<div style="max-width:300px;text-align:center;font:600 16px/1.4 system-ui,sans-serif"><div style="font-size:26px;font-weight:700;margin-bottom:10px">Porción<span style="color:#D4471C">.</span></div>Necesitás internet para entrar la primera vez.<br><span style="font-weight:400;color:#5b665d;font-size:14px">Conectate a wifi o datos y volvé a intentar.</span><br><button id="wsRetry" class="btn primary" style="margin-top:16px;padding:12px 22px;border:0;border-radius:99px;background:#D4471C;color:#fff;font:700 15px system-ui">Reintentar</button></div>'; $("#wsRetry").onclick=()=>location.reload(); };
+  setTimeout(()=>{ if($("#webSplash")&&!window.__cloudDone&&!ls.get("porcion.web.had")) noNet(); },12000);
+  // avisos de conexión
+  let lastNet=0; window.addEventListener("porcion-net",e=>{ const k=e.detail, now=Date.now(); if(now-lastNet<6000) return; lastNet=now;
+    toastW(k==="synced"?"Listo: se subieron los cambios que hiciste sin internet.":"Sin internet: se guarda en tu celular y se sube solo cuando vuelva."); });
   function card(){
     const s = CL.session;
     return s ? `<div class="card stack" id="webAcct"><div class="row between"><h3 style="font-size:17px">Tu cuenta</h3><span class="small muted">Guardado en la nube</span></div><p class="small muted" style="margin:0">${(s.user.email||"").replace(/[<>&]/g,"")}: tus comidas, tu plan y tus entrenamientos se guardan solos y los ves desde cualquier celular o compu.</p><button class="btn ghost block" id="webOut">Cerrar sesión</button></div>`
@@ -41,17 +50,28 @@
     w.innerHTML=`<div class="sheet" role="dialog" aria-modal="true" aria-label="Tu cuenta"><div class="grab"></div><div class="sheet-h"><h2 id="wlT">${gate===true?"Bienvenido a Porción":"Creá tu cuenta"}</h2>${gate===true?"":'<button class="icon-btn" id="wlX" aria-label="Cerrar">✕</button>'}</div>${gate===true?'<p class="small muted" style="margin:0 0 8px">Creá tu cuenta una sola vez: así tus comidas, tu plan y tus entrenamientos quedan guardados en la nube y no se pierden nunca, ni aunque cambies de celular.</p>':""}
       <div class="stack"><label class="field"><span>Mail</span><input class="input" id="wlE" type="email" autocomplete="email" inputmode="email"></label>
       <label class="field"><span>Contraseña (mínimo 6 caracteres)</span><input class="input" id="wlP" type="password" autocomplete="new-password"></label>
-      <button class="btn primary block" id="wlGo">Crear cuenta</button><button class="linkbtn" id="wlSw">Ya tengo cuenta: entrar</button><p class="small" id="wlMsg" style="margin:0"></p></div></div>`;
+      <button class="btn primary block" id="wlGo">Crear cuenta</button><button class="linkbtn" id="wlSw">Ya tengo cuenta: entrar</button><button class="linkbtn" id="wlFg" hidden style="font-weight:500">Me olvidé la contraseña</button><p class="small" id="wlMsg" style="margin:0"></p></div></div>`;
     document.body.appendChild(w); let mode="up";
     if(gate!==true){ const close=()=>w.remove(); $("#wlX").onclick=close; w.addEventListener("click",e=>{ if(e.target===w) close(); }); }
-    $("#wlSw").onclick=()=>{ mode=mode==="up"?"in":"up"; $("#wlT").textContent=mode==="up"?"Creá tu cuenta":"Entrá a tu cuenta"; $("#wlGo").textContent=mode==="up"?"Crear cuenta":"Entrar"; $("#wlSw").textContent=mode==="up"?"Ya tengo cuenta: entrar":"No tengo cuenta: crearla"; $("#wlP").autocomplete=mode==="up"?"new-password":"current-password"; };
+    $("#wlSw").onclick=()=>{ mode=mode==="up"?"in":"up"; $("#wlT").textContent=mode==="up"?"Creá tu cuenta":"Entrá a tu cuenta"; $("#wlGo").textContent=mode==="up"?"Crear cuenta":"Entrar"; $("#wlSw").textContent=mode==="up"?"Ya tengo cuenta: entrar":"No tengo cuenta: crearla"; $("#wlP").autocomplete=mode==="up"?"new-password":"current-password"; $("#wlFg").hidden=mode==="up"; };
+    $("#wlFg").onclick=async()=>{ const email=$("#wlE").value.trim(), msg=$("#wlMsg"); msg.style.color=""; if(!email){ msg.style.color="var(--bad)"; msg.textContent="Escribí tu mail arriba y volvé a tocar acá."; return; } msg.textContent="Un segundo…";
+      try{ const sb=await CL.cloud(); if(!sb) throw new Error("fetch"); const r=await sb.auth.resetPasswordForEmail(email,{redirectTo:location.origin+location.pathname}); if(r.error) throw r.error; msg.textContent="Listo: te mandamos un mail con un link para elegir una contraseña nueva. Revisá también spam."; }
+      catch(e){ msg.style.color="var(--bad)"; const t=String(e&&e.message||e); msg.textContent=!navigator.onLine||/fetch|network/i.test(t)?"No hay conexión. Revisá tu internet.":/rate limit|seconds/i.test(t)?"Ya pediste un mail hace poco. Esperá unos minutos.":"No se pudo mandar el mail: "+t; } };
     $("#wlGo").onclick=async()=>{ const email=$("#wlE").value.trim(), pass=$("#wlP").value, msg=$("#wlMsg"); msg.style.color=""; msg.textContent="Un segundo…";
       try{ const sb=await CL.cloud(); if(!sb) throw new Error("Sin conexión");
         const r = mode==="up" ? await sb.auth.signUp({email, password:pass}) : await sb.auth.signInWithPassword({email, password:pass});
         if (r.error) throw r.error;
         if (!r.data.session){ msg.textContent="Te mandamos un mail para confirmar la cuenta. Confirmalo y después entrá acá."; mode="in"; $("#wlSw").click(); $("#wlSw").click(); return; }
         msg.textContent="Listo, subiendo tus datos…"; await migrateLocal(sb, r.data.session.user.id); location.reload();
-      }catch(e){ msg.style.color="var(--bad)"; const t=String(e&&e.message||e); msg.textContent=/Invalid login/i.test(t)?"Mail o contraseña incorrectos.":/already registered/i.test(t)?"Ese mail ya tiene cuenta: tocá «Ya tengo cuenta: entrar».":/least 6/i.test(t)?"La contraseña tiene que tener al menos 6 caracteres.":"No se pudo: "+t; } };
+      }catch(e){ msg.style.color="var(--bad)"; const t=String(e&&e.message||e); msg.textContent=!navigator.onLine||/fetch|network/i.test(t)?"No hay conexión. Revisá tu internet e intentá de nuevo.":/not confirmed/i.test(t)?"Falta confirmar el mail: revisá tu bandeja (y spam).":/rate limit|too many|seconds/i.test(t)?"Probaste muchas veces seguidas. Esperá unos minutos y reintentá.":/valid email|invalid format|Unable to validate/i.test(t)?"Revisá que el mail esté bien escrito.":/Invalid login/i.test(t)?"Mail o contraseña incorrectos.":/already registered/i.test(t)?"Ese mail ya tiene cuenta: tocá «Ya tengo cuenta: entrar».":/least 6/i.test(t)?"La contraseña tiene que tener al menos 6 caracteres.":"No se pudo: "+t; } };
+  }
+  function openReset(){
+    const w=document.createElement("div"); w.className="scrim"; w.id="webLogin"; w.style.cssText="background:var(--bg,#eef1ea);z-index:99999;align-items:center;justify-content:center;display:flex";
+    w.innerHTML=`<div class="sheet" role="dialog" aria-modal="true"><div class="sheet-h"><h2>Elegí tu contraseña nueva</h2></div><div class="stack"><label class="field"><span>Contraseña nueva (mínimo 6 caracteres)</span><input class="input" id="wrP" type="password" autocomplete="new-password"></label><button class="btn primary block" id="wrGo">Guardar y entrar</button><p class="small" id="wrMsg" style="margin:0"></p></div></div>`;
+    document.body.appendChild(w);
+    $("#wrGo").onclick=async()=>{ const p=$("#wrP").value, msg=$("#wrMsg"); msg.style.color=""; if(p.length<6){ msg.style.color="var(--bad)"; msg.textContent="Tiene que tener al menos 6 caracteres."; return; } msg.textContent="Un segundo…";
+      try{ const sb=await CL.cloud(); const r=await sb.auth.updateUser({password:p}); if(r.error) throw r.error; history.replaceState(null,"",location.pathname); location.reload(); }
+      catch(e){ msg.style.color="var(--bad)"; msg.textContent=!navigator.onLine?"No hay conexión.":"No se pudo cambiar: "+String(e&&e.message||e); } };
   }
   // lo que ya tenías en este celular sube a tu cuenta la primera vez (la dieta la sube sola la app; acá el gimnasio)
   async function migrateLocal(sb, uid){
@@ -60,5 +80,9 @@
     try{ for(let i=0;i<localStorage.length;i++){ const k=localStorage.key(i); if(k&&k.startsWith("fierro:doc:")){ const v=JSON.parse(localStorage.getItem(k)); if(v) rows.push({path:base+k.slice(11), owner:uid, data:v}); } } }catch(e){}
     if (rows.length){ const { error } = await sb.from("kv").upsert(rows, { ignoreDuplicates:true }); if (error) console.warn("migrate", error); }
   }
-  CL.cloud().then(sb=>{ if(sb && !CL.session) openLogin(true); mountCard(); const mo=new MutationObserver(()=>{ if(!$("#webAcct")) mountCard(); }); const v=$("#v-perfil"); if(v) mo.observe(v,{childList:true}); });
+  CL.cloud().then(sb=>{ window.__cloudDone=true; sp.remove();
+    if(!sb){ if(!ls.get("porcion.web.had")){ (document.body).appendChild(sp); noNet(); return; } }
+    else if(window.PORCION_RECOVERY && CL.session) openReset();
+    else if(!CL.session) openLogin(true);
+    mountCard(); const mo=new MutationObserver(()=>{ if(!$("#webAcct")) mountCard(); }); const v=$("#v-perfil"); if(v) mo.observe(v,{childList:true}); });
 })();
